@@ -25,6 +25,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Baker, Bowen and Gupta, Otkrist and Naik, Nikhil and Raskar, Ramesh. ICLR 2017
 - Neural Optimizer Search with Reinforcement Learning [[pdf]](http://proceedings.mlr.press/v70/bello17a/bello17a.pdf)
   - Bello, Irwan and Zoph, Barret and Vasudevan, Vijay and Le, Quoc V. ICML 2017
+- Efficient Architecture Search by Network Transformation [[pdf]](https://arxiv.org/pdf/1707.04873.pdf)
+  - Han Cai, Tianyao Chen, Weinan Zhang, Yong Yu, Jun Wang. AAAI 2018
 - Learning Transferable Architectures for Scalable Image Recognition [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zoph_Learning_Transferable_Architectures_CVPR_2018_paper.pdf)
   - Barret Zoph, Vijay Vasudevan, Jonathon Shlens, Quoc V. Le. CVPR 2018
 - Practical Block-wise Neural Network Architecture Generation [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhong_Practical_Block-Wise_Neural_CVPR_2018_paper.pdf)
@@ -52,6 +54,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Bender, Gabriel and Kindermans, Pieter-Jan and Zoph, Barret and Vasudevan, Vijay and Le, Quoc. ICML 2018
 - SMASH: One-Shot Model Architecture Search through HyperNetworks [[pdf]](https://arxiv.org/pdf/1708.05344.pdf)
   - Brock, Andrew and Lim, Theodore and Ritchie, James M and Weston, Nick. ICLR 2018
+- Neural Architecture Optimization [[pdf]](https://arxiv.org/pdf/1808.07233.pdf)
+  - Luo, Renqian and Tian, Fei and Qin, Tao and Liu, Tie-Yan. NIPS 2018
 - DARTS: Differentiable Architecture Search [[pdf]](https://arxiv.org/abs/1806.09055) [[code]](https://github.com/quark0/darts)
   - Hanxiao Liu, Karen Simonyan, Yiming Yang. Submitted to ICLR 2019
 
