@@ -33,6 +33,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Zhong, Zhao and Yan, Junjie and Wu, Wei and Shao, Jing and Liu, Cheng-Lin. CVPR 2018
 - Efficient Neural Architecture Search via Parameter Sharing [[pdf]](http://proceedings.mlr.press/v80/pham18a.html)
   - Pham, Hieu and Guan, Melody Y and Zoph, Barret and Le, Quoc V and Dean, Jeff. ICML 2018
+- MnasNet: Platform-Aware Neural Architecture Search for Mobile [[pdf]](https://arxiv.org/pdf/1807.11626.pdf) [[code]](https://github.com/AnjieZheng/MnasNet-PyTorch)
+  - Mingxing Tan, Bo Chen, Ruoming Pang, Vijay Vasudevan, Quoc V. Le. arXiv 2018.07
 
 
 ### Evolutionary Algorithm
@@ -58,6 +60,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Luo, Renqian and Tian, Fei and Qin, Tao and Liu, Tie-Yan. NIPS 2018
 - DARTS: Differentiable Architecture Search [[pdf]](https://arxiv.org/abs/1806.09055) [[code]](https://github.com/quark0/darts)
   - Hanxiao Liu, Karen Simonyan, Yiming Yang. Submitted to ICLR 2019
+- Graph HyperNetworks for Neural Architecture Search [[pdf]](https://arxiv.org/pdf/1810.05749.pdf)
+  - Chris Zhang, Mengye Ren, Raquel Urtasun. Submitted to ICLR 2019
 
 
 ### Performance Prediction-based
