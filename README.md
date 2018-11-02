@@ -13,6 +13,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - [Performance Prediction-based](#performance-prediction-based)
   - [Multi-Objective NAS](#multi-objective-nas)
   - [Others](#others)
+- [NAS for Application](#NAS-for-Application)
 - [Benchmark on ImageNet](#benchmark-on-imagenet)
 
 
@@ -56,7 +57,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Bender, Gabriel and Kindermans, Pieter-Jan and Zoph, Barret and Vasudevan, Vijay and Le, Quoc. ICML 2018
 - SMASH: One-Shot Model Architecture Search through HyperNetworks [[pdf]](https://arxiv.org/pdf/1708.05344.pdf)
   - Brock, Andrew and Lim, Theodore and Ritchie, James M and Weston, Nick. ICLR 2018
-- Neural Architecture Optimization [[pdf]](https://arxiv.org/pdf/1808.07233.pdf)
+- Neural Architecture Optimization [[pdf]](https://arxiv.org/pdf/1808.07233.pdf) [[code]](https://github.com/renqianluo/NAO)
   - Luo, Renqian and Tian, Fei and Qin, Tao and Liu, Tie-Yan. NIPS 2018
 - DARTS: Differentiable Architecture Search [[pdf]](https://arxiv.org/abs/1806.09055) [[code]](https://github.com/quark0/darts)
   - Hanxiao Liu, Karen Simonyan, Yiming Yang. Submitted to ICLR 2019
@@ -87,7 +88,9 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 - Neural Architecture Search with Bayesian Optimisation and Optimal Transport [[pdf]](https://arxiv.org/pdf/1802.07191.pdf)
   - Kandasamy, Kirthevasan and Neiswanger, Willie and Schneider, Jeff and Poczos, Barnabas and Xing, Eric. NIPS 2018
 
-
+## NAS for Application
+- Fast Neural Architecture Search of Compact Semantic Segmentation Models via Auxiliary Cells [[pdf]](https://arxiv.org/pdf/1810.10804.pdf)
+  - Nekrasov, Vladimir and Chen, Hao and Shen, Chunhua and Reid, Ian. arXiv 1810
 
 
 ## Benchmark on ImageNet
