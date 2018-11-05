@@ -14,6 +14,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - [Multi-Objective NAS](#multi-objective-nas)
   - [Others](#others)
 - [NAS for Application](#NAS-for-Application)
+- [Survey](#Survey)
 - [Benchmark on ImageNet](#benchmark-on-imagenet)
 
 
@@ -92,7 +93,10 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 - Fast Neural Architecture Search of Compact Semantic Segmentation Models via Auxiliary Cells [[pdf]](https://arxiv.org/pdf/1810.10804.pdf)
   - Nekrasov, Vladimir and Chen, Hao and Shen, Chunhua and Reid, Ian. arXiv 1810
 
-
+## Survey
+- Taking Human out of Learning Applications: A Survey on Automated Machine Learning [[pdf]](https://arxiv.org/abs/1810.13306)
+  - Yao Quanming, Wang Mengshuo, Jair Escalante Hugo, Guyon Isabelle, Hu Yi-Qi, Li Yu-Feng, Tu Wei-Wei, Yang Qiang, Yu Yang. arXiv 1810
+ 
 ## Benchmark on ImageNet
 
 
