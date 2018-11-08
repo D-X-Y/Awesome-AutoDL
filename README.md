@@ -96,6 +96,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Andrew Hundt, Varun Jain, Chris Paxton, Gregory D. Hager. arXiv 1810
 
 ## Survey
+- Neural Architecture Search: A Survey
+  - Thomas Elsken, Jan Hendrik Metzen, Frank Hutter. arXiv 1808
 - Taking Human out of Learning Applications: A Survey on Automated Machine Learning [[pdf]](https://arxiv.org/abs/1810.13306)
   - Yao Quanming, Wang Mengshuo, Jair Escalante Hugo, Guyon Isabelle, Hu Yi-Qi, Li Yu-Feng, Tu Wei-Wei, Yang Qiang, Yu Yang. arXiv 1810
  
