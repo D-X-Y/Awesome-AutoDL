@@ -94,6 +94,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Nekrasov, Vladimir and Chen, Hao and Shen, Chunhua and Reid, Ian. arXiv 1810
 - Training Frankenstein’s Creature to Stack: HyperTree Architecture Search [[pdf]](https://arxiv.org/pdf/1810.11714.pdf)
   - Andrew Hundt, Varun Jain, Chris Paxton, Gregory D. Hager. arXiv 1810
+- Searching for efficient multi-scale architectures for dense image prediction [[pdf]](https://arxiv.org/pdf/1809.04184.pdf)
+  - Chen, Liang-Chieh and Collins, Maxwell D and Zhu, Yukun and Papandreou, George and Zoph, Barret and Schroff, Florian and Adam, Hartwig and Shlens, Jonathon. NIPS 2018
 
 ## Survey
 - Neural Architecture Search: A Survey
