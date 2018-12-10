@@ -37,6 +37,10 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Pham, Hieu and Guan, Melody Y and Zoph, Barret and Le, Quoc V and Dean, Jeff. ICML 2018
 - MnasNet: Platform-Aware Neural Architecture Search for Mobile [[pdf]](https://arxiv.org/pdf/1807.11626.pdf) [[code]](https://github.com/AnjieZheng/MnasNet-PyTorch)
   - Mingxing Tan, Bo Chen, Ruoming Pang, Vijay Vasudevan, Quoc V. Le. arXiv 2018.07
+- Path-Level Network Transformation for Efficient Architecture Search
+  - Cai, Han and Yang, Jiacheng and Zhang, Weinan and Han, Song and Yu, Yong. ICML 2018
+- ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware
+  - Cai, Han and Zhu, Ligeng and Han, Song. arXiv 2018.12
 
 
 ### Evolutionary Algorithm
