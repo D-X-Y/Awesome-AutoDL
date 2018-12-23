@@ -40,7 +40,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 - Path-Level Network Transformation for Efficient Architecture Search
   - Cai, Han and Yang, Jiacheng and Zhang, Weinan and Han, Song and Yu, Yong. ICML 2018
 - ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware
-  - Cai, Han and Zhu, Ligeng and Han, Song. arXiv 2018.12
+  - Cai, Han and Zhu, Ligeng and Han, Song. ICLR 2019
 
 
 ### Evolutionary Algorithm
@@ -65,9 +65,11 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 - Neural Architecture Optimization [[pdf]](https://arxiv.org/pdf/1808.07233.pdf) [[code]](https://github.com/renqianluo/NAO)
   - Luo, Renqian and Tian, Fei and Qin, Tao and Liu, Tie-Yan. NIPS 2018
 - DARTS: Differentiable Architecture Search [[pdf]](https://arxiv.org/abs/1806.09055) [[code]](https://github.com/quark0/darts)
-  - Hanxiao Liu, Karen Simonyan, Yiming Yang. Submitted to ICLR 2019
+  - Hanxiao Liu, Karen Simonyan, Yiming Yang. ICLR 2019
 - Graph HyperNetworks for Neural Architecture Search [[pdf]](https://arxiv.org/pdf/1810.05749.pdf)
-  - Chris Zhang, Mengye Ren, Raquel Urtasun. Submitted to ICLR 2019
+  - Chris Zhang, Mengye Ren, Raquel Urtasun. ICLR 2019
+- SNAS: stochastic neural architecture search
+  - Sirui Xie, Hehui Zheng, Chunxiao Liu, Liang Lin. ICLR 2019
 
 
 ### Performance Prediction-based
@@ -83,6 +85,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 ### Multi-Objective NAS
 - NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search [[pdf]](https://arxiv.org/pdf/1810.03522.pdf)
   - Lu, Zhichao and Whalen, Ian and Boddeti, Vishnu and Dhebar, Yashesh and Deb, Kalyanmoy and Goodman, Erik and Banzhaf, Wolfgang, arXiv 1810
+- Efficient Multi-Objective Neural Architecture Search via Lamarckian Evolution
+  - Thomas Elsken, Jan Hendrik Metzen, Frank Hutter. ICLR 2019
 
 
 ### Others
