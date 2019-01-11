@@ -104,6 +104,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Andrew Hundt, Varun Jain, Chris Paxton, Gregory D. Hager. arXiv 1810
 - Searching for efficient multi-scale architectures for dense image prediction [[pdf]](https://arxiv.org/pdf/1809.04184.pdf)
   - Chen, Liang-Chieh and Collins, Maxwell D and Zhu, Yukun and Papandreou, George and Zoph, Barret and Schroff, Florian and Adam, Hartwig and Shlens, Jonathon. NIPS 2018
+- Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation [[pdf]](https://arxiv.org/abs/1901.02985)
+  - arXiv 1901
 
 ## Survey
 - Neural Architecture Search: A Survey
