@@ -39,8 +39,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Mingxing Tan, Bo Chen, Ruoming Pang, Vijay Vasudevan, Quoc V. Le. arXiv 2018.07
 - Path-Level Network Transformation for Efficient Architecture Search
   - Cai, Han and Yang, Jiacheng and Zhang, Weinan and Han, Song and Yu, Yong. ICML 2018
-- ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware
-  - Cai, Han and Zhu, Ligeng and Han, Song. ICLR 2019
+
 
 
 ### Evolutionary Algorithm
@@ -70,6 +69,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Chris Zhang, Mengye Ren, Raquel Urtasun. ICLR 2019
 - SNAS: stochastic neural architecture search
   - Sirui Xie, Hehui Zheng, Chunxiao Liu, Liang Lin. ICLR 2019
+- ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware
+  - Cai, Han and Zhu, Ligeng and Han, Song. ICLR 2019
 
 
 ### Performance Prediction-based
