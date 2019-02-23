@@ -23,6 +23,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 
 ### Blogs
 - [What’s the deal with Neural Architecture Search?](https://determined.ai/blog/neural-architecture-search/)
+- [PocketFlow](https://pocketflow.github.io/)
 
 ### Reinforcement Learning
 - Neural Architecture Search with Reinforcement Learning [[pdf]](https://arxiv.org/abs/1611.01578)
@@ -75,6 +76,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Sirui Xie, Hehui Zheng, Chunxiao Liu, Liang Lin. ICLR 2019
 - ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware
   - Cai, Han and Zhu, Ligeng and Han, Song. ICLR 2019
+- Random Search and Reproducibility for Neural Architecture Search
+  - Liam Li, Ameet Talwalkar. arXiv 1901
 
 
 ### Performance Prediction-based
