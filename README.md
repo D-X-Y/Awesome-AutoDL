@@ -7,6 +7,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 ## Table of Contents
 
 - [Neural Architecture Search](#NAS)
+  - [Blogs](#blogs)
   - [Reinforcement Learning](#reinforcement-learning)
   - [Evolutionary Algorithm](#evolutionary-algorithm)
   - [Gradient-based](#gradient-based-approach)
@@ -19,6 +20,9 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 
 
 ## NAS
+
+### Blogs
+- [What’s the deal with Neural Architecture Search?](https://determined.ai/blog/neural-architecture-search/)
 
 ### Reinforcement Learning
 - Neural Architecture Search with Reinforcement Learning [[pdf]](https://arxiv.org/abs/1611.01578)
