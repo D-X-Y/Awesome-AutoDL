@@ -114,6 +114,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Chen, Liang-Chieh and Collins, Maxwell D and Zhu, Yukun and Papandreou, George and Zoph, Barret and Schroff, Florian and Adam, Hartwig and Shlens, Jonathon. NIPS 2018
 - Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation [[pdf]](https://arxiv.org/abs/1901.02985)
   - arXiv 1901
+- Fast, Accurate and Lightweight Super-Resolution with Neural Architecture Search [pdf](https://arxiv.org/pdf/1901.07261.pdf)[code](https://github.com/falsr/FALSR)
 
 ## Survey
 - Neural Architecture Search: A Survey
