@@ -24,6 +24,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 ### Blogs
 - [What’s the deal with Neural Architecture Search?](https://determined.ai/blog/neural-architecture-search/)
 - [PocketFlow](https://pocketflow.github.io/)
+- [AutoDL](http://automl.chalearn.org/)
 
 ### Reinforcement Learning
 - Neural Architecture Search with Reinforcement Learning [[pdf]](https://arxiv.org/abs/1611.01578)
@@ -42,6 +43,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Pham, Hieu and Guan, Melody Y and Zoph, Barret and Le, Quoc V and Dean, Jeff. ICML 2018
 - MnasNet: Platform-Aware Neural Architecture Search for Mobile [[pdf]](https://arxiv.org/pdf/1807.11626.pdf) [[code]](https://github.com/AnjieZheng/MnasNet-PyTorch)
   - Mingxing Tan, Bo Chen, Ruoming Pang, Vijay Vasudevan, Quoc V. Le. arXiv 2018.07
+- ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware
+  - Cai, Han and Zhu, Ligeng and Han, Song. ICLR 2019
 - Path-Level Network Transformation for Efficient Architecture Search
   - Cai, Han and Yang, Jiacheng and Zhang, Weinan and Han, Song and Yu, Yong. ICML 2018
 
@@ -55,7 +58,9 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 - Hierarchical Representations for Efficient Architecture Search [[pdf]](https://openreview.net/forum?id=BJQRKzbA-)
   - Hanxiao Liu, Karen Simonyan, Oriol Vinyals, Chrisantha Fernando, Koray Kavukcuoglu. ICLR 2018
 - Regularized Evolution for Image Classifier Architecture Search [[pdf]](https://arxiv.org/pdf/1802.01548.pdf)
-  - Real, Esteban and Aggarwal, Alok and Huang, Yanping and Le, Quoc V. ICML 2018 Workshop
+  - Real, Esteban and Aggarwal, Alok and Huang, Yanping and Le, Quoc V. AAAI 2019
+- Partial Order Pruning: for Best Speed/Accuracy Trade-off in Neural Architecture Search [[pdf]](https://arxiv.org/pdf/1903.03777.pdf)
+  - Xin Li, Yiming Zhou, Zheng Pan, Jiashi Feng. CVPR 2019
 
 
 
@@ -76,6 +81,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Sirui Xie, Hehui Zheng, Chunxiao Liu, Liang Lin. ICLR 2019
 - ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware
   - Cai, Han and Zhu, Ligeng and Han, Song. ICLR 2019
+- Searching for A Robust Neural Architecture in Four GPU Hours
+  - Dong, Xuanyi and Yang, Yi. CVPR 2019
 - Random Search and Reproducibility for Neural Architecture Search
   - Liam Li, Ameet Talwalkar. arXiv 1901
 
