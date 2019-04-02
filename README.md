@@ -72,7 +72,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 - SMASH: One-Shot Model Architecture Search through HyperNetworks [[pdf]](https://arxiv.org/pdf/1708.05344.pdf)
   - Brock, Andrew and Lim, Theodore and Ritchie, James M and Weston, Nick. ICLR 2018
 - Neural Architecture Optimization [[pdf]](https://arxiv.org/pdf/1808.07233.pdf) [[code]](https://github.com/renqianluo/NAO)
-  - Luo, Renqian and Tian, Fei and Qin, Tao and Liu, Tie-Yan. NIPS 2018
+  - Luo, Renqian and Tian, Fei and Qin, Tao and Liu, Tie-Yan. NeurIPS 2018
 - DARTS: Differentiable Architecture Search [[pdf]](https://arxiv.org/abs/1806.09055) [[code]](https://github.com/quark0/darts)
   - Hanxiao Liu, Karen Simonyan, Yiming Yang. ICLR 2019
 - Graph HyperNetworks for Neural Architecture Search [[pdf]](https://arxiv.org/pdf/1810.05749.pdf)
@@ -81,8 +81,12 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - Sirui Xie, Hehui Zheng, Chunxiao Liu, Liang Lin. ICLR 2019
 - ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware
   - Cai, Han and Zhu, Ligeng and Han, Song. ICLR 2019
+- FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search
+  - Wu, Bichen and Dai, Xiaoliang and Zhang, Peizhao and Wang, Yanghan and Sun, Fei and Wu, Yiming and Tian, Yuandong and Vajda, Peter and Jia, Yangqing and Keutzer, Kurt. CVPR 2019
 - Searching for A Robust Neural Architecture in Four GPU Hours
   - Dong, Xuanyi and Yang, Yi. CVPR 2019
+- Reinforced Evolutionary Neural Architecture Search
+  - Chen, Yukang and Zhang, Qian and Huang, Chang and Mu, Lisen and Meng, Gaofeng and Wang, Xinggang. CVPR 2019
 - Random Search and Reproducibility for Neural Architecture Search
   - Liam Li, Ameet Talwalkar. arXiv 1901
 
@@ -108,9 +112,9 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 - Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization [[pdf]](https://arxiv.org/abs/1603.06560)
   - Lisha Li, Kevin Jamieson, Giulia DeSalvo, Afshin Rostamizadeh, Ameet Talwalkar. ICLR 2017
 - Hyperparameter Optimization: A Spectral Approach [[pdf]](https://arxiv.org/abs/1706.00764) [[code]](https://github.com/callowbird/Harmonica)
-  - Elad Hazan, Adam Klivans, Yang Yuan. NIPS 2017 Workshop
+  - Elad Hazan, Adam Klivans, Yang Yuan. NeurIPS 2017 Workshop
 - Neural Architecture Search with Bayesian Optimisation and Optimal Transport [[pdf]](https://arxiv.org/pdf/1802.07191.pdf)
-  - Kandasamy, Kirthevasan and Neiswanger, Willie and Schneider, Jeff and Poczos, Barnabas and Xing, Eric. NIPS 2018
+  - Kandasamy, Kirthevasan and Neiswanger, Willie and Schneider, Jeff and Poczos, Barnabas and Xing, Eric. NeurIPS 2018
 
 ## NAS for Application
 - Fast Neural Architecture Search of Compact Semantic Segmentation Models via Auxiliary Cells [[pdf]](https://arxiv.org/pdf/1810.10804.pdf)
@@ -118,7 +122,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 - Training Frankenstein’s Creature to Stack: HyperTree Architecture Search [[pdf]](https://arxiv.org/pdf/1810.11714.pdf)
   - Andrew Hundt, Varun Jain, Chris Paxton, Gregory D. Hager. arXiv 1810
 - Searching for efficient multi-scale architectures for dense image prediction [[pdf]](https://arxiv.org/pdf/1809.04184.pdf)
-  - Chen, Liang-Chieh and Collins, Maxwell D and Zhu, Yukun and Papandreou, George and Zoph, Barret and Schroff, Florian and Adam, Hartwig and Shlens, Jonathon. NIPS 2018
+  - Chen, Liang-Chieh and Collins, Maxwell D and Zhu, Yukun and Papandreou, George and Zoph, Barret and Schroff, Florian and Adam, Hartwig and Shlens, Jonathon. NeurIPS 2018
 - Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation [[pdf]](https://arxiv.org/abs/1901.02985)
   - arXiv 1901
 - Fast, Accurate and Lightweight Super-Resolution with Neural Architecture Search [[pdf]](https://arxiv.org/pdf/1901.07261.pdf) [[code]](https://github.com/falsr/FALSR)
@@ -144,4 +148,5 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 | AmobebaNet-B       | 26.0      | 8.5       | 5.3        | 555    | 450 |  7   |
 | AmobebaNet-C       | 24.3      | 7.6       | 6.4        | 555    | 450 |  7   |
 | [Progressive NAS](http://openaccess.thecvf.com/content_ECCV_2018/papers/Chenxi_Liu_Progressive_Neural_Architecture_ECCV_2018_paper.pdf)    | 25.8      | 8.1       | 5.1        | 588    | 100 | 1.5  |
-| [DARTS-V2](https://arxiv.org/abs/1806.09055)           | 26.9      | 9.0       | 4.9        | 595    |  1  |  4   |
+| [DARTS-V2](https://arxiv.org/abs/1806.09055)           | 26.9      | 9.0       | 4.9        | 595    |  1  |  1   |
+| [GDAS](http://xuanyidong.com/bibtex/Four-Hours-CVPR19.txt) | 26.0      | 8.5       | 5.3        | 581    |  1  |  0.21   |
