@@ -20,9 +20,9 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 
 ## Neural Architecture Search (NAS)
 
-|      Type   |        G       |                  RL    |            EA           |    Other   |
-|:------------|:--------------:|:----------------------:|:-----------------------:|:----------:|
-| Explanation | gradient-based | reinforcement learning | evaluationary algorithm | other types |
+|      Type   |        G       |                  RL    |            EA           |        PD              |    Other   |
+|:------------|:--------------:|:----------------------:|:-----------------------:|:----------------------:|:----------:|
+| Explanation | gradient-based | reinforcement learning | evaluationary algorithm | performance prediction | other types |
 
 
 ### 2019
@@ -72,7 +72,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 ### 2012-2016
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [Speeding up Automatic Hyperparameter Optimization of Deep Neural Networksby Extrapolation of Learning Curves](http://ml.informatik.uni-freiburg.de/papers/15-IJCAI-Extrapolation_of_Learning_Curves.pdf) | IJCAI | PD | [github]((https://github.com/automl/pylearningcurvepredictor)) |
+| [Speeding up Automatic Hyperparameter Optimization of Deep Neural Networksby Extrapolation of Learning Curves](http://ml.informatik.uni-freiburg.de/papers/15-IJCAI-Extrapolation_of_Learning_Curves.pdf) | IJCAI | PD | [github](https://github.com/automl/pylearningcurvepredictor) |
 
 ### Blogs
 - [What’s the deal with Neural Architecture Search?](https://determined.ai/blog/neural-architecture-search/)
