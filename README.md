@@ -76,8 +76,10 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 
 ### Blogs
 - [What’s the deal with Neural Architecture Search?](https://determined.ai/blog/neural-architecture-search/)
+- [Google Could AutoML](https://cloud.google.com/vision/automl/docs/beginners-guide)
 - [PocketFlow](https://pocketflow.github.io/)
-- [AutoDL](http://automl.chalearn.org/)
+- [AutoML Challenge](http://automl.chalearn.org/)
+- [AutoDL Challenge](https://autodl.chalearn.org/)
 
 
 ### arXiv
