@@ -18,7 +18,12 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 - [Benchmark on ImageNet](#benchmark-on-imagenet)
 
 
-## NAS
+## Neural Architecture Search (NAS)
+
+|      Type   |        G       |                  RL    |            EA           |    Other   |
+|:------------|:--------------:|:----------------------:|:-----------------------:|:----------:|
+| Explanation | gradient-based | reinforcement learning | evaluationary algorithm | other typs |
+
 
 ### 2019
 
