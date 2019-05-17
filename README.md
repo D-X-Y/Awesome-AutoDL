@@ -41,6 +41,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 | [FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search](https://arxiv.org/abs/1812.03443) | CVPR | G | - | 
 | [Reinforced Evolutionary Neural Architecture Search](https://arxiv.org/abs/1808.00193) | CVPR | G | - |
 | [Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation](https://arxiv.org/pdf/1901.02985.pdf) | CVPR |  G | [GitHub](https://github.com/tensorflow/models/tree/master/research/deeplab) |
+| MnasNet: Platform-Aware Neural Architecture Search for Mobile | CVPR | RL | [Github](https://github.com/AnjieZheng/MnasNet-PyTorch) |
 
 
 
