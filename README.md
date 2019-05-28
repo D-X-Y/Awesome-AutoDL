@@ -13,8 +13,6 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - [Previous Venues](#2012-2016)
   - [Blogs](#blogs)
   - [arXiv](#arxiv)
-- [NAS for Application](#NAS-for-Application)
-- [Survey](#Survey)
 - [Benchmark on ImageNet](#benchmark-on-imagenet)
 
 
@@ -29,6 +27,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [Neural architecture search: A survey](http://www.jmlr.org/papers/volume20/18-598/18-598.pdf) | JMLR | Survey | - |
 | [DARTS: Differentiable Architecture Search](https://arxiv.org/abs/1806.09055) | ICLR | G | [github](https://github.com/quark0/darts) |
 | [ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware](https://openreview.net/pdf?id=HylVB3AqYm) | ICLR | RL/G | [github](https://github.com/MIT-HAN-LAB/ProxylessNAS) |
 | [Graph HyperNetworks for Neural Architecture Search](https://arxiv.org/pdf/1810.05749.pdf) | ICLR | G | - |
@@ -91,29 +90,19 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 
 
 ### arXiv
-- MnasNet: Platform-Aware Neural Architecture Search for Mobile [[pdf]](https://arxiv.org/pdf/1807.11626.pdf) [[code]](https://github.com/AnjieZheng/MnasNet-PyTorch)
-  - Mingxing Tan, Bo Chen, Ruoming Pang, Vijay Vasudevan, Quoc V. Le. arXiv 2018.07
+- Network Pruning via Transformable Architecture Search [[pdf]](https://arxiv.org/abs/1905.09717)
+ - Xuanyi Dong, Yi Yang
 - Population Based Training of Neural Networks [[pdf]](https://arxiv.org/abs/1711.09846)
   - Max Jaderberg, Valentin Dalibard, Simon Osindero, Wojciech M. Czarnecki, Jeff Donahue, Ali Razavi, Oriol Vinyals, Tim Green, Iain Dunning, Karen Simonyan, Chrisantha Fernando, Koray Kavukcuoglu. arXiv 1711
 - NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search [[pdf]](https://arxiv.org/pdf/1810.03522.pdf)
   - Lu, Zhichao and Whalen, Ian and Boddeti, Vishnu and Dhebar, Yashesh and Deb, Kalyanmoy and Goodman, Erik and Banzhaf, Wolfgang, arXiv 1810
 - Random Search and Reproducibility for Neural Architecture Search
   - Liam Li, Ameet Talwalkar. arXiv 1901
-
-
-## NAS for Application
 - Fast Neural Architecture Search of Compact Semantic Segmentation Models via Auxiliary Cells [[pdf]](https://arxiv.org/pdf/1810.10804.pdf)
   - Nekrasov, Vladimir and Chen, Hao and Shen, Chunhua and Reid, Ian. arXiv 1810
 - Training Frankenstein’s Creature to Stack: HyperTree Architecture Search [[pdf]](https://arxiv.org/pdf/1810.11714.pdf)
   - Andrew Hundt, Varun Jain, Chris Paxton, Gregory D. Hager. arXiv 1810
 - Fast, Accurate and Lightweight Super-Resolution with Neural Architecture Search [[pdf]](https://arxiv.org/pdf/1901.07261.pdf) [[code]](https://github.com/falsr/FALSR)
-
-
-## Survey
-- Neural Architecture Search: A Survey
-  - Thomas Elsken, Jan Hendrik Metzen, Frank Hutter. arXiv 1808
-- Taking Human out of Learning Applications: A Survey on Automated Machine Learning [[pdf]](https://arxiv.org/abs/1810.13306)
-  - Yao Quanming, Wang Mengshuo, Jair Escalante Hugo, Guyon Isabelle, Hu Yi-Qi, Li Yu-Feng, Tu Wei-Wei, Yang Qiang, Yu Yang. arXiv 1810
 
 
 
