@@ -45,6 +45,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 | [Fast Neural Architecture Search of Compact Semantic Segmentation Models via Auxiliary Cells](https://arxiv.org/abs/1810.10804) | CVPR | RL | - |
 | Customizable Architecture Search for Semantic Segmentation | CVPR | - | - |
 | [Regularized Evolution for Image Classifier Architecture Search](https://arxiv.org/pdf/1802.01548.pdf) | AAAI | EA | - |
+| AutoAugment: Learning Augmentation Policies from Data | CVPR | RL | - |
+| Population Based Augmentation: Efficient Learning of Augmentation Policy Schedules | ICML | EA | - |
 
 
 ### 2018
@@ -75,6 +77,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 | [Learning Curve Prediction with Bayesian Neural Networks](http://ml.informatik.uni-freiburg.de/papers/17-ICLR-LCNet.pdf) | ICLR | PD | - |
 | [Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization](https://arxiv.org/abs/1603.06560) | ICLR | PD | - |
 | [Hyperparameter Optimization: A Spectral Approach](https://arxiv.org/abs/1706.00764) | NeurIPS-W | Other | [github](https://github.com/callowbird/Harmonica) |
+| Learning to Compose Domain-Specific Transformations for Data Augmentation | NeurIPS | - | - |
 
 ### 2012-2016
 |  Title  |   Venue  |   Type   |   Code   |
