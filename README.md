@@ -48,6 +48,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 | [Regularized Evolution for Image Classifier Architecture Search](https://arxiv.org/pdf/1802.01548.pdf) | AAAI | EA | - |
 | AutoAugment: Learning Augmentation Policies from Data | CVPR | RL | - |
 | Population Based Augmentation: Efficient Learning of Augmentation Policy Schedules | ICML | EA | - |
+| [The Evolved Transformer](https://arxiv.org/pdf/1901.11117.pdf) | ICML | EA | [Github](https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/evolved_transformer.py) |
 
 
 ### 2018
