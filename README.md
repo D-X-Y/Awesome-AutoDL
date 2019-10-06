@@ -9,6 +9,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 - [Awesome Blogs](#awesome-blogs)
 
 - [Neural Architecture Search](#NAS)
+  - [2020 Venues](#2020)
   - [2019 Venues](#2019)
   - [2018 Venues](#2018)
   - [2017 Venues](#2017)
@@ -16,9 +17,9 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
   - [arXiv](#arxiv)
 
 ## Awesome Blogs
+- [AutoML info](http://automl.chalearn.org/) and [AutoML Freiburg-Hannover](https://www.automl.org/)
 - [What’s the deal with Neural Architecture Search?](https://determined.ai/blog/neural-architecture-search/)
-- [Google Could AutoML](https://cloud.google.com/vision/automl/docs/beginners-guide)
-- [PocketFlow](https://pocketflow.github.io/)
+- [Google Could AutoML](https://cloud.google.com/vision/automl/docs/beginners-guide) and [PocketFlow](https://pocketflow.github.io/)
 - [AutoML Challenge](http://automl.chalearn.org/) and [AutoDL Challenge](https://autodl.chalearn.org/)
 
 
@@ -28,14 +29,19 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 |:------------|:--------------:|:----------------------:|:-----------------------:|:----------------------:|:----------:|
 | Explanation | gradient-based | reinforcement learning | evaluationary algorithm | performance prediction | other types |
 
+### 2020
+
+In submission, XDDD.
 
 ### 2019
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| XNAS: Neural Architecture Search with Expert Advice | NeurIPS | G | - |
 | [Network Pruning via Transformable Architecture Search](https://arxiv.org/abs/1905.09717) | NeurIPS | G | [Github](https://github.com/D-X-Y/NAS-Projects) |
-| One-Shot Neural Architecture Search via Self-Evaluated Template Network | ICCV | G | - |
+| [Efficient Forward Architecture Search ](https://arxiv.org/abs/1905.13360) | NeurIPS | G | [Github](https://github.com/microsoft/petridishnn) |
+| Efficient Neural ArchitectureTransformation Search in Channel-Level for Object Detection | NeurIPS | G | - |
+| XNAS: Neural Architecture Search with Expert Advice | NeurIPS | G | - |
+| One-Shot Neural Architecture Search via Self-Evaluated Template Network | ICCV | G | [Github](https://github.com/D-X-Y/NAS-Projects) |
 | [AutoGAN: Neural Architecture Search for Generative Adversarial Networks](https://arxiv.org/pdf/1908.03835.pdf) | ICCV | RL | [github](https://github.com/TAMU-VITA/AutoGAN) |
 | [Neural architecture search: A survey](http://www.jmlr.org/papers/volume20/18-598/18-598.pdf) | JMLR | Survey | - |
 | [DARTS: Differentiable Architecture Search](https://arxiv.org/abs/1806.09055) | ICLR | G | [github](https://github.com/quark0/darts) |
@@ -44,7 +50,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 | [Learnable Embedding Space for Efficient Neural Architecture Compression](https://openreview.net/forum?id=S1xLN3C9YX) | ICLR | Other | [github](https://github.com/Friedrich1006/ESNAC) |
 | [Efficient Multi-Objective Neural Architecture Search via Lamarckian Evolution](https://arxiv.org/abs/1804.09081) | ICLR | EA | - |
 | [SNAS: stochastic neural architecture search](https://openreview.net/pdf?id=rylqooRqK7) | ICLR | G | - |
-| [Searching for A Robust Neural Architecture in Four GPU Hours](http://xuanyidong.com/publication/gradient-based-diff-sampler/) | CVPR | G | [github](https://github.com/D-X-Y/GDAS) |
+| [Searching for A Robust Neural Architecture in Four GPU Hours](http://xuanyidong.com/publication/gradient-based-diff-sampler/) | CVPR | G | [Github](https://github.com/D-X-Y/NAS-Projects) |
 | [ChamNet: Towards Efficient Network Design through Platform-Aware Model Adaptation](http://openaccess.thecvf.com/content_CVPR_2019/papers/Dai_ChamNet_Towards_Efficient_Network_Design_Through_Platform-Aware_Model_Adaptation_CVPR_2019_paper.pdf) | CVPR | - | - |
 | [Partial Order Pruning: for Best Speed/Accuracy Trade-off in Neural Architecture Search](https://arxiv.org/pdf/1903.03777.pdf) | CVPR | EA | [github](https://github.com/lixincn2015/Partial-Order-Pruning) |
 | [FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search](https://arxiv.org/abs/1812.03443) | CVPR | G | - | 
