@@ -19,8 +19,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 - [What’s the deal with Neural Architecture Search?](https://determined.ai/blog/neural-architecture-search/)
 - [Google Could AutoML](https://cloud.google.com/vision/automl/docs/beginners-guide)
 - [PocketFlow](https://pocketflow.github.io/)
-- [AutoML Challenge](http://automl.chalearn.org/)
-- [AutoDL Challenge](https://autodl.chalearn.org/)
+- [AutoML Challenge](http://automl.chalearn.org/) and [AutoDL Challenge](https://autodl.chalearn.org/)
 
 
 ## Neural Architecture Search (NAS)
@@ -34,7 +33,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [Network Pruning via Transformable Architecture Search](https://arxiv.org/abs/1905.09717) | NeurIPS | G | - |
+| XNAS: Neural Architecture Search with Expert Advice | NeurIPS | G | - |
+| [Network Pruning via Transformable Architecture Search](https://arxiv.org/abs/1905.09717) | NeurIPS | G | [Github](https://github.com/D-X-Y/NAS-Projects) |
 | One-Shot Neural Architecture Search via Self-Evaluated Template Network | ICCV | G | - |
 | [AutoGAN: Neural Architecture Search for Generative Adversarial Networks](https://arxiv.org/pdf/1908.03835.pdf) | ICCV | RL | [github](https://github.com/TAMU-VITA/AutoGAN) |
 | [Neural architecture search: A survey](http://www.jmlr.org/papers/volume20/18-598/18-598.pdf) | JMLR | Survey | - |
