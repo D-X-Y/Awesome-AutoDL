@@ -37,7 +37,7 @@ In submission, XDDD.
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [Towards modular and programmable architecture search](https://arxiv.org/abs/1909.13404) | NeurIPS |  | [Github](https://github.com/negrinho/deep_architect) |
+| [Towards modular and programmable architecture search](https://arxiv.org/abs/1909.13404) | NeurIPS | [Other](https://github.com/D-X-Y/Awesome-NAS/issues/10) | [Github](https://github.com/negrinho/deep_architect) |
 | [Network Pruning via Transformable Architecture Search](https://arxiv.org/abs/1905.09717) | NeurIPS | G | [Github](https://github.com/D-X-Y/NAS-Projects) |
 | [Deep Active Learning with a NeuralArchitecture Search](https://arxiv.org/pdf/1811.07579.pdf) | NeurIPS | - | - |
 | DetNAS: Backbone Search for ObjectDetection | NeurIPS | - | - |
