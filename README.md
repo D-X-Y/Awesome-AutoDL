@@ -37,14 +37,17 @@ In submission, XDDD.
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| Progressive Differentiable Architecture Search: Bridging the Depth Gap Between Search and Evaluation | ICCV | | |
-| Multinomial Distribution Learning for Effective Neural Architecture Search | ICCV | | |
+| Progressive Differentiable Architecture Search: Bridging the Depth Gap Between Search and Evaluation | ICCV | - | - |
+| Multinomial Distribution Learning for Effective Neural Architecture Search | ICCV | - | - |
 | Searching for MobileNetV3 | ICCV | EA | - |
 | [Multinomial Distribution Learning for Effective Neural Architecture Search](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zheng_Multinomial_Distribution_Learning_for_Effective_Neural_Architecture_Search_ICCV_2019_paper.pdf) | ICCV | - | [GitHub](https://github.com/tanglang96/MDENAS) |
 | [Fast and Practical Neural Architecture Search](http://openaccess.thecvf.com/content_ICCV_2019/papers/Cui_Fast_and_Practical_Neural_Architecture_Search_ICCV_2019_paper.pdf) | ICCV | | |
 | [Teacher Guided Architecture Search](http://openaccess.thecvf.com/content_ICCV_2019/papers/Bashivan_Teacher_Guided_Architecture_Search_ICCV_2019_paper.pdf) | ICCV | | - |
 | [AutoDispNet: Improving Disparity Estimation With AutoML](http://openaccess.thecvf.com/content_ICCV_2019/papers/Saikia_AutoDispNet_Improving_Disparity_Estimation_With_AutoML_ICCV_2019_paper.pdf) | ICCV | G | - |
 | [Resource Constrained Neural Network Architecture Search: Will a Submodularity Assumption Help?](http://openaccess.thecvf.com/content_ICCV_2019/papers/Xiong_Resource_Constrained_Neural_Network_Architecture_Search_Will_a_Submodularity_Assumption_ICCV_2019_paper.pdf) | ICCV | EA | - |
+| [One-Shot Neural Architecture Search via Self-Evaluated Template Network](https://arxiv.org/abs/1910.05733) | ICCV | G | [Github](https://github.com/D-X-Y/NAS-Projects) |
+| [Evolving Space-Time Neural Architectures for Videos](https://arxiv.org/abs/1811.10636) | ICCV | EA | [GitHub](https://sites.google.com/view/evanet-video) |
+| [AutoGAN: Neural Architecture Search for Generative Adversarial Networks](https://arxiv.org/pdf/1908.03835.pdf) | ICCV | RL | [github](https://github.com/TAMU-VITA/AutoGAN) |
 | [Discovering Neural Wirings](https://arxiv.org/pdf/1906.00586.pdf) | NeurIPS | | [Github](https://github.com/allenai/dnw) |
 | [Towards modular and programmable architecture search](https://arxiv.org/abs/1909.13404) | NeurIPS | [Other](https://github.com/D-X-Y/Awesome-NAS/issues/10) | [Github](https://github.com/negrinho/deep_architect) |
 | [Network Pruning via Transformable Architecture Search](https://arxiv.org/abs/1905.09717) | NeurIPS | G | [Github](https://github.com/D-X-Y/NAS-Projects) |
@@ -54,9 +57,6 @@ In submission, XDDD.
 | [Efficient Forward Architecture Search ](https://arxiv.org/abs/1905.13360) | NeurIPS | G | [Github](https://github.com/microsoft/petridishnn) |
 | Efficient Neural ArchitectureTransformation Search in Channel-Level for Object Detection | NeurIPS | G | - |
 | XNAS: Neural Architecture Search with Expert Advice | NeurIPS | G | - |
-| [One-Shot Neural Architecture Search via Self-Evaluated Template Network](https://arxiv.org/abs/1910.05733) | ICCV | G | [Github](https://github.com/D-X-Y/NAS-Projects) |
-| [Evolving Space-Time Neural Architectures for Videos](https://arxiv.org/abs/1811.10636) | ICCV | EA | [GitHub](https://sites.google.com/view/evanet-video) |
-| [AutoGAN: Neural Architecture Search for Generative Adversarial Networks](https://arxiv.org/pdf/1908.03835.pdf) | ICCV | RL | [github](https://github.com/TAMU-VITA/AutoGAN) |
 | [Neural architecture search: A survey](http://www.jmlr.org/papers/volume20/18-598/18-598.pdf) | JMLR | Survey | - |
 | [DARTS: Differentiable Architecture Search](https://arxiv.org/abs/1806.09055) | ICLR | G | [github](https://github.com/quark0/darts) |
 | [ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware](https://openreview.net/pdf?id=HylVB3AqYm) | ICLR | RL/G | [github](https://github.com/MIT-HAN-LAB/ProxylessNAS) |
