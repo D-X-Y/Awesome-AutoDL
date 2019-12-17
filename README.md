@@ -38,6 +38,8 @@ In submission, XDDD.
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [DATA: Differentiable ArchiTecture Approximation](http://papers.nips.cc/paper/8374-data-differentiable-architecture-approximation) | NeurIPS | - | - |
+| [Improved Differentiable Architecture Search for Language Modeling and Named Entity Recognition](https://www.aclweb.org/anthology/D19-1367.pdf/) | EMNLP | G | - |
+| [Continual and Multi-Task Architecture Search](https://www.aclweb.org/anthology/P19-1185.pdf) | ACL | RL | - |
 | Progressive Differentiable Architecture Search: Bridging the Depth Gap Between Search and Evaluation | ICCV | - | - |
 | Multinomial Distribution Learning for Effective Neural Architecture Search | ICCV | - | - |
 | Searching for MobileNetV3 | ICCV | EA | - |
