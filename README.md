@@ -33,6 +33,10 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 
 In submission, XDDD.
 
+|  Title  |   Venue  |   Type   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| [Understanding Architectures Learnt by Cell-based Neural Architecture Search](https://openreview.net/pdf?id=H1gDNyrKDS) | ICLR | G | [GitHub](https://github.com/automl/RobustDARTS) |
+
 ### 2019
 
 |  Title  |   Venue  |   Type   |   Code   |
