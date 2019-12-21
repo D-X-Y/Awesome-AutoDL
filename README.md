@@ -34,8 +34,22 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| NAS-BENCH-102: Extending the Scope of Reproducible Neural Architecture Search | ICLR | - | [Github](https://github.com/D-X-Y/NAS-Projects) |
 | [Understanding Architectures Learnt by Cell-based Neural Architecture Search](https://openreview.net/pdf?id=H1gDNyrKDS) | ICLR | G | [GitHub](https://github.com/automl/RobustDARTS) |
-| [Evaluating The Search Phase of Neural Architecture Search](https://openreview.net/forum?id=H1loF2NFwr) | - | - |
+| [Evaluating The Search Phase of Neural Architecture Search](https://openreview.net/forum?id=H1loF2NFwr) | ICLR | - | |
+| Once for All: Train One Network and Specialize it for Efficient Deployment | ICLR | G | |
+| Efficient Transformer for Mobile Applications | ICLR | - | - |
+| PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search | ICLR | G | - |
+| Adversarial AutoAugment | ICLR | - | - |
+| NAS evaluation is frustratingly hard | ICLR | - | - |
+| [FasterSeg: Searching for Faster Real-time Semantic Segmentation](https://openreview.net/pdf?id=BJgqQ6NYvB) | ICLR | G | [GitHub](https://github.com/TAMU-VITA/FasterSeg) |
+| [Computation Reallocation for Object Detection](https://openreview.net/forum?id=SkxLFaNKwB) | ICLR | - | - |
+| Evaluating The Search Phase of Neural Architecture Search | ICLR | - | - |
+| Towards Fast Adaptation of Neural Architectures with Meta Learning | ICLR | - | - |
+| AssembleNet: Searching for Multi-Stream Neural Connectivity in Video Architectures | ICLR | EA | - |
+| How to Own the NAS in Your Spare Time | ICLR | - | - |
+| [Understanding Architectures Learnt by Cell-based Neural Architecture Search](https://openreview.net/forum?id=BJxH22EKPS) | ICLR | - | - |
+
 
 ### 2019
 
