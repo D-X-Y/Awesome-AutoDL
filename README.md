@@ -37,6 +37,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 | NAS-BENCH-102: Extending the Scope of Reproducible Neural Architecture Search | ICLR | - | [Github](https://github.com/D-X-Y/NAS-Projects) |
 | [Understanding Architectures Learnt by Cell-based Neural Architecture Search](https://openreview.net/pdf?id=H1gDNyrKDS) | ICLR | G | [GitHub](https://github.com/automl/RobustDARTS) |
 | [Evaluating The Search Phase of Neural Architecture Search](https://openreview.net/forum?id=H1loF2NFwr) | ICLR | - | |
+| [Fast Neural Network Adaptation via Parameter Remapping and Architecture Search](https://openreview.net/forum?id=rklTmyBKPH) | ICLR | - | [GitHub](https://github.com/JaminFong/FNA) |
 | Once for All: Train One Network and Specialize it for Efficient Deployment | ICLR | G | |
 | Efficient Transformer for Mobile Applications | ICLR | - | - |
 | PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search | ICLR | G | [GitHub](https://github.com/yuhuixu1993/PC-DARTS) |
