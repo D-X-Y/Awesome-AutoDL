@@ -34,6 +34,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [Block-wisely Supervised Neural Architecture Search with Knowledge Distillation](https://www.xiaojun.ai/papers/CVPR2020_04676.pdf) | CVPR | G | - |
+| [Overcoming Multi-Model Forgetting in One-Shot NAS with Diversity Maximization](https://www.xiaojun.ai/papers/cvpr-2020-zhang.pdf) | CVPR | G | - |
 | [Densely Connected Search Space for More Flexible Neural Architecture Search](https://arxiv.org/abs/1906.09607) | CVPR | G | [Github](https://github.com/JaminFong/DenseNAS) |
 | [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070) | CVPR | RL | - |
 | [NAS-BENCH-201: Extending the Scope of Reproducible Neural Architecture Search](https://openreview.net/forum?id=HJxyZkBKDr) | ICLR | - | [Github](https://github.com/D-X-Y/AutoDL-Projects) |
