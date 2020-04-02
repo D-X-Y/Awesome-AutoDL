@@ -47,7 +47,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 | Efficient Transformer for Mobile Applications | ICLR | - | - |
 | PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search | ICLR | G | [GitHub](https://github.com/yuhuixu1993/PC-DARTS) |
 | Adversarial AutoAugment | ICLR | - | - |
-| [NAS evaluation is frustratingly hard](https://arxiv.org/abs/1912.12522) | ICLR | - | - | [GitHub](https://github.com/antoyang/NAS-Benchmark)
+| [NAS evaluation is frustratingly hard](https://arxiv.org/abs/1912.12522) | ICLR | - | [GitHub](https://github.com/antoyang/NAS-Benchmark) |
 | [FasterSeg: Searching for Faster Real-time Semantic Segmentation](https://openreview.net/pdf?id=BJgqQ6NYvB) | ICLR | G | [GitHub](https://github.com/TAMU-VITA/FasterSeg) |
 | [Computation Reallocation for Object Detection](https://openreview.net/forum?id=SkxLFaNKwB) | ICLR | - | - |
 | Towards Fast Adaptation of Neural Architectures with Meta Learning | ICLR | - | - |
