@@ -165,5 +165,6 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 |  Title  |   Venue  |   Year   |
 |:--------|:--------:|:--------:|
 | [Neural architecture search: A survey](http://www.jmlr.org/papers/volume20/18-598/18-598.pdf) | JMLR | 2019 |
+| [Taking human out of learning applications: A survey on automated machine learning](https://arxiv.org/pdf/1810.13306.pdf) | arXiv | 2018 |
 | [A Survey on Neural Architecture Search](https://arxiv.org/pdf/1905.01392.pdf) | arXiv | 2019 |
 | [A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions](https://arxiv.org/pdf/2006.02903.pdf) | arXiv | 2020 |
