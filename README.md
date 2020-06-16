@@ -36,6 +36,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [SGAS: Sequential Greedy Architecture Search](http://openaccess.thecvf.com/content_CVPR_2020/papers/Li_SGAS_Sequential_Greedy_Architecture_Search_CVPR_2020_paper.pdf) | CVPR | G | [Github](https://github.com/lightaime/sgas) |
 | [Can Weight Sharing Outperform Random Architecture Search? An Investigation With TuNAS](http://openaccess.thecvf.com/content_CVPR_2020/papers/Bender_Can_Weight_Sharing_Outperform_Random_Architecture_Search_An_Investigation_With_CVPR_2020_paper.pdf) | CVPR | RL | - |
 | [FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions](https://arxiv.org/abs/2004.05565) | CVPR | G | [Github](https://github.com/facebookresearch/mobile-vision) |
 | [AdversarialNAS: Adversarial Neural Architecture Search for GANs](https://arxiv.org/pdf/1912.02037.pdf) | CVPR | G | [Github](https://github.com/chengaopro/AdversarialNAS) |
