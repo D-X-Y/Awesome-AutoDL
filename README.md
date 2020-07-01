@@ -36,6 +36,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [Rethinking Performance Estimation in Neural Architecture Search](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zheng_Rethinking_Performance_Estimation_in_Neural_Architecture_Search_CVPR_2020_paper.pdf) | CVPR | - | [GitHub](https://github.com/zhengxiawu/rethinking_performance_estimation_in_NAS) |
 | [APQ: Joint Search for Network Architecture, Pruning and Quantization Policy](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_APQ_Joint_Search_for_Network_Architecture_Pruning_and_Quantization_Policy_CVPR_2020_paper.pdf) | CVPR | G | [GitHub](https://github.com/mit-han-lab/apq) |
 | [SGAS: Sequential Greedy Architecture Search](http://openaccess.thecvf.com/content_CVPR_2020/papers/Li_SGAS_Sequential_Greedy_Architecture_Search_CVPR_2020_paper.pdf) | CVPR | G | [Github](https://github.com/lightaime/sgas) |
 | [Can Weight Sharing Outperform Random Architecture Search? An Investigation With TuNAS](http://openaccess.thecvf.com/content_CVPR_2020/papers/Bender_Can_Weight_Sharing_Outperform_Random_Architecture_Search_An_Investigation_With_CVPR_2020_paper.pdf) | CVPR | RL | - |
