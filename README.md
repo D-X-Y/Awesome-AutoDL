@@ -8,9 +8,9 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 - [Awesome Blogs](#awesome-blogs)
 
-- [Awesome Libraies](#awesome-libs)
+- [Awesome AutoDL Libraies](#awesome-autodl-libraies)
 
-- [Deep Learning-based NAS and HPO](#NAS)
+- [Deep Learning-based NAS and HPO](#deep-learning-based-nas-and-hpo)
   - [2020 Venues](#2020)
   - [2019 Venues](#2019)
   - [2018 Venues](#2018)
@@ -33,7 +33,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 - [Auto-PyTorch](https://github.com/automl/Auto-PyTorch)
 - [AutoDL-Projects](https://github.com/D-X-Y/AutoDL-Projects)
 
-## Neural Architecture Search (NAS) and Hyper-parameter Optimization (HPO)
+## Deep Learning-based NAS and HPO
 
 |      Type   |        G       |                  RL    |            EA           |        PD              |    Other   |
 |:------------|:--------------:|:----------------------:|:-----------------------:|:----------------------:|:----------:|
@@ -44,6 +44,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [Optimizing Millions of Hyperparameters by Implicit Differentiation](https://arxiv.org/abs/1911.02590) | UAI | G | - |
 | [Evolving Machine Learning Algorithms From Scratch](https://arxiv.org/pdf/2003.03384.pdf) | ICML | - | - |
 | [NADS: Neural Architecture Distribution Search for Uncertainty Awareness](https://arxiv.org/pdf/2006.06646.pdf) | ICML | - | - |
 | [Generative Teaching Networks: Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data](https://arxiv.org/abs/1912.07768) | ICML | - | - |
