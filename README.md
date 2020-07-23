@@ -1,14 +1,16 @@
-# Awesome NAS [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome AutoDL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of neural architecture search and related resources. Inspired by [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision), [awesome-adversarial-machine-learning](https://github.com/yenchenlin/awesome-adversarial-machine-learning), [awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers), and [awesome-architecture-search](https://github.com/markdtw/awesome-architecture-search).
+A curated list of automated deep learning related resources. Inspired by [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision), [awesome-adversarial-machine-learning](https://github.com/yenchenlin/awesome-adversarial-machine-learning), [awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers), and [awesome-architecture-search](https://github.com/markdtw/awesome-architecture-search).
 
-Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) or [open an issue](https://github.com/D-X-Y/awesome-NAS/issues) to add papers.
+Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pulls) or [open an issue](https://github.com/D-X-Y/Awesome-AutoDL/issues) to add papers.
 
 ## Table of Contents
 
 - [Awesome Blogs](#awesome-blogs)
 
-- [Neural Architecture Search](#NAS)
+- [Awesome Libraies](#awesome-libs)
+
+- [Deep Learning-based NAS and HPO](#NAS)
   - [2020 Venues](#2020)
   - [2019 Venues](#2019)
   - [2018 Venues](#2018)
@@ -24,8 +26,14 @@ Please feel free to [pull requests](https://github.com/D-X-Y/awesome-NAS/pulls) 
 - [Google Could AutoML](https://cloud.google.com/vision/automl/docs/beginners-guide) and [PocketFlow](https://pocketflow.github.io/)
 - [AutoML Challenge](http://automl.chalearn.org/) and [AutoDL Challenge](https://autodl.chalearn.org/)
 
+## Awesome AutoDL Libraies
+- [Keras Tuner](https://keras-team.github.io/keras-tuner/)
+- [NNI](https://github.com/microsoft/nni)
+- [AutoGluon](https://autogluon.mxnet.io/)
+- [Auto-PyTorch](https://github.com/automl/Auto-PyTorch)
+- [AutoDL-Projects](https://github.com/D-X-Y/AutoDL-Projects)
 
-## Neural Architecture Search (NAS)
+## Neural Architecture Search (NAS) and Hyper-parameter Optimization (HPO)
 
 |      Type   |        G       |                  RL    |            EA           |        PD              |    Other   |
 |:------------|:--------------:|:----------------------:|:-----------------------:|:----------------------:|:----------:|
