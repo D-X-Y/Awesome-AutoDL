@@ -37,7 +37,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |      Type   |        G       |                  RL    |            EA           |        PD              |    Other   |
 |:------------|:--------------:|:----------------------:|:-----------------------:|:----------------------:|:----------:|
-| Explanation | gradient-based | reinforcement learning | evolutionary algorithm | performance prediction | other types |
+| Explanation | gradient-based | reinforcement learning | evaluationary algorithm | performance prediction | other types |
 
 ### 2020
 
