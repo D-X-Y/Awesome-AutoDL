@@ -136,6 +136,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | Towards Automatically-Tuned Deep Neural Networks | BOOK | - | [GitHub](https://github.com/automl/Auto-PyTorch) |
+| [NetAdapt: Platform-Aware Neural Network Adaptation for Mobile Applications](https://arxiv.org/pdf/1804.03230.pdf) | ECCV | - | [github](https://github.com/denru01/netadapt) |
 | [Efficient Architecture Search by Network Transformation](https://arxiv.org/pdf/1707.04873.pdf) | AAAI | RL | [github](https://github.com/han-cai/EAS) |
 | [Learning Transferable Architectures for Scalable Image Recognition](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zoph_Learning_Transferable_Architectures_CVPR_2018_paper.pdf) | CVPR | RL | [github](https://github.com/tensorflow/models/tree/master/research/slim/nets/nasnet) |
 | [N2N learning: Network to Network Compression via Policy Gradient Reinforcement Learning](https://openreview.net/forum?id=B1hcZZ-AW) | ICLR | RL | - |
