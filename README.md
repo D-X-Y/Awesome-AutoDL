@@ -45,7 +45,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [Optimizing Millions of Hyperparameters by Implicit Differentiation](https://arxiv.org/abs/1911.02590) | AISTATS | G | - |
-| [Evolving Machine Learning Algorithms From Scratch](https://arxiv.org/pdf/2003.03384.pdf) | ICML | - | - |
+| [Evolving Machine Learning Algorithms From Scratch](https://arxiv.org/pdf/2003.03384.pdf) | ICML | EA | - |
 | [NADS: Neural Architecture Distribution Search for Uncertainty Awareness](https://arxiv.org/pdf/2006.06646.pdf) | ICML | - | - |
 | [Generative Teaching Networks: Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data](https://arxiv.org/abs/1912.07768) | ICML | - | - |
 | Neural Architecture Search in a Proxy Validation Loss Landscape | ICML | - | - |
