@@ -131,6 +131,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [The Evolved Transformer](https://arxiv.org/pdf/1901.11117.pdf) | ICML | EA | [Github](https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/evolved_transformer.py) |
 | EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | ICML | RL | - |
 | [NAS-Bench-101: Towards Reproducible Neural Architecture Search](https://arxiv.org/abs/1902.09635) | ICML | Other | [Github](https://github.com/google-research/nasbench) |
+| [On Network Design Spaces for Visual Recognition](https://arxiv.org/abs/1905.13214) | ICCV | G | [Github](https://github.com/facebookresearch/nds) |
 
 ### 2018
 |  Title  |   Venue  |   Type   |   Code   |
