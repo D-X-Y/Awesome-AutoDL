@@ -55,7 +55,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [Angle-based Search Space Shrinking for Neural Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630426.pdf) | ECCV | - | - |
 | [Anti-Bandit Neural Architecture Search for Model Defense](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580069.pdf) | ECCV | - | - |
 | [TF-NAS: Rethinking Three Search Freedoms of Latency-Constrained Differentiable Neural Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600120.pdf) | ECCV | G | [GitHub](https://github.com/AberHu/TF-NAS) |
-| [Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600460.pdf) | ECCV | G | https://github.com/xiaomi-automl/FairDARTS |
+| [Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600460.pdf) | ECCV | G | [GitHub](https://github.com/xiaomi-automl/FairDARTS) |
 | [Off-Policy Reinforcement Learning for Efficient and Effective GAN Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520171.pdf) | ECCV | RL | - |
 | [DA-NAS: Data Adapted Pruning for Efficient Neural Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123720579.pdf) | ECCV | G | - |
 | [Optimizing Millions of Hyperparameters by Implicit Differentiation](https://arxiv.org/abs/1911.02590) | AISTATS | G | - |
