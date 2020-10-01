@@ -202,11 +202,13 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 ## Awesome Surveys
 
-|  Title  |   Venue  |   Year   |
-|:--------|:--------:|:--------:|
-| [Automated Machine Learning](https://link.springer.com/book/10.1007/978-3-030-05318-5) | Springer Book | 2019 |
-| [Neural architecture search: A survey](http://www.jmlr.org/papers/volume20/18-598/18-598.pdf) | JMLR | 2019 |
-| [Taking human out of learning applications: A survey on automated machine learning](https://arxiv.org/pdf/1810.13306.pdf) | arXiv | 2018 |
-| [AutoML: A Survey of the State-of-the-Art](https://arxiv.org/pdf/1908.00709.pdf) | arXiv | 2019 |
-| [A Survey on Neural Architecture Search](https://arxiv.org/pdf/1905.01392.pdf) | arXiv | 2019 |
-| [A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions](https://arxiv.org/pdf/2006.02903.pdf) | arXiv | 2020 |
+|  Title  |   Venue  |   Year   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| [Automated Machine Learning](https://link.springer.com/book/10.1007/978-3-030-05318-5) | Springer Book | 2019 | - |
+| [Neural architecture search: A survey](http://www.jmlr.org/papers/volume20/18-598/18-598.pdf) | JMLR | 2019 | - |
+| [Taking human out of learning applications: A survey on automated machine learning](https://arxiv.org/pdf/1810.13306.pdf) | arXiv | 2018 | - |
+| [AutoML: A Survey of the State-of-the-Art](https://arxiv.org/pdf/1908.00709.pdf) | arXiv | 2019 | - |
+| [A Survey on Neural Architecture Search](https://arxiv.org/pdf/1905.01392.pdf) | arXiv | 2019 | - |
+| [A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions](https://arxiv.org/pdf/2006.02903.pdf) | arXiv | 2020 | - |
+| [On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice](https://arxiv.org/pdf/2007.15745.pdf) | Neurocomputing | 2020 |[github](https://github.com/LiYangHart/Hyperparameter-Optimization-of-Machine-Learning-Algorithms) |
+
