@@ -25,6 +25,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 - [What’s the deal with Neural Architecture Search?](https://determined.ai/blog/neural-architecture-search/)
 - [Google Could AutoML](https://cloud.google.com/vision/automl/docs/beginners-guide) and [PocketFlow](https://pocketflow.github.io/)
 - [AutoML Challenge](http://automl.chalearn.org/) and [AutoDL Challenge](https://autodl.chalearn.org/)
+- [In Defense of Weight-sharing for Neural Architecture Search: an optimization perspective](https://determined.ai/blog/ws-optimization-for-nas/)
 
 ## Awesome AutoDL Libraies
 - [Keras Tuner](https://keras-team.github.io/keras-tuner/)
