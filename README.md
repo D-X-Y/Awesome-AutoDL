@@ -28,6 +28,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 - [In Defense of Weight-sharing for Neural Architecture Search: an optimization perspective](https://determined.ai/blog/ws-optimization-for-nas/)
 
 ## Awesome AutoDL Libraies
+- PyGlove
 - [Keras Tuner](https://keras-team.github.io/keras-tuner/)
 - [NNI](https://github.com/microsoft/nni)
 - [AutoGluon](https://autogluon.mxnet.io/)
@@ -47,6 +48,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [PyGlove: Symbolic Programming for Automated Machine Learning] | NeurIPS | lib | - |
 | [Are Labels Necessary for Neural Architecture Search?](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490766.pdf) | ECCV | G | - |
 | [Single Path One-Shot Neural Architecture Search with Uniform Sampling](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610528.pdf) | ECCV | EA | - |
 | [Neural Predictor for Neural Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123740647.pdf) | ECCV | O | - |
