@@ -34,6 +34,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 - [Auto-PyTorch](https://github.com/automl/Auto-PyTorch)
 - [AutoDL-Projects](https://github.com/D-X-Y/AutoDL-Projects)
 - [aw_nas](https://github.com/walkerning/aw_nas)
+- [Determined](https://github.com/determined-ai/determined)
 
 ## Deep Learning-based NAS and HPO
 
