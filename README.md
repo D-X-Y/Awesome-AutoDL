@@ -49,6 +49,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [PyGlove: Symbolic Programming for Automated Machine Learning] | NeurIPS | lib | - |
+| [Learning Search Space Partition for Black-box Optimization using Monte Carlo Tree Search](https://arxiv.org/pdf/2007.00708.pdf) | NeurIPS | MCTS | - |
+| [Neural Architecture Search using Deep Neural Networks and Monte Carlo Tree Search](https://arxiv.org/abs/1805.07440) | AAAI | MCTS | [GitHub](https://github.com/linnanwang/AlphaX-NASBench101) |
 | [Are Labels Necessary for Neural Architecture Search?](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490766.pdf) | ECCV | G | - |
 | [Single Path One-Shot Neural Architecture Search with Uniform Sampling](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610528.pdf) | ECCV | EA | - |
 | [Neural Predictor for Neural Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123740647.pdf) | ECCV | O | - |
