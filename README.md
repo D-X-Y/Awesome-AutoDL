@@ -48,7 +48,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [PyGlove: Symbolic Programming for Automated Machine Learning] | NeurIPS | lib | - |
+| PyGlove: Symbolic Programming for Automated Machine Learning | NeurIPS | library | - |
 | [Learning Search Space Partition for Black-box Optimization using Monte Carlo Tree Search](https://arxiv.org/pdf/2007.00708.pdf) | NeurIPS | MCTS | - |
 | [Neural Architecture Search using Deep Neural Networks and Monte Carlo Tree Search](https://arxiv.org/abs/1805.07440) | AAAI | MCTS | [GitHub](https://github.com/linnanwang/AlphaX-NASBench101) |
 | [Are Labels Necessary for Neural Architecture Search?](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490766.pdf) | ECCV | G | - |
@@ -69,7 +69,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [NADS: Neural Architecture Distribution Search for Uncertainty Awareness](https://arxiv.org/pdf/2006.06646.pdf) | ICML | - | - |
 | [Generative Teaching Networks: Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data](https://arxiv.org/abs/1912.07768) | ICML | - | - |
 | Neural Architecture Search in a Proxy Validation Loss Landscape | ICML | - | - |
-| [MiLeNAS: Efficient Neural Architecture Search via Mixed-Level Reformulation](https://arxiv.org/pdf/2003.12238.pdf) | CVPR | G | [GitHub](https://github.com/chaoyanghe/MiLeNAS) | 
+| [MiLeNAS: Efficient Neural Architecture Search via Mixed-Level Reformulation](https://arxiv.org/pdf/2003.12238.pdf) | CVPR | G | [GitHub](https://github.com/chaoyanghe/MiLeNAS) |
+| [A Semi-Supervised Assessor of Neural Architectures](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tang_A_Semi-Supervised_Assessor_of_Neural_Architectures_CVPR_2020_paper.pdf) | CVPR | PD | - |
 | [Binarizing MobileNet via Evolution-based Searching](https://arxiv.org/abs/2005.06305) | CVPR | EA | - |
 | [Rethinking Performance Estimation in Neural Architecture Search](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zheng_Rethinking_Performance_Estimation_in_Neural_Architecture_Search_CVPR_2020_paper.pdf) | CVPR | - | [GitHub](https://github.com/zhengxiawu/rethinking_performance_estimation_in_NAS) |
 | [APQ: Joint Search for Network Architecture, Pruning and Quantization Policy](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_APQ_Joint_Search_for_Network_Architecture_Pruning_and_Quantization_Policy_CVPR_2020_paper.pdf) | CVPR | G | [GitHub](https://github.com/mit-han-lab/apq) |
