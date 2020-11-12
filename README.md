@@ -28,7 +28,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 - [In Defense of Weight-sharing for Neural Architecture Search: an optimization perspective](https://determined.ai/blog/ws-optimization-for-nas/)
 
 ## Awesome AutoDL Libraies
-- PyGlove
+- [PyGlove](https://proceedings.neurips.cc/paper/2020/file/012a91467f210472fab4e11359bbfef6-Paper.pdf)
 - [Keras Tuner](https://keras-team.github.io/keras-tuner/)
 - [NNI](https://github.com/microsoft/nni)
 - [AutoGluon](https://autogluon.mxnet.io/)
@@ -48,7 +48,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| PyGlove: Symbolic Programming for Automated Machine Learning | NeurIPS | library | - |
+| [PyGlove: Symbolic Programming for Automated Machine Learning](https://proceedings.neurips.cc/paper/2020/file/012a91467f210472fab4e11359bbfef6-Paper.pdf) | NeurIPS | library | - |
 | [Learning Search Space Partition for Black-box Optimization using Monte Carlo Tree Search](https://arxiv.org/pdf/2007.00708.pdf) | NeurIPS | MCTS | [GitHub](https://github.com/facebookresearch/LaMCTS) |
 | [Neural Architecture Search using Deep Neural Networks and Monte Carlo Tree Search](https://arxiv.org/abs/1805.07440) | AAAI | MCTS | [GitHub](https://github.com/linnanwang/AlphaX-NASBench101) |
 | [Are Labels Necessary for Neural Architecture Search?](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490766.pdf) | ECCV | G | - |
