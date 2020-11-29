@@ -48,8 +48,11 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [Delta-STN: Efficient Bilevel Optimization for Neural Networks using Structured Response Jacobians](https://arxiv.org/pdf/2010.13514.pdf) | NeurIPS | G | [GitHub](https://github.com/pomonam/Self-Tuning-Networks) |
 | [PyGlove: Symbolic Programming for Automated Machine Learning](https://proceedings.neurips.cc/paper/2020/file/012a91467f210472fab4e11359bbfef6-Paper.pdf) | NeurIPS | library | - |
+| [RandAugment: Practical Automated Data Augmentation with a Reduced Search Space](https://arxiv.org/abs/1909.13719) | NeurIPS | | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet) |
+| [Delta-STN: Efficient Bilevel Optimization for Neural Networks using Structured Response Jacobians](https://arxiv.org/pdf/2010.13514.pdf) | NeurIPS | G | [GitHub](https://github.com/pomonam/Self-Tuning-Networks) |
+| [A Study on Encodings for Neural Architecture Search](https://arxiv.org/abs/2007.04965) | NeurIPS | | [GitHub](https://github.com/naszilla/naszilla) |
+
 | [Learning Search Space Partition for Black-box Optimization using Monte Carlo Tree Search](https://arxiv.org/pdf/2007.00708.pdf) | NeurIPS | MCTS | [GitHub](https://github.com/facebookresearch/LaMCTS) |
 | [Neural Architecture Search using Deep Neural Networks and Monte Carlo Tree Search](https://arxiv.org/abs/1805.07440) | AAAI | MCTS | [GitHub](https://github.com/linnanwang/AlphaX-NASBench101) |
 | [Are Labels Necessary for Neural Architecture Search?](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490766.pdf) | ECCV | G | - |
