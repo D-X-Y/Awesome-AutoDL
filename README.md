@@ -10,6 +10,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 - [Awesome AutoDL Libraies](#awesome-autodl-libraies)
 
+- [Awesome Benchmarks](#awesome-benchmarks)
+
 - [Deep Learning-based NAS and HPO](#deep-learning-based-nas-and-hpo)
   - [2020 Venues](#2020)
   - [2019 Venues](#2019)
@@ -36,6 +38,18 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 - [AutoDL-Projects](https://github.com/D-X-Y/AutoDL-Projects)
 - [aw_nas](https://github.com/walkerning/aw_nas)
 - [Determined](https://github.com/determined-ai/determined)
+
+## Awesome Benchmarks
+
+| Title | Venue | Code |
+|:--------|:--------:|:--------:|
+| [NAS-Bench-101: Towards Reproducible Neural Architecture Search](https://arxiv.org/pdf/1902.09635.pdf) | ICML 2019 | [GitHub](https://github.com/google-research/nasbench) |
+| [NAS-BENCH-201: Extending the Scope of Reproducible Neural Architecture Search](https://openreview.net/forum?id=HJxyZkBKDr) | ICLR 2020 | [Github](https://github.com/D-X-Y/NAS-Bench-201) |
+| [NAS-Bench-301 and the Case for Surrogate Benchmarks for Neural Architecture Search](https://arxiv.org/abs/2008.09777) | arXiv 2020 | [GitHub](https://github.com/automl/nasbench301) |
+| [NAS-Bench-1Shot1: Benchmarking and Dissecting One-shot Neural Architecture Search](https://arxiv.org/abs/2001.10422) | ICLR 2020 | [GitHub](https://github.com/automl/nasbench-1shot1) |
+| [NATS-Bench: Benchmarking NAS Algorithms for Architecture Topology and Size](https://arxiv.org/abs/2009.00437) | TPAMI 2021 | [GitHub](https://github.com/D-X-Y/NATS-Bench)
+| [NAS-Bench-ASR: Reproducible Neural Architecture Search for Speech Recognition](https://openreview.net/forum?id=CU0APx9LMaL) | ICLR 2021 | - |
+| [NAS-Bench-NLP: Neural Architecture Search Benchmark for Natural Language Processing](https://arxiv.org/pdf/2006.07116.pdf) | arXiv 2020 | [GitHub](https://github.com/fmsnew/nas-bench-nlp-release) |
 
 ## Deep Learning-based NAS and HPO
 
