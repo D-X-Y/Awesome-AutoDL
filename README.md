@@ -38,6 +38,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 - [AutoDL-Projects](https://github.com/D-X-Y/AutoDL-Projects)
 - [aw_nas](https://github.com/walkerning/aw_nas)
 - [Determined](https://github.com/determined-ai/determined)
+- [TPOT](https://github.com/EpistasisLab/tpot)
 
 ## Awesome Benchmarks
 
