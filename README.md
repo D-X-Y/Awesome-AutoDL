@@ -28,6 +28,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 - [Google Could AutoML](https://cloud.google.com/vision/automl/docs/beginners-guide) and [PocketFlow](https://pocketflow.github.io/)
 - [AutoML Challenge](http://automl.chalearn.org/) and [AutoDL Challenge](https://autodl.chalearn.org/)
 - [In Defense of Weight-sharing for Neural Architecture Search: an optimization perspective](https://determined.ai/blog/ws-optimization-for-nas/)
+- [OneShot-NAS-Example](https://github.com/eric8607242/OneShot-NAS-Example)
 
 ## Awesome AutoDL Libraies
 - [PyGlove](https://proceedings.neurips.cc/paper/2020/file/012a91467f210472fab4e11359bbfef6-Paper.pdf)
@@ -50,6 +51,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [NAS-Bench-1Shot1: Benchmarking and Dissecting One-shot Neural Architecture Search](https://arxiv.org/abs/2001.10422) | ICLR 2020 | [GitHub](https://github.com/automl/nasbench-1shot1) |
 | [NATS-Bench: Benchmarking NAS Algorithms for Architecture Topology and Size](https://arxiv.org/abs/2009.00437) | TPAMI 2021 | [GitHub](https://github.com/D-X-Y/NATS-Bench)
 | [NAS-Bench-ASR: Reproducible Neural Architecture Search for Speech Recognition](https://openreview.net/forum?id=CU0APx9LMaL) | ICLR 2021 | - |
+| [HW-NAS-Bench: Hardware-Aware Neural Architecture Search Benchmark](https://openreview.net/pdf?id=_0kaDkv3dVf) | ICLR 2021 |  |
 | [NAS-Bench-NLP: Neural Architecture Search Benchmark for Natural Language Processing](https://arxiv.org/pdf/2006.07116.pdf) | arXiv 2020 | [GitHub](https://github.com/fmsnew/nas-bench-nlp-release) |
 
 ## Deep Learning-based NAS and HPO
@@ -57,6 +59,14 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 |      Type   |        G       |                  RL    |            EA           |        PD              |    Other   |
 |:------------|:--------------:|:----------------------:|:-----------------------:|:----------------------:|:----------:|
 | Explanation | gradient-based | reinforcement learning | evolutionary algorithm | performance prediction | other types |
+
+### 2021
+
+
+|  Title  |   Venue  |   Type   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| [DARTS-: Robustly Stepping out of Performance Collapse Without Indicators](https://openreview.net/pdf?id=KLH36ELmwIB) | ICLR | G |  |
+| [Zero-Cost Proxies for Lightweight NAS](https://openreview.net/pdf?id=0cmMMy8J5q) | ICLR | O |  |
 
 ### 2020
 
