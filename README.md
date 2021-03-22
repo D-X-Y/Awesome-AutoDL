@@ -72,6 +72,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [Designing Network Design Spaces](https://arxiv.org/pdf/2003.13678.pdf) | CVPR | - | [GitHub](https://github.com/facebookresearch/pycls) |
 | [Cream of the Crop: Distilling Prioritized Paths For One-Shot Neural Architecture Search](https://papers.nips.cc/paper/2020/file/d072677d210ac4c03ba046120f0802ec-Paper.pdf) | NeurIPS | - | [GitHub](https://github.com/microsoft/Cream) |
 | [PyGlove: Symbolic Programming for Automated Machine Learning](https://proceedings.neurips.cc/paper/2020/file/012a91467f210472fab4e11359bbfef6-Paper.pdf) | NeurIPS | library | - |
 | [Does Unsupervised Architecture Representation Learning Help Neural Architecture Search](https://arxiv.org/abs/2006.06936) | NeurIPS | PD | [GitHub](https://github.com/MSU-MLSys-Lab/arch2vec) |
