@@ -66,7 +66,9 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 |:--------|:--------:|:--------:|:--------:|
 | [DARTS-: Robustly Stepping out of Performance Collapse Without Indicators](https://openreview.net/pdf?id=KLH36ELmwIB) | ICLR | G |  |
 | [Zero-Cost Proxies for Lightweight NAS](https://openreview.net/pdf?id=0cmMMy8J5q) | ICLR | O |  |
-| [Neural Architecture Search on ImageNet in Four GPU Hours: A Theoretically Inspired Perspective](https://openreview.net/forum?id=Cnon5ezMHtu) | ICLR | - | [GitHub](https://github.com/VITA-Group/TENAS) | 
+| [Neural Architecture Search on ImageNet in Four GPU Hours: A Theoretically Inspired Perspective](https://openreview.net/forum?id=Cnon5ezMHtu) | ICLR | - | [GitHub](https://github.com/VITA-Group/TENAS) |
+| [DrNAS: Dirichlet Neural Architecture Search](https://openreview.net/forum?id=9FWas6YbmB3) | ICLR | G | [GitHub](https://github.com/xiangning-chen/DrNAS) |
+| [Rethinking Architecture Selection in Differentiable NAS](https://openreview.net/forum?id=PKubaeJkw3) | ICLR | O |  |
 
 ### 2020
 
