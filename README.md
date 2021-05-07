@@ -69,6 +69,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [Neural Architecture Search on ImageNet in Four GPU Hours: A Theoretically Inspired Perspective](https://openreview.net/forum?id=Cnon5ezMHtu) | ICLR | - | [GitHub](https://github.com/VITA-Group/TENAS) |
 | [DrNAS: Dirichlet Neural Architecture Search](https://openreview.net/forum?id=9FWas6YbmB3) | ICLR | G | [GitHub](https://github.com/xiangning-chen/DrNAS) |
 | [Rethinking Architecture Selection in Differentiable NAS](https://openreview.net/forum?id=PKubaeJkw3) | ICLR | O |  |
+| [Evolving Reinforcement Learning Algorithms](https://openreview.net/forum?id=0XXpJ4OtjW) | ICLR | EA | |
 
 ### 2020
 
