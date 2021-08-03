@@ -64,6 +64,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [Searching by Generating: Flexible and Efficient One-Shot NAS with Architecture Generator](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_Searching_by_Generating_Flexible_and_Efficient_One-Shot_NAS_With_Architecture_CVPR_2021_paper.pdf) | CVPR | G | [Github](https://github.com/eric8607242/SGNAS) |
 | [AutoFormer: Searching Transformers for Visual Recognition](https://arxiv.org/pdf/2107.00651.pdf) |ICCV | EA | [GitHub](https://github.com/microsoft/AutoML) 
 | [LightTrack: Finding Lightweight Neural Networks for Object Tracking via One-Shot Architecture Search](https://arxiv.org/abs/2104.14545) | CVPR | EA | [GitHub](https://github.com/researchmm/LightTrack) |
 | [One-Shot Neural Ensemble Architecture Search by Diversity-Guided Search Space Shrinking](https://arxiv.org/abs/2104.00597) | CVPR | EA | [GitHub](https://github.com/researchmm/NEAS) |
