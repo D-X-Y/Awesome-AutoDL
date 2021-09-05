@@ -1,5 +1,0 @@
-application:
-  CLS: "classification"
-  DET: "object detection"
-  REG: "regression"
-  SEG: "segmentation"

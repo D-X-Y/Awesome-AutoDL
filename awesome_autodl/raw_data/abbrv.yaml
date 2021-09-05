@@ -1,0 +1,16 @@
+application:
+  CLS: "classification"
+  DET: "object detection"
+  REG: "regression"
+  SEG: "segmentation"
+venue:
+  ICANN: "International Conference on Artificial Neural Networks"
+  ICML: ""
+  NeurIPS: ""
+search_strategy:
+  RL: "Reinforcement Learning"
+  Evolution: "Evolutionary Algorithm"
+  Random: "Random search"
+  Differential: ""
+  BayesOpt: "Bayesian optimization"
+  Heuristic: ""

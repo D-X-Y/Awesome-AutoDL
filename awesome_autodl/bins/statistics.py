@@ -2,7 +2,8 @@
 # Copyright (c) Xuanyi Dong [GitHub D-X-Y], 2020.08 #
 #####################################################
 # python -m awesome_autodl.bins.statistics --topic "Automated Data Engineering" --root
-#
+# python -m awesome_autodl.bins.statistics --topic "Neural Architecture Search" --root
+# python -m awesome_autodl.bins.statistics --topic "NAS" --root
 import argparse
 from pathlib import Path
 from awesome_autodl.utils import load_yaml
@@ -18,6 +19,11 @@ name2file = {
     "Automated Deployment": "Automated_Deployment.yaml",
     "Automated Maintenance": "Automated_Maintenance.yaml",
 }
+
+# add abbreviation
+name2file['ADE'] = name2file['Automated Data Engineering']
+name2file['NAS'] = name2file['Neural Architecture Search']
+name2file['HPO'] = name2file['Hyperparameter Optimization']
 
 
 def main(root, topic):

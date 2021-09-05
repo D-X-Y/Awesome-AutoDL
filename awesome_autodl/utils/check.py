@@ -14,12 +14,15 @@ def check_paper_and_correct_format(paper):
         "eval_boost",
         "online_date",
         "venue",
-        "application",
+        # "application",
     )
     for key in necessary_keys:
         assert key in paper, f"Did not find {key} in {list(paper.keys())}"
         if key != "title" and isinstance(paper[key], str):
             paper[key] = ",".join(paper[key].split(", "))
+    search_strategies = ("RL", "Evolution", "Random", "Differential", "BayesOpt", "Heuristic")
+    assert paper["search_strategy"] in search_strategies, f"This paper {paper} has a different search strategy than {search_strategies}"
+
     return paper
 
 

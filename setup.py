@@ -17,6 +17,8 @@
 # TODO(xuanyidong): upload it to conda
 #
 import os
+import glob
+from pathlib import Path
 from setuptools import setup, find_packages
 from awesome_autodl import version
 
@@ -37,8 +39,19 @@ def read(fname="README.md"):
 # What packages are required for this module to be executed?
 REQUIRED = ["pyyaml>=5.0.0"]
 
-packages = find_packages(exclude=("tests", "checklist", "docs", "raw_data"))
-print("packages: {:}".format(packages))
+packages = find_packages(exclude=("tests", "checklist", "docs"))
+print(f"packages: {packages}")
+
+
+def find_yaml(xdir, cur_depth=1, max_depth=1):
+    xdirs = []
+    for xfile in Path(xdir).glob("*"):
+        if xfile.is_dir() and cur_depth < max_depth:
+            xdirs += find_yaml(xfile, cur_depth + 1, max_depth)
+        elif xfile.name.endswith(".yaml"):
+            xdirs.append(str(xfile))
+    return xdirs
+
 
 setup(
     name=NAME,
@@ -50,6 +63,10 @@ setup(
     keywords="NAS Dataset API DeepLearning",
     url="https://github.com/D-X-Y/Awesome-AutoDL",
     packages=packages,
+    data_files=[
+        (f"{NAME}/raw_data", find_yaml(f"{NAME}/raw_data")),
+        (f"{NAME}/raw_data/papers", find_yaml(f"{NAME}/raw_data/papers")),
+    ],
     install_requires=REQUIRED,
     python_requires=REQUIRES_PYTHON,
     long_description=read("README.md"),
