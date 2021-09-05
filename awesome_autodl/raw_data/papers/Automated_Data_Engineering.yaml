@@ -1,6 +1,6 @@
 - title: Gradient-based hyperparameter optimization through reversible learning
   search_space: training data
-  search_strategy: differentiable
+  search_strategy: Differential
   eval_boost: ''
   online_date: '2015.02'
   venue: ICML 2015

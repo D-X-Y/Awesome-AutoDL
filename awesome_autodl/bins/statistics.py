@@ -27,10 +27,7 @@ name2file['HPO'] = name2file['Hyperparameter Optimization']
 
 
 def main(root, topic):
-
     abbrv = load_yaml(root / "abbrv.yaml")
-
-    topic = "Automated Data Engineering"
     topic_path = root / "papers" / name2file[topic]
     assert topic_path.exists(), f"Did not find {topic_path}"
     data = load_yaml(topic_path)

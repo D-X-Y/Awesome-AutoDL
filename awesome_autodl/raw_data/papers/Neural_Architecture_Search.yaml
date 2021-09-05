@@ -7,7 +7,7 @@
   application:
     T-Maze: ''
 - title: An empirical exploration of recurrent network architectures
-  search_space: 'topology in LSTM,operation in LSTM'
+  search_space: topology in LSTM,operation in LSTM
   search_strategy: Evolution
   eval_boost: ''
   online_date: '2015.07'
@@ -15,33 +15,32 @@
   application:
     Music: ''
 - title: Neural architecture search with reinforcement learning
-  search_space: "filter size,topology"
-  search_strategy: "RL"
-  eval_boost: 'fewer epochs'
+  search_space: filter size,topology
+  search_strategy: RL
+  eval_boost: fewer epochs
   online_date: '2016.11'
   venue: ICLR 2017
 - title: Designing Neural Network Architectures using Reinforcement Learning
-  search_space: "MetaQNN space"
-  search_strategy: "RL"
-  eval_boost: 'fewer epochs'
+  search_space: MetaQNN space
+  search_strategy: RL
+  eval_boost: fewer epochs
   online_date: '2016.11'
   venue: ICLR 2017
 - title: Large-Scale Evolution of Image Classifiers
-  search_space: "unrestricted CNN space"
-  search_strategy: "Evolution"
-  eval_boost: 'fewer epochs, early stop'
+  search_space: unrestricted CNN space
+  search_strategy: Evolution
+  eval_boost: fewer epochs,early stop
   online_date: '2017.03'
-  venue: 'ICML 2017'
+  venue: ICML 2017
 - title: Learning transferable architectures for scalable image recognition
-  search_space: "NASNet space"
-  search_strategy: "RL"
-  eval_boost: 'fewer epochs, early stop'
+  search_space: NASNet space
+  search_strategy: RL
+  eval_boost: fewer epochs,early stop
   online_date: '2017.07'
-  venue: 'CVPR 2018'
-- title: "SMASH: one-shot model architecture search through hypernetworks"
-  search_space: "SMASH space"
-  search_strategy: "Random"
-  eval_boost: 'weight generation via HyperNet'
+  venue: CVPR 2018
+- title: 'SMASH: one-shot model architecture search through hypernetworks'
+  search_space: SMASH space
+  search_strategy: Random
+  eval_boost: weight generation via HyperNet
   online_date: '2017.08'
-  venue: 'ICML 2018'
-- title: ""
+  venue: ICML 2018
