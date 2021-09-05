@@ -1,0 +1,112 @@
+- title: Gradient-based hyperparameter optimization through reversible learning
+  search_space: training data
+  search_strategy: differentiable
+  eval_boost: ''
+  online_date: '2015.02'
+  venue: ICML 2015
+  application:
+    CLS: MNIST
+- title: Learning active learning from data
+  search_space: data selector
+  search_strategy: Heuristic
+  eval_boost: ''
+  online_date: '2017.03'
+  venue: NeurIPS 2017
+  application:
+    CLS: Credit card,Splice
+    REG: <synthetic>
+    SEG: MRI
+- title: Learning to reweight examples for robust deep learning
+  search_space: data selector
+  search_strategy: Differential
+  eval_boost: weight sharing,online approximation
+  online_date: '2018.03'
+  venue: ICML 2018
+  application:
+    CLS: MNIST,CIFAR
+- title: Learning to teach
+  search_space: data selector
+  search_strategy: RL
+  eval_boost: weight sharing
+  online_date: '2018.05'
+  venue: ICLR 2015
+  application:
+    CLS: MNIST,CIFAR,IMDB
+- title: 'AutoAugment: Learning augmentation strategies from data'
+  search_space: data augmentation
+  search_strategy: RL
+  eval_boost: smaller model,reduced dataset
+  online_date: '2018.05'
+  venue: CVPR 2019
+  application:
+    CLS: CIFAR,SVHN,Oxford 102 Flower,Caltech-101,Oxford-Pet,FGVC,Stanford Cars,ImageNet
+- title: 'Meta-weight-net: Learning an explicit mapping for sample weighting'
+  search_space: data selector
+  search_strategy: Differential
+  eval_boost: ''
+  online_date: '2019.02'
+  venue: NeurIPS 2019
+  application:
+    CLS: CIFAR,Clothing1M
+- title: Fast autoaugment
+  search_space: data augmentation
+  search_strategy: BayesOpt
+  eval_boost: weight sharing
+  online_date: '2019.05'
+  venue: NeurIPS 2019
+  application:
+    CLS: CIFAR,SVHN,ImageNet
+- title: Learning data augmentation strategies for object detection
+  search_space: data augmentation
+  search_strategy: RL
+  eval_boost: reduced dataset
+  online_date: '2019.06'
+  venue: ECCV 2020
+  application:
+    DET: VOC,COCO
+- title: Teacher Supervises Students How to Learn from Partially Labeled Images for
+    Facial Landmark Detection
+  search_space: data selector
+  search_strategy: Heuristic
+  eval_boost: ''
+  online_date: '2019.08'
+  venue: ICCV 2019
+  application:
+    KeypointDET: AFLW,300W
+- title: Automatically Learning Data Augmentation Policies for Dialogue Tasks
+  search_space: data augmentation
+  search_strategy: RL
+  eval_boost: fewer epochs
+  online_date: '2019.09'
+  venue: EMNLP 2019
+  application:
+    DialogueTask: Ubuntu Dialogue Corpus
+- title: 'RandAugment: Practical automated data augmentation with a reduced search
+    space'
+  search_space: data augmentation
+  search_strategy: Random
+  eval_boost: smaller model
+  online_date: '2019.09'
+  venue: CVPR-W 2020
+  application:
+    CLS: CIFAR,SVHN,ImageNet
+    DET: COCO
+- title: 'Generative teaching networks: Accelerating neural architecture search by
+    learning to generate synthetic training data'
+  search_space: training data
+  search_strategy: Differential
+  eval_boost: ''
+  online_date: '2019.12'
+  venue: ICML 2020
+  application:
+    CLS: MNIST,CIFAR
+    RL: CartPole
+- title: 'DADA: Differentiable Automatic Data Augmentation'
+  search_space: data augmentation
+  search_strategy: Differential
+  eval_boost: ''
+  online_date: '2020.03'
+  venue: ECCV 2020
+  application:
+    CLS: SVHN,CIFAR,ImageNet
+    DET: COCO

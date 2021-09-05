@@ -1,0 +1,42 @@
+name: Test Super Model
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-16.04, ubuntu-18.04, ubuntu-20.04, macos-latest]
+        python-version: [3.6, 3.7, 3.8, 3.9]
+
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install XAutoDL from source
+        run: |
+          python setup.py install
+
+      - name: Test Super Model
+        run: |
+          python -m pip install pytest
+          python -m pip install parameterized
+          python -m pip install torch torchvision
+          python -m pytest ./tests/test_super_*.py
+        shell: bash
+
+      - name: Test TAS (NeurIPS 2019)
+        run: |
+          python -m pytest ./tests/test_tas.py
+        shell: bash
