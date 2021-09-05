@@ -64,6 +64,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [Searching by Generating: Flexible and Efficient One-Shot NAS with Architecture Generator](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_Searching_by_Generating_Flexible_and_Efficient_One-Shot_NAS_With_Architecture_CVPR_2021_paper.pdf) | CVPR | G | [Github](https://github.com/eric8607242/SGNAS) |
+| [AutoFormer: Searching Transformers for Visual Recognition](https://arxiv.org/pdf/2107.00651.pdf) |ICCV | EA | [GitHub](https://github.com/microsoft/AutoML) 
 | [LightTrack: Finding Lightweight Neural Networks for Object Tracking via One-Shot Architecture Search](https://arxiv.org/abs/2104.14545) | CVPR | EA | [GitHub](https://github.com/researchmm/LightTrack) |
 | [One-Shot Neural Ensemble Architecture Search by Diversity-Guided Search Space Shrinking](https://arxiv.org/abs/2104.00597) | CVPR | EA | [GitHub](https://github.com/researchmm/NEAS) |
 | [DARTS-: Robustly Stepping out of Performance Collapse Without Indicators](https://openreview.net/pdf?id=KLH36ELmwIB) | ICLR | G |  |
@@ -259,6 +261,6 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [Taking human out of learning applications: A survey on automated machine learning](https://arxiv.org/pdf/1810.13306.pdf) | arXiv | 2018 | - |
 | [AutoML: A Survey of the State-of-the-Art](https://arxiv.org/pdf/1908.00709.pdf) | arXiv | 2019 | - |
 | [A Survey on Neural Architecture Search](https://arxiv.org/pdf/1905.01392.pdf) | arXiv | 2019 | - |
-| [A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions](https://arxiv.org/pdf/2006.02903.pdf) | arXiv | 2020 | - |
+| [A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions](https://arxiv.org/pdf/2006.02903.pdf) | ACM Computing Surveys | 2021 | - |
 | [On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice](https://arxiv.org/pdf/2007.15745.pdf) | Neurocomputing | 2020 |[github](https://github.com/LiYangHart/Hyperparameter-Optimization-of-Machine-Learning-Algorithms) |
 
