@@ -1,6 +1,51 @@
-- title:
-  search_space:
-  search_strategy:
-  eval_boost:
-  online_date:
-  venue:
+- title: Device placement optimization with reinforcement learning
+  search_space: device placement
+  search_strategy: RL
+  eval_boost: ''
+  online_date: '2017.06'
+  venue: ICML 2017
+- title: A case for efficient accelerator design space exploration via bayesian optimization
+  search_space: CMOS-based space + Arch. + HP
+  search_strategy: BayesOpt
+  eval_boost: ''
+  online_date: '2017.07'
+  venue: ISLPED 2017
+- title: Practical design space exploration
+  search_space: FPGA space + Arch. + HP
+  search_strategy: BayesOpt
+  eval_boost: ''
+  online_date: '2018.10'
+  venue: MASCOTS 2019
+- title: 'PABO: Pseudo agent-based multi-objective bayesian hyperparameter optimization
+    for efficient neural accelerator design'
+  search_space: PUMA space + Arch. + HP
+  search_strategy: BayesOpt
+  eval_boost: ''
+  online_date: '2019.06'
+  venue: ICCAD 2019
+- title: 'DANCE: Differentiable Accelerator/Network Co-Exploration'
+  search_space: Eyeriss space + MBConv-based space
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2019.06'
+  venue: ACM/ESDA/IEEE Design Automation Conference 2019
+- title: Hardware/software co-exploration of neural architectures
+  search_space: FPGA space + MBConv-based space
+  search_strategy: RL
+  eval_boost: ''
+  online_date: '2019.07'
+  venue: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+    2020
+- title: Co-exploration of neural architectures and heterogeneous asic accelerator
+    designs targeting multiple tasks
+  search_space: 'ASIC space + Arch. '
+  search_strategy: RL
+  eval_boost: ''
+  online_date: '2020.02'
+  venue: ACM/ESDA/IEEE Design Automation Conference 2020
+- title: Rethinking Co-design of Neural Architectures and Hardware Accelerators
+  search_space: 'edge accelerator space + MBConv-based space '
+  search_strategy: RL
+  eval_boost: 'weight sharing,neural predictor '
+  online_date: '2021.02'
+  venue: ''

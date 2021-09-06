@@ -17,7 +17,9 @@ def check_paper_and_correct_format(paper):
         # "application",
     )
     for key in necessary_keys:
-        assert key in paper, f"Did not find {key} in {list(paper.keys())}"
+        assert (
+            key in paper
+        ), f"Did not find {key} in {paper['title']} {list(paper.keys())}"
         if key != "title" and isinstance(paper[key], str):
             paper[key] = ",".join(paper[key].split(", "))
     search_strategies = (

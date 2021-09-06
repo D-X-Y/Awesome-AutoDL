@@ -1,9 +1,12 @@
 #####################################################
 # Copyright (c) Xuanyi Dong [GitHub D-X-Y], 2020.08 #
-#####################################################
-# python -m awesome_autodl.bins.statistics --topic "Automated Data Engineering" --root
-# python -m awesome_autodl.bins.statistics --topic "Neural Architecture Search" --root
-# python -m awesome_autodl.bins.statistics --topic "NAS" --root
+########################################################################################
+# python -m awesome_autodl.bins.statistics --topic "ADE" --root awesome_autodl/raw_data
+# python -m awesome_autodl.bins.statistics --topic "NAS" --root awesome_autodl/raw_data
+# python -m awesome_autodl.bins.statistics --topic "HPO" --root awesome_autodl/raw_data
+# python -m awesome_autodl.bins.statistics --topic "AD"  --root awesome_autodl/raw_data
+# python -m awesome_autodl.bins.statistics --topic "AM"  --root awesome_autodl/raw_data
+########################################################################################
 import argparse
 from pathlib import Path
 from awesome_autodl.utils import load_yaml
@@ -25,12 +28,14 @@ name2file["ADE"] = name2file["Automated Data Engineering"]
 name2file["NAS"] = name2file["Neural Architecture Search"]
 name2file["HPO"] = name2file["Hyperparameter Optimization"]
 name2file["AD"] = name2file["Automated Deployment"]
+name2file["AM"] = name2file["Automated Maintenance"]
 
 
 def main(root, topic):
     abbrv = load_yaml(root / "abbrv.yaml")
     topic_path = root / "papers" / name2file[topic]
     assert topic_path.exists(), f"Did not find {topic_path}"
+    print(f"Process {topic_path}")
     data = load_yaml(topic_path)
     data = check_and_sort_by_date(data)
     print(f"Find {len(data)} papers for {topic}")

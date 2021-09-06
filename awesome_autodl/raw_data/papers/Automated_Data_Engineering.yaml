@@ -16,6 +16,14 @@
     CLS: Credit card,Splice
     REG: <synthetic>
     SEG: MRI
+- title: Learning to Compose Domain-Specific Transformations for Data Augmentation
+  search_space: data augmentation
+  search_strategy: RL
+  eval_boost: ''
+  online_date: '2017.09'
+  venue: NeurIPS 2017
+  application:
+    CLS: <synthetic>,MNIST,CIFAR,DDSM,ACE
 - title: Learning to reweight examples for robust deep learning
   search_space: data selector
   search_strategy: Differential

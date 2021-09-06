@@ -1,0 +1,6 @@
+- title: Speeding up Automatic Hyperparameter Optimization of Deep Neural Networksby Extrapolation of Learning Curves
+  search_space: 'size search space, HPs, learning rate, weight decay, batch size, dropout, initializer'
+  search_strategy: 'BayesOpt'
+  eval_boost: 'neural predictor'
+  online_date: '2015.07'
+  venue: IJCAI 2015

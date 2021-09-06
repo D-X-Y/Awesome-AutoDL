@@ -6,6 +6,13 @@
   venue: ICANN 2009
   application:
     T-Maze: ''
+- title: Speeding up Automatic Hyperparameter Optimization of Deep Neural Networksby
+    Extrapolation of Learning Curves
+  search_space: size search space,HPs,learning rate,weight decay,batch size,dropout,initializer
+  search_strategy: BayesOpt
+  eval_boost: neural predictor
+  online_date: '2015.07'
+  venue: IJCAI 2015
 - title: An empirical exploration of recurrent network architectures
   search_space: topology in LSTM,operation in LSTM
   search_strategy: Evolution
@@ -32,6 +39,12 @@
   eval_boost: fewer epochs,early stop
   online_date: '2017.03'
   venue: ICML 2017
+- title: Accelerating Neural Architecture Search using Performance Prediction
+  search_space: size search space + operation
+  search_strategy: BayesOpt
+  eval_boost: neural predictor
+  online_date: '2017.05'
+  venue: ICLR-W 2018
 - title: Learning transferable architectures for scalable image recognition
   search_space: NASNet space
   search_strategy: RL
@@ -56,6 +69,12 @@
   eval_boost: smaller model
   online_date: '2017.10'
   venue: ''
+- title: Progressive Neural Architecture Search
+  search_space: reduced NASNet space
+  search_strategy: Evolution
+  eval_boost: progressive
+  online_date: '2017.12'
+  venue: ECCV 2018
 - title: Regularized evolution for image classifier architecture search
   search_space: NASNet
   search_strategy: Evolution
@@ -97,6 +116,12 @@
   search_strategy: Differential
   eval_boost: weight sharing,neural predictor
   online_date: '2018.07'
+  venue: NeurIPS 2018
+- title: Searching for efficient multi-scale architectures for dense image prediction
+  search_space: topology + operation
+  search_strategy: BayesOpt
+  eval_boost: ''
+  online_date: '2018.09'
   venue: NeurIPS 2018
 - title: Graph hypernetworks for neural architecture search
   search_space: reduced NASNet space
@@ -205,6 +230,12 @@
   eval_boost: predictor
   online_date: '2020.06'
   venue: CVPR 2021
+- title: 'AutoHAS: Efficient Hyperparameter and Architecture Search'
+  search_space: MBConv-based space,HPs
+  search_strategy: RL,Differential
+  eval_boost: weight sharing
+  online_date: '2020.06'
+  venue: ICLR-W 2021
 - title: 'Auto-Navigator: Decoupled Neural Architecture Search for Visual Navigation'
   search_space: reduced NASNet space
   search_strategy: Differential
