@@ -48,6 +48,15 @@
   eval_boost: ''
   online_date: '2018.07'
   venue: ICML 2018
+- title: 'Self-Tuning Networks: Bilevel Optimization of Hyperparameters using Structured
+    Best-Response Functions'
+  search_space: dropout,DropConnect,regularization
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2019.03'
+  venue: NeurIPS 2019
+  misc:
+    link: https://arxiv.org/pdf/1903.03088.pdf
 - title: Optimizing millions of hyperparameters by implicit differentiation
   search_space: millions of differentiable HPs
   search_strategy: Differential

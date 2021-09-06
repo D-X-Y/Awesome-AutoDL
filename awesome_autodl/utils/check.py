@@ -35,6 +35,7 @@ def check_paper_and_correct_format(paper):
         assert (
             search_strategy in search_strategies
         ), f"This paper {paper} has a different search strategy than {search_strategies}"
+    assert len(paper["online_date"]), "This paper has empty online_date"
     return paper
 
 

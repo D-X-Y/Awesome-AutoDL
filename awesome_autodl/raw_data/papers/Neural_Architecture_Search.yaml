@@ -1,9 +1,3 @@
-- title: 'NetAdapt: Platform-Aware Neural Network Adaptation for Mobile Applications'
-  search_space: MBConv-based space
-  search_strategy: Evolution
-  eval_boost: weight inheritance
-  online_date: ''
-  venue: ECCV 2018
 - title: Evolving memory cell structures for sequence learning
   search_space: topology in LSTM
   search_strategy: Evolution
@@ -118,6 +112,12 @@
   eval_boost: weight sharing
   online_date: '2018.02'
   venue: ICML 2018
+- title: 'NetAdapt: Platform-Aware Neural Network Adaptation for Mobile Applications'
+  search_space: MBConv-based space
+  search_strategy: Evolution
+  eval_boost: weight inheritance
+  online_date: '2018.04'
+  venue: ECCV 2018
 - title: 'Efficient Multi-Objective Neural Architecture Search via Lamarckian Evolution '
   search_space: topology + operation
   search_strategy: Evolution
@@ -267,6 +267,19 @@
   eval_boost: ''
   online_date: '2019.04'
   venue: ICCV 2019
+- title: 'Progressive Differentiable Architecture Search: Bridging the Depth Gap Between
+    Search and Evaluation'
+  search_space: reduced NASNet space
+  search_strategy: Differential
+  eval_boost: weight sharing,progressive
+  online_date: '2019.04'
+  venue: ICCV 2019
+- title: 'AssembleNet: Searching for Multi-Stream Neural Connectivity in Video Architectures'
+  search_space: connectivity
+  search_strategy: Evolution
+  eval_boost: ''
+  online_date: '2019.05'
+  venue: ICLR 2020
 - title: Searching for MobileNetV3
   search_space: MBConv-based space
   search_strategy: Evolution
@@ -309,6 +322,12 @@
   eval_boost: ''
   online_date: '2019.05'
   venue: ICCV 2019
+- title: Multinomial Distribution Learning for Effective Neural Architecture Search
+  search_space: reduced NASNet space
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2019.05'
+  venue: ICCV 2019
 - title: Searching for A Robust Neural Architecture in Four GPU Hours
   search_space: reduced NASNet space
   search_strategy: Differential
@@ -335,6 +354,12 @@
   eval_boost: ''
   online_date: '2019.06'
   venue: NeurIPS 2019
+- title: Continual and Multi-Task Architecture Search
+  search_space: modified NASNet space
+  search_strategy: RL
+  eval_boost: weight sharing
+  online_date: '2019.06'
+  venue: ACL 2019
 - title: 'PC-DARTS: Partial channel connections for memory-efficient architecture
     search'
   search_space: reduced NASNet space
@@ -384,6 +409,20 @@
   eval_boost: ''
   online_date: '2019.11'
   venue: EMNLP 2019
+- title: 'FasterSeg: Searching for Faster Real-time Semantic Segmentation'
+  search_space: modified NASNet space + connectivity
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2019.12'
+  venue: ICLR 2020
+  application:
+    SEG: Cityscapes,CamVid,BDD
+- title: 'DATA: Differentiable ArchiTecture Approximation'
+  search_space: reduced NASNet space
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2019.12'
+  venue: NeurIPS 2019
 - title: 'SpineNet: Learning scale-permuted backbone for recognition and localization'
   search_space: scale-permuted space
   search_strategy: RL
