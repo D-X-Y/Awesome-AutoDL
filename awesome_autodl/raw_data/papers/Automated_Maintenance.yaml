@@ -1,66 +1,68 @@
 - title: 'Adapting bias by gradient descent: An incremental version of delta-bar-delta'
-  search_space: 'learning rate'
-  search_strategy: 'Differential'
+  search_space: learning rate
+  search_strategy: Differential
   eval_boost: ''
   online_date: '1992.07'
-  venue: 'AAAI 1992'
-- title: 'Learning to learn using gradient descent'
-  search_space: 'learning algorithm'
-  search_strategy: 'Differential'
+  venue: AAAI 1992
+- title: Learning to learn using gradient descent
+  search_space: learning algorithm
+  search_strategy: Differential
   eval_boost: ''
   online_date: '2001.09'
-  venue: 'International Conference on Artificial Neural Networks 2001'
-- title: 'A Greedy Approach to Adapting the Trace Parameter for Temporal Difference Learning'
-  search_space: 'trace hyperparameter'
-  search_strategy: 'Differential'
+  venue: International Conference on Artificial Neural Networks 2001
+- title: A Greedy Approach to Adapting the Trace Parameter for Temporal Difference
+    Learning
+  search_space: trace hyperparameter
+  search_strategy: Differential
   eval_boost: ''
   online_date: '2016.07'
-  venue: 'Proceedings of the International Conference on Autonomous Agents & Multiagent Systems 2016'
-- title: 'Learning to reinforcement learn'
-  search_space: 'RL algorithm'
-  search_strategy: 'RL'
+  venue: Proceedings of the International Conference on Autonomous Agents & Multiagent
+    Systems 2016
+- title: Learning to reinforcement learn
+  search_space: RL algorithm
+  search_strategy: RL
   eval_boost: ''
   online_date: '2016.11'
-  venue: 'CogSci 2017'
-- title: 'Model-agnostic meta-learning for fast adaptation of deep networks'
-  search_space: 'initialization'
-  search_strategy: 'Differential'
+  venue: CogSci 2017
+- title: Model-agnostic meta-learning for fast adaptation of deep networks
+  search_space: initialization
+  search_strategy: Differential
   eval_boost: ''
   online_date: '2017.03'
-  venue: 'ICML 2017'
-- title: 'Population based training of neural networks'
-  search_space: 'HPs'
-  search_strategy: 'Evolution'
+  venue: ICML 2017
+- title: Population based training of neural networks
+  search_space: HPs
+  search_strategy: Evolution
   eval_boost: ''
   online_date: '2017.11'
   venue: ''
-- title: 'Meta-gradient reinforcement learning'
-  search_space: 'HPs in return function'
-  search_strategy: 'Differential'
+- title: Meta-gradient reinforcement learning
+  search_space: HPs in return function
+  search_strategy: Differential
   eval_boost: ''
   online_date: '2018.05'
-  venue: 'NeurIPS 2018'
-- title: 'Discovery of useful questions as auxiliary tasks'
-  search_space: 'auxiliary task as questions'
-  search_strategy: 'Differential'
+  venue: NeurIPS 2018
+- title: Sequential scenario-specific meta learner for online recommendation
+  search_space: initialization + LR/Decay + stop & REINFORCE
+  search_strategy: RL
+  eval_boost: limit maximum steps
+  online_date: '2019.06'
+  venue: KDD 2019
+- title: Discovery of useful questions as auxiliary tasks
+  search_space: auxiliary task as questions
+  search_strategy: Differential
   eval_boost: ''
   online_date: '2019.09'
-  venue: 'NeurIPS 2019'
-- title: 'Sequential scenario-specific meta learner for online recommendation'
-  search_space: 'initialization + LR/Decay + stop & REINFORCE'
-  search_strategy: 'RL'
-  eval_boost: 'limit maximum steps'
-  online_date: '2019.06'
-  venue: 'KDD 2019'
-- title: 'Improving generalization in meta reinforcement learning using learned objectives'
-  search_space: 'RL loss scalar'
-  search_strategy: 'Differential'
+  venue: NeurIPS 2019
+- title: Improving generalization in meta reinforcement learning using learned objectives
+  search_space: RL loss scalar
+  search_strategy: Differential
   eval_boost: ''
   online_date: '2019.10'
-  venue: 'ICLR 2020'
-- title: 'Meta-gradient reinforcement learning with an objective discovered online'
-  search_space: 'RL target scalar'
-  search_strategy: 'Differential'
+  venue: ICLR 2020
+- title: Meta-gradient reinforcement learning with an objective discovered online
+  search_space: RL target scalar
+  search_strategy: Differential
   eval_boost: ''
   online_date: '2020.07'
-  venue: 'NeurIPS 2020'
+  venue: NeurIPS 2020

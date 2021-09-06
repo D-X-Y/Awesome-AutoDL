@@ -1,6 +1,68 @@
-- title: Speeding up Automatic Hyperparameter Optimization of Deep Neural Networksby Extrapolation of Learning Curves
-  search_space: 'size search space, HPs, learning rate, weight decay, batch size, dropout, initializer'
-  search_strategy: 'BayesOpt'
-  eval_boost: 'neural predictor'
+- title: Gradient-based optimization of hyperparameters
+  search_space: a few differentiable HPs
+  search_strategy: Differential
+  eval_boost: ''
+  online_date: '1999.09'
+  venue: Neural Computation 2000
+- title: Practical Bayesian optimization of machine learning algorithms
+  search_space: a few HPs
+  search_strategy: BayesOpt
+  eval_boost: ''
+  online_date: '2012.06'
+  venue: NeurIPS 2012
+- title: Gradient-based hyperparameter optimization through reversible learning
+  search_space: hundreds of differentiable HPs
+  search_strategy: Differential
+  eval_boost: ''
+  online_date: '2015.02'
+  venue: ICML 2015
+- title: Speeding up Automatic Hyperparameter Optimization of Deep Neural Networksby
+    Extrapolation of Learning Curves
+  search_space: size search space,HPs,learning rate,weight decay,batch size,dropout,initializer
+  search_strategy: BayesOpt
+  eval_boost: neural predictor
   online_date: '2015.07'
   venue: IJCAI 2015
+- title: 'Hyperband: A novel bandit-based approach to hyperparameter optimization'
+  search_space: hundreds of HPs
+  search_strategy: Random
+  eval_boost: ''
+  online_date: '2016.03'
+  venue: JMLR 2017
+  misc: Bandit-based random search
+- title: CMA-ES for hyperparameter optimization of deep neural networks
+  search_space: tens of of HPs
+  search_strategy: Evolution
+  eval_boost: ''
+  online_date: '2016.04'
+  venue: ICLR-W 2016
+- title: Evolved policy gradients
+  search_space: RL loss
+  search_strategy: Evolution
+  eval_boost: ''
+  online_date: '2018.02'
+  venue: NeurIPS 2018
+- title: 'BOHB: Robust and efficient hyperparameter optimization at scale'
+  search_space: tens of of HPs
+  search_strategy: BayesOpt
+  eval_boost: ''
+  online_date: '2018.07'
+  venue: ICML 2018
+- title: Optimizing millions of hyperparameters by implicit differentiation
+  search_space: millions of differentiable HPs
+  search_strategy: Differential
+  eval_boost: ''
+  online_date: '2019.11'
+  venue: International Conference on Artificial Intelligence and Statistics 2020
+- title: 'AutoHAS: Efficient Hyperparameter and Architecture Search'
+  search_space: MBConv-based space,HPs
+  search_strategy: RL
+  eval_boost: weight sharing
+  online_date: '2020.06'
+  venue: ICLR-W 2021
+- title: Meta-Learning with Adaptive Hyperparameters
+  search_space: LR + weight decay (Decay)
+  search_strategy: Differential
+  eval_boost: ''
+  online_date: '2020.10'
+  venue: NeurIPS 2020
