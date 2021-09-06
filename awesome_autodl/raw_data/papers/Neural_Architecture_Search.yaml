@@ -44,3 +44,170 @@
   eval_boost: weight generation via HyperNet
   online_date: '2017.08'
   venue: ICML 2018
+- title: Practical block-wise neural network architecture generation
+  search_space: BlockQNN space
+  search_strategy: RL
+  eval_boost: early stop
+  online_date: '2017.08'
+  venue: CVPR 2018
+- title: Searching for activation functions
+  search_space: activation functions
+  search_strategy: Evolution
+  eval_boost: smaller model
+  online_date: '2017.10'
+  venue: ''
+- title: Regularized evolution for image classifier architecture search
+  search_space: NASNet
+  search_strategy: Evolution
+  eval_boost: ''
+  online_date: '2018.02'
+  venue: AAAI 2019
+- title: Efficient Neural Architecture Search via Parameters Sharing
+  search_space: reduced NASNet space
+  search_strategy: RL
+  eval_boost: weight sharing
+  online_date: '2018.02'
+  venue: ICML 2018
+- title: '{DARTS}: Differentiable Architecture Search'
+  search_space: reduced NASNet space
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2018.06'
+  venue: ICLR 2019
+- title: Path-level network transformation for efficient architecture search
+  search_space: tree-based space
+  search_strategy: RL
+  eval_boost: Net2Net
+  online_date: '2018.06'
+  venue: ICML 2018
+- title: '{MnasNet}: Platform-aware neural architecture search for mobile'
+  search_space: MBConv-based space
+  search_strategy: RL
+  eval_boost: fewer epochs
+  online_date: '2018.07'
+  venue: CVPR 2019
+- title: Understanding and simplifying one-shot architecture search
+  search_space: reduced NASNet space
+  search_strategy: Random
+  eval_boost: weight sharing
+  online_date: '2018.07'
+  venue: ICML 2018
+- title: Neural architecture optimization
+  search_space: reduced NASNet space
+  search_strategy: Differential
+  eval_boost: weight sharing,neural predictor
+  online_date: '2018.07'
+  venue: NeurIPS 2018
+- title: Graph hypernetworks for neural architecture search
+  search_space: reduced NASNet space
+  search_strategy: Random
+  eval_boost: weight generation via HyperNet
+  online_date: '2018.10'
+  venue: ICLR 2019
+- title: '{ProxylessNAS}: Direct neural architecture search on target task and hardware'
+  search_space: MBConv-based space
+  search_strategy: RL,Differential
+  eval_boost: weight sharing
+  online_date: '2018.12'
+  venue: ICLR 2019
+- title: '{Auto-DeepLab}: Hierarchical neural architecture search for semantic image
+    segmentation'
+  search_space: reduced NASNet space + connectivity
+  search_strategy: Differential
+  eval_boost: weight sharing,smaller model
+  online_date: '2019.01'
+  venue: CVPR 2019
+  application:
+    SEG: Cityscapes,VOC,ADE20K
+- title: Random search and reproducibility for neural architecture search
+  search_space: reduced NASNet space
+  search_strategy: Random
+  eval_boost: weight sharing,smaller model
+  online_date: '2019.02'
+  venue: UAI 2020
+- title: '{DetNAS}: Backbone Search for Object Detection'
+  search_space: ShuffleNetv2-based backbone
+  search_strategy: Evolution
+  eval_boost: ''
+  online_date: '2019.03'
+  venue: NeurIPS 2019
+- title: 'Auto-ReID: Searching for a Part-Aware ConvNet for Person Re-Identification'
+  search_space: reduced NASNet space + attention
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2019.03'
+  venue: ICCV 2019
+- title: Exploring randomly wired neural networks for image recognition
+  search_space: architecture generator space
+  search_strategy: Manual
+  eval_boost: fewer epochs
+  online_date: '2019.04'
+  venue: ICCV 2019
+- title: '{NAS-FPN}: Learning scalable feature pyramid architecture for object detection'
+  search_space: FPN space
+  search_strategy: RL
+  eval_boost: ''
+  online_date: '2019.04'
+  venue: CVPR 2019
+- title: Network Pruning via Transformable Architecture Search
+  search_space: size search space
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2019.05'
+  venue: NeurIPS 2019
+- title: Searching for A Robust Neural Architecture in Four GPU Hours
+  search_space: reduced NASNet space
+  search_strategy: Differential
+  eval_boost: weight sharing,Gumbel-softmax
+  online_date: '2019.06'
+  venue: CVPR 2019
+- title: Densely connected search space for more flexible neural architecture search
+  search_space: connectivity
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2019.06'
+  venue: CVPR 2020
+- title: '{PC-DARTS}: Partial channel connections for memory-efficient architecture
+    search'
+  search_space: reduced NASNet space
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2019.07'
+  venue: ICLR 2020
+- title: '{SpineNet}: Learning scale-permuted backbone for recognition and localization'
+  search_space: scale-permuted space
+  search_strategy: RL
+  eval_boost: smaller model
+  online_date: '2019.12'
+  venue: CVPR 2020
+- title: Neural Architecture Generator Optimization
+  search_space: architecture generator space
+  search_strategy: BayesOpt
+  eval_boost: ''
+  online_date: '2020.04'
+  venue: NeurIPS 2020
+- title: Evolving normalization-activation layers
+  search_space: normalization + activation functions
+  search_strategy: Evolution
+  eval_boost: ''
+  online_date: '2020.04'
+  venue: NeurIPS 2020
+- title: '{FBNetV2}: Differentiable neural architecture search for spatial and channel
+    dimensions'
+  search_space: MBConv-based space,size search space
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2020.04'
+  venue: CVPR 2020
+- title: '{FBNetV3}: Joint architecture-recipe search using neural acquisition function'
+  search_space: MBConv-based space,HPs
+  search_strategy: Evolution
+  eval_boost: predictor
+  online_date: '2020.06'
+  venue: CVPR 2021
+- title: 'Auto-Navigator: Decoupled Neural Architecture Search for Visual Navigation'
+  search_space: reduced NASNet space
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2021.01'
+  venue: WACV 2021

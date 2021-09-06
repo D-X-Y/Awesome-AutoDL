@@ -21,9 +21,9 @@ name2file = {
 }
 
 # add abbreviation
-name2file['ADE'] = name2file['Automated Data Engineering']
-name2file['NAS'] = name2file['Neural Architecture Search']
-name2file['HPO'] = name2file['Hyperparameter Optimization']
+name2file["ADE"] = name2file["Automated Data Engineering"]
+name2file["NAS"] = name2file["Neural Architecture Search"]
+name2file["HPO"] = name2file["Hyperparameter Optimization"]
 
 
 def main(root, topic):
