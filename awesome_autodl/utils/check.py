@@ -27,7 +27,7 @@ def check_paper_and_correct_format(paper):
         "Differential",
         "BayesOpt",
         "Heuristic",
-        "Manual"
+        "Manual",
     )
     for search_strategy in paper["search_strategy"].split(","):
         assert (
