@@ -193,7 +193,7 @@
 - title: 'SNAS: stochastic neural architecture search'
   search_space: reduced NASNet space
   search_strategy: Differential
-  eval_boost: ''
+  eval_boost: weight sharing
   online_date: '2018.12'
   venue: ICLR 2019
 - title: 'Auto-DeepLab: Hierarchical neural architecture search for semantic image
@@ -351,7 +351,7 @@
 - title: Discovering Neural Wirings
   search_space: MBConv-based space
   search_strategy: Differential
-  eval_boost: ''
+  eval_boost: weight sharing
   online_date: '2019.06'
   venue: NeurIPS 2019
 - title: Continual and Multi-Task Architecture Search
@@ -370,7 +370,7 @@
 - title: 'NetTailor: Tuning the Architecture, Not Just the Weights'
   search_space: connectivity
   search_strategy: Differential
-  eval_boost: ''
+  eval_boost: weight sharing
   online_date: '2019.07'
   venue: CVPR 2019
   application:
@@ -381,11 +381,17 @@
   eval_boost: weight sharing
   online_date: '2019.08'
   venue: ICCV 2019
+- title: 'Once-for-All: Train One Network and Specialize it for Efficient Deployment'
+  search_space: MBConv-based space
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2019.08'
+  venue: ICLR 2020
 - title: Efficient Neural Architecture Transformation Search in Channel-Level for
     Object Detection
   search_space: size search space + operation
   search_strategy: Differential
-  eval_boost: ''
+  eval_boost: weight sharing
   online_date: '2019.09'
   venue: NeurIPS 2019
   application:
@@ -402,13 +408,37 @@
   eval_boost: weight sharing
   online_date: '2019.10'
   venue: ICCV 2019
+- title: Block-wisely Supervised Neural Architecture Search with Knowledge Distillation
+  search_space: MBConv-based space
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2019.11'
+  venue: CVPR 2020
+- title: 'EfficientDet: Scalable and Efficient Object Detection'
+  search_space: MBConv-based space + FPN space
+  search_strategy: RL,Manual
+  eval_boost: ''
+  online_date: '2019.11'
+  venue: CVPR 2020
+- title: Computation Reallocation for Object Detection
+  search_space: size search space + operation
+  search_strategy: Evolution
+  eval_boost: ''
+  online_date: '2019.11'
+  venue: ICLR 2020
 - title: Improved Differentiable Architecture Search for Language Modeling and Named
     Entity Recognition
   search_space: modified NASNet space
   search_strategy: Differential
-  eval_boost: ''
+  eval_boost: weight sharing
   online_date: '2019.11'
   venue: EMNLP 2019
+- title: 'AtomNAS: Fine-Grained End-to-End Neural Architecture Search'
+  search_space: MBConv-based space
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2019.12'
+  venue: ICLR 2020
 - title: 'FasterSeg: Searching for Faster Real-time Semantic Segmentation'
   search_space: modified NASNet space + connectivity
   search_strategy: Differential
@@ -429,6 +459,12 @@
   eval_boost: smaller model
   online_date: '2019.12'
   venue: CVPR 2020
+- title: 'NAS-Bench-201: Extending the Scope of Reproducible Neural Architecture Search'
+  search_space: reduced NASNet space
+  search_strategy: RL,Random,Evolution,BayesOpt
+  eval_boost: ''
+  online_date: '2020.01'
+  venue: ICLR 2020
 - title: Neural Architecture Generator Optimization
   search_space: architecture generator space
   search_strategy: BayesOpt
@@ -448,6 +484,12 @@
   eval_boost: weight sharing
   online_date: '2020.04'
   venue: CVPR 2020
+- title: Overcoming Multi-Model Forgetting in One-Shot NAS with Diversity Maximization
+  search_space: reduced NASNet space
+  search_strategy: Differential
+  eval_boost: weight sharing
+  online_date: '2020.06'
+  venue: CVPR 2020
 - title: 'FBNetV3: Joint architecture-recipe search using neural acquisition function'
   search_space: MBConv-based space,HPs
   search_strategy: Evolution
@@ -460,6 +502,13 @@
   eval_boost: weight sharing
   online_date: '2020.06'
   venue: ICLR-W 2021
+- title: Can Weight Sharing Outperform Random Architecture Search? An Investigation
+    With TuNAS
+  search_space: MBConv-based space
+  search_strategy: RL
+  eval_boost: weight sharing
+  online_date: '2020.08'
+  venue: CVPR 2020
 - title: 'NATS-Bench: Benchmarking NAS Algorithms for Architecture Topology and Size'
   search_space: size search space,reduced NASNet space
   search_strategy: RL,Differential,Random,BayesOpt,Evolution

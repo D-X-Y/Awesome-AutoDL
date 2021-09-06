@@ -6,6 +6,12 @@
   venue: ICML 2015
   application:
     CLS: MNIST
+- title: 'Adversarial AutoAugment'
+  search_space: 'data augmentation'
+  search_strategy: 'RL'
+  eval_boost: 'weight sharing'
+  online_date: '2019.11'
+  venue: 'ICLR 2020'
 - title: Learning active learning from data
   search_space: data selector
   search_strategy: Heuristic

@@ -28,6 +28,11 @@ name2file["AD"] = name2file["Automated Deployment"]
 name2file["AM"] = name2file["Automated Maintenance"]
 
 
+def scale(xlist, scale):
+    for x in xlist:
+        print(int(x * scale))
+
+
 def show_nas(root):
     abbrv = load_yaml(root / "abbrv.yaml")
     topic_path = root / "papers" / name2file["NAS"]
@@ -51,10 +56,29 @@ def show_nas(root):
     print(
         f"Size-related search space: {len(size_based_search_space_papers)}/{len(data)} : {len(size_based_search_space_papers)*100./len(data):.3f}"
     )
-    import pdb
+    ratio_keys = ["NASNet", "MBConv", "size"]
+    ratios = [len(filter_ele_w_value(data, "search_space", key)) for key in ratio_keys]
+    ratios = [float(ratio) / len(data) for ratio in ratios]
+    ratios.append(1 - sum(ratios))
+    # Search Strategy
+    ratio_keys = ["Differential", "RL", "Evolution"]
+    ratios = [
+        len(filter_ele_w_value(data, "search_strategy", key)) for key in ratio_keys
+    ]
+    ratios = [float(ratio) / len(data) for ratio in ratios]
+    ratios.append(1 - sum(ratios))
+    # scale(ratios, 500)
 
-    pdb.set_trace()
-    print("-")
+    # Efficient candidate evaluation
+    weight_sharing_papers = (
+        filter_ele_w_value(data, "eval_boost", "weight sharing")
+        + filter_ele_w_value(data, "eval_boost", "HyperNet")
+        + filter_ele_w_value(data, "eval_boost", "weight i")
+        + filter_ele_w_value(data, "eval_boost", "Net2Net")
+    )
+    print(
+        f"Weight sharing: {len(weight_sharing_papers)}/{len(data)} : {len(weight_sharing_papers)*100./len(data):.3f}"
+    )
 
 
 if __name__ == "__main__":
