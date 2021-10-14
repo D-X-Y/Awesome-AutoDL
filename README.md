@@ -31,6 +31,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 ## Awesome AutoDL Libraies
 - [PyGlove](https://proceedings.neurips.cc/paper/2020/file/012a91467f210472fab4e11359bbfef6-Paper.pdf)
+- [NASLib](https://github.com/automl/NASLib)
 - [Keras Tuner](https://keras-team.github.io/keras-tuner/)
 - [NNI](https://github.com/microsoft/nni)
 - [AutoGluon](https://autogluon.mxnet.io/)
