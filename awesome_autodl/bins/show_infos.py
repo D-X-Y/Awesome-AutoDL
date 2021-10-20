@@ -81,6 +81,20 @@ def show_nas(root):
     )
 
 
+def show_all(root):
+
+    name2data = dict()
+    total = 0
+    for name, file in name2file.items():
+        if len(name) < 10:
+            topic_path = root / "papers" / file
+            data = load_yaml(topic_path)
+            name2data[name] = data
+            total += len(data)
+    for name, data in name2data.items():
+        print(f"{name:5s}: {len(data)}/{total} = {len(data)*1./total:.3f}")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser("Analysis the AutoDL papers.")
     parser.add_argument(
@@ -91,4 +105,5 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     root = Path(args.root)
-    show_nas(root)
+    show_all(root)
+    # show_nas(root)
