@@ -31,6 +31,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 ## Awesome AutoDL Libraies
 - [PyGlove](https://proceedings.neurips.cc/paper/2020/file/012a91467f210472fab4e11359bbfef6-Paper.pdf)
+- [NASLib](https://github.com/automl/NASLib)
 - [Keras Tuner](https://keras-team.github.io/keras-tuner/)
 - [NNI](https://github.com/microsoft/nni)
 - [AutoGluon](https://autogluon.mxnet.io/)
@@ -50,7 +51,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [NAS-Bench-1Shot1: Benchmarking and Dissecting One-shot Neural Architecture Search](https://arxiv.org/abs/2001.10422) | ICLR 2020 | [GitHub](https://github.com/automl/nasbench-1shot1) |
 | [NATS-Bench: Benchmarking NAS Algorithms for Architecture Topology and Size](https://arxiv.org/abs/2009.00437) | TPAMI 2021 | [GitHub](https://github.com/D-X-Y/NATS-Bench)
 | [NAS-Bench-ASR: Reproducible Neural Architecture Search for Speech Recognition](https://openreview.net/forum?id=CU0APx9LMaL) | ICLR 2021 | - |
-| [HW-NAS-Bench: Hardware-Aware Neural Architecture Search Benchmark](https://openreview.net/pdf?id=_0kaDkv3dVf) | ICLR 2021 |  |
+| [HW-NAS-Bench: Hardware-Aware Neural Architecture Search Benchmark](https://openreview.net/pdf?id=_0kaDkv3dVf) | ICLR 2021 | [GitHub](https://github.com/RICE-EIC/HW-NAS-Bench) |
 | [NAS-Bench-NLP: Neural Architecture Search Benchmark for Natural Language Processing](https://arxiv.org/pdf/2006.07116.pdf) | arXiv 2020 | [GitHub](https://github.com/fmsnew/nas-bench-nlp-release) |
 
 ## Deep Learning-based NAS and HPO
@@ -65,6 +66,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [Searching by Generating: Flexible and Efficient One-Shot NAS with Architecture Generator](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_Searching_by_Generating_Flexible_and_Efficient_One-Shot_NAS_With_Architecture_CVPR_2021_paper.pdf) | CVPR | G | [Github](https://github.com/eric8607242/SGNAS) |
+| [Zen-NAS: A Zero-Shot NAS for High-Performance Deep Image Recognition](https://arxiv.org/abs/2102.01063) | ICCV | EA | [Github](https://github.com/idstcv/ZenNAS) |
 | [AutoFormer: Searching Transformers for Visual Recognition](https://arxiv.org/pdf/2107.00651.pdf) |ICCV | EA | [GitHub](https://github.com/microsoft/AutoML) 
 | [LightTrack: Finding Lightweight Neural Networks for Object Tracking via One-Shot Architecture Search](https://arxiv.org/abs/2104.14545) | CVPR | EA | [GitHub](https://github.com/researchmm/LightTrack) |
 | [One-Shot Neural Ensemble Architecture Search by Diversity-Guided Search Space Shrinking](https://arxiv.org/abs/2104.00597) | CVPR | EA | [GitHub](https://github.com/researchmm/NEAS) |
@@ -244,7 +246,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 |  Title  |   Date  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [AutoHAS: Differentiable Hyper-parameter and Architecture Search](https://arxiv.org/pdf/2006.03656.pdf) | 2020.06 | G | - |
-| [FBNetV3: Joint Architecture-Recipe Search using Neural Acquisition Function](https://arxiv.org/abs/2006.02049) | 2020.06 | PD | - |
+| [FBNetV3: Joint Architecture-Recipe Search using Neural Acquisition Function](https://arxiv.org/abs/2006.02049) | 2020.06 | PD | [github](https://github.com/facebookresearch/mobile-vision/blob/main/mobile_cv/arch/fbnet_v2/fbnet_modeldef_cls_fbnetv3.py) |
 | [Population Based Training of Neural Networks](https://arxiv.org/abs/1711.09846) | 2017.11 | EA | - |
 | [NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search](https://arxiv.org/pdf/1810.03522.pdf) | 2018.10 | EA | - |
 | [Training Frankenstein’s Creature to Stack: HyperTree Architecture Search](https://arxiv.org/pdf/1810.11714.pdf) | 2018.10 | G | - |
