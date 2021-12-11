@@ -53,6 +53,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [NAS-Bench-ASR: Reproducible Neural Architecture Search for Speech Recognition](https://openreview.net/forum?id=CU0APx9LMaL) | ICLR 2021 | - |
 | [HW-NAS-Bench: Hardware-Aware Neural Architecture Search Benchmark](https://openreview.net/pdf?id=_0kaDkv3dVf) | ICLR 2021 | [GitHub](https://github.com/RICE-EIC/HW-NAS-Bench) |
 | [NAS-Bench-NLP: Neural Architecture Search Benchmark for Natural Language Processing](https://arxiv.org/pdf/2006.07116.pdf) | arXiv 2020 | [GitHub](https://github.com/fmsnew/nas-bench-nlp-release) |
+| [NAS-Bench-x11 and the Power of Learning Curves](https://arxiv.org/pdf/2111.03602.pdf) | NeurIPS 2021 | - |
 
 ## Deep Learning-based NAS and HPO
 
@@ -65,6 +66,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [CATE: Computation-aware Neural Architecture Encoding with Transformers](https://arxiv.org/pdf/2102.07108.pdf) | ICML | O |  |
 | [Searching by Generating: Flexible and Efficient One-Shot NAS with Architecture Generator](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_Searching_by_Generating_Flexible_and_Efficient_One-Shot_NAS_With_Architecture_CVPR_2021_paper.pdf) | CVPR | G | [Github](https://github.com/eric8607242/SGNAS) |
 | [Zen-NAS: A Zero-Shot NAS for High-Performance Deep Image Recognition](https://arxiv.org/abs/2102.01063) | ICCV | EA | [Github](https://github.com/idstcv/ZenNAS) |
 | [AutoFormer: Searching Transformers for Visual Recognition](https://arxiv.org/pdf/2107.00651.pdf) |ICCV | EA | [GitHub](https://github.com/microsoft/AutoML) 
