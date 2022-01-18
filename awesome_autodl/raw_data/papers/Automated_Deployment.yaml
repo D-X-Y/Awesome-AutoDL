@@ -1,1 +1,10 @@
-[]
+- title: "{TVM}: An Automated {End-to-End} Optimizing Compiler for Deep Learning"
+  venue: "osdi"
+  venue_date: "2018.10"
+  online_date: "2018.10"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:

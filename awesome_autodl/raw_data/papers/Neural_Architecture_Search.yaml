@@ -18,3 +18,113 @@
   candidate_evaluation:
   discussed: true
   misc:
+- title: "Accelerating Neural Architecture Search using Performance Prediction"
+  venue: "iclr_w"
+  venue_date: "2018.05"
+  online_date: "2017.05"
+  contacts: {"Bowen Baker": "bowen@mit.edu", "Otkrist Gupta": "otkrist@mit.edu", "Ramesh Raskar": "raskar@mit.edu", "Nikhil Naik": "naik@mit.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation: "predictor"
+  discussed: true
+  misc:
+- title: "Evolving Memory Cell Structures for Sequence Learning"
+  venue: "icann"
+  venue_date: "2009.09"
+  online_date: "2009.09"
+  contacts: {"Justin Bayer": "justin@idsia.ch", "Daan Wierstra": "daan@idsia.ch", "Julian Togelius": "julian@idsia.ch", "Jurgen Schmidhuber": "juergen@idsia.ch"}
+  search_space:
+  search_strategy: "evolution"
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Understanding and simplifying one-shot architecture search"
+  venue: "icml"
+  venue_date: "2018.07"
+  online_date: "2018.07"
+  contacts: {"Gabriel Bender": "gbender@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Can weight sharing outperform random architecture search? An investigation with TuNAS"
+  venue: "cvpr"
+  venue_date: "2020.06"
+  online_date: "2020.06"
+  contacts: {"Gabriel Bender": "gbender@google.com", "Hanxiao Liu": "hanxiaol@google.com"}
+  search_space: "MBS"
+  search_strategy: "REINFORCE"
+  candidate_evaluation: "weight sharing"
+  discussed: true
+  misc:
+- title: "SMASH: one-shot model architecture search through hypernetworks"
+  venue: "iclr"
+  venue_date: "2018.05"
+  online_date: "2017.08"
+  contacts: {"Andrew Brock": "ajb5@hw.ac.uk", "Theodore Lim": "t.lim@hw.ac.uk", "J.M. Ritchie": "j.m.ritchie@hw.ac.uk"}
+  search_space:
+  search_strategy:
+  candidate_evaluation: "hypernetwork"
+  discussed: true
+  misc:
+- title: "BATS: Binary architecture search"
+  venue: "eccv"
+  venue_date: "2020.08"
+  online_date: "2020.03"
+  contacts: {"Adrian Bulat": "adrian@adrianbulat.com", "Brais Martinez": "brais.mart@gmail.com", "Georgios Tzimiropoulos": "g.tzimiropoulos@qmul.ac.uk"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Once-for-All: Train One Network and Specialize it for Efficient Deployment"
+  venue: "iclr"
+  venue_date: "2020.04"
+  online_date: "2019.08"
+  contacts: {"Han Cai": "hancai@mit.edu", "Song Han" : "chuangg@mit.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Path-Level Network Transformation for Efficient Architecture Search"
+  venue: "icml"
+  venue_date: "2018.07"
+  online_date: "2018.06"
+  contacts: {"Han Cai": "hancai@mit.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware"
+  venue: "iclr"
+  venue_date: "2019.05"
+  online_date: "2018.12"
+  contacts: {"Han Cai": "hancai@mit.edu", "Ligeng Zhu": "ligeng@mit.edu", "Song Han" : "chuangg@mit.edu"}
+  search_space: "MBS"
+  search_strategy:
+  candidate_evaluation: "weight sharing"
+  discussed: true
+  misc:
+- title: "Neural architecture search on imagenet in four gpu hours: A theoretically inspired perspective"
+  venue: "iclr"
+  venue_date: "2021.05"
+  online_date: "2021.02"
+  contacts: {"Wuyang Chen": "wuyang.chen@utexas.edu", "Zhangyang Wang": "atlaswang@utexas.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation: "zero-cost proxy"
+  discussed: true
+  misc:
+- title: "DetNAS: Backbone Search for Object Detection"
+  venue: "nips"
+  venue_date: "2019.12"
+  online_date: "2019.03"
+  contacts: {"Yukang Chen": "yukang.chen@nlpr.ia.ac.cn", "Xiangyu Zhang": "zhangxiangyu@megvii.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
