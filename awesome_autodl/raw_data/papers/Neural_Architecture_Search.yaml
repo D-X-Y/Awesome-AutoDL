@@ -1,1 +1,20 @@
-[]
+- title: "Zero-Cost Proxies for Lightweight NAS"
+  venue: "iclr"
+  venue_date: "2021.05"
+  online_date: "2021.01"
+  contacts: {"Mohamed S. Abdelfattah": "mohamed1.a@samsung.com"}
+  search_space: "RNS"
+  search_strategy:
+  candidate_evaluation: "zero-cost proxy"
+  discussed: true
+  misc:
+- title: "Designing Neural Network Architectures using Reinforcement Learning"
+  venue: "iclr"
+  venue_date: "2017.04"
+  online_date: "2016.11"
+  contacts: {"Bowen Baker": "bowen@mit.edu", "Otkrist Gupta": "otkrist@mit.edu", "Nikhil Naik": "naik@mit.edu", "Ramesh Raskar": "raskar@mit.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:

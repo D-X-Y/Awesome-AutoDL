@@ -16,7 +16,7 @@ class AutoDLpaper:
     online_date: Text = None  # yyyy.mm
     contacts: Optional[Dict[Text, Text]] = None  # a pair of name and email
 
-    required_fields = ("title", "venue", "venue_date", "online_date")
+    required_fields = ("title", "venue", "venue_date", "online_date", "contacts")
 
     # non-required fileds
     search_space: Text = None
@@ -35,9 +35,11 @@ class AutoDLpaper:
 
     def reset_value(self, data):
         # set the basic value
-        for field in required_fields[:-1]:
+        for field in self.required_fields[:-1]:
             if not isinstance(data[field], str):
-                raise TypeError(f"Expect {field} is str instead of {type(field)}.")
+                raise TypeError(
+                    f"Expect {field} is str instead of {type(data[field])}."
+                )
         self.title = data["title"]
         self.venue = data["venue"]
         date_pattern = re.compile("^([0-9]){4}.([0-9]){2}$")
@@ -68,7 +70,7 @@ class AutoDLpaper:
                 data["discussed"], bool
             ), f"The discussed field must be a bool instead of a {type(data['discussed'])}"
             self.discussed = data["discussed"]
-        if "misc" in data:
+        if "misc" in data and data["misc"] is not None:
             assert isinstance(
                 data["misc"], str
             ), f"The misc field must be a str instead of a {type(data['discussed'])}"
@@ -88,11 +90,20 @@ class AutoDLpaper:
                     + "Please leave this field as blank if you are not sure about it."
                 )
         all_fields = (
-            list(required_fields) + list(autodl_aspect_fields) + ["discussed", "misc"]
+            list(self.required_fields)
+            + list(self.autodl_aspect_fields)
+            + ["discussed", "misc"]
         )
         for key in data.keys():
             if key not in all_fields:
                 raise ValueError(f"Find unexpected field: {key} in {data}")
+
+    @property
+    def author_email(self):
+        if self.contacts is None:
+            return dict()
+        else:
+            return self.contacts
 
     def __repr__(self):
         return f"{self.__class__.__name__}({self.title})"

@@ -9,6 +9,7 @@ class BibAbbreviations:
     """A class to maintain the paper venue abbreviation."""
 
     def __init__(self, xfile):
+        xfile = str(xfile)
         assert os.path.isfile(xfile)
         with open(xfile) as f:
             lines = f.readlines()

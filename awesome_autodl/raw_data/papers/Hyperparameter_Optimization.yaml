@@ -1,1 +1,40 @@
-[]
+- title: "Optuna: A next-generation hyperparameter optimization framework"
+  venue: "sigkdd"
+  venue_date: "2019.08"
+  online_date: "2019.07"
+  contacts: {"Takuya Akiba": "akiba@preferred.jp"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc: "This is a library/software paper."
+- title: "A meta-reinforcement learning approach to optimize parameters and hyper-parameters simultaneously"
+  venue: "pricai"
+  venue_date: "2019.08"
+  online_date: "2019.08"
+  contacts: {"Abbas Raza Ali": "aali@bournemouth.ac.uk", "Bogdan Gabrys": "bogdan.gabrys@uts.edu.au"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Learning to learn by gradient descent by gradient descent."
+  venue: "nips"
+  venue_date: "2016.12"
+  online_date: "2016.06"
+  contacts: {"Marcin Andrychowicz": "marcin.andrychowicz@gmail.com", "Misha Denil": "mdenil@google.com", "Nando de Freitas": "nandodefreitas@google.com"}
+  search_space:
+  search_strategy: "differentiable"
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Bayesian Optimization of Composite Functions"
+  venue: "icml"
+  venue_date: "2019.06"
+  online_date: "2019.06"
+  contacts: {"Raul Astudillo": "ra598@cornell.edu", "Peter I. Frazier": "pf98@cornell.edu"}
+  search_space:
+  search_strategy: "BayesOpt"
+  candidate_evaluation:
+  discussed: true
+  misc:

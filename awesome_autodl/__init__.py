@@ -70,3 +70,10 @@ def autodl_topic2papers():
         topic2papers[topic] = papers
         print(f"Load {topic} completed with {len(papers)} papers.")
     return topic2papers
+
+
+def get_bib_abbrv_obj():
+    from awesome_autodl.data_cls import BibAbbreviations
+
+    xfile = str(get_bib_abbrv_file())
+    return BibAbbreviations(xfile)

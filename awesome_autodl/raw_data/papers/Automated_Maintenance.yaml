@@ -1,1 +1,10 @@
-[]
+- title: "Meta-Learning with Adaptive Hyperparameters"
+  venue: "nips"
+  venue_date: "2020.12"
+  online_date: "2020.11"
+  contacts: {"Sungyong Baik": "dsybaik@snu.ac.kr", "Kyoung Mu Lee": "kyoungmu@snu.ac.kr"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
