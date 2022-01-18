@@ -3,15 +3,10 @@ application:
   DET: "object detection"
   REG: "regression"
   SEG: "segmentation"
-venue:
-  ICANN: "International Conference on Artificial Neural Networks"
-  ICML: ""
-  NeurIPS: ""
-  UAI: "Uncertainty in Artificial Intelligence"
 search_strategy:
   RL: "Reinforcement Learning"
   Evolution: "Evolutionary Algorithm"
-  Random: "Random search"
+  Random: "Random Search"
   Differential: ""
-  BayesOpt: "Bayesian optimization"
+  BayesOpt: "Bayesian Optimization"
   Heuristic: ""

@@ -14,7 +14,8 @@
 # twine upload dist/*
 # https://pypi.org/project/awesome_autodl
 #
-# TODO(xuanyidong): upload it to conda
+#
+# or install from local: python setup.py install --force
 #
 import os
 import glob
@@ -43,14 +44,35 @@ packages = find_packages(exclude=("tests", "checklist", "docs"))
 print(f"packages: {packages}")
 
 
-def find_yaml(xdir, cur_depth=1, max_depth=1):
+def endswith(xstring, targets):
+    assert isinstance(
+        targets, (list, tuple)
+    ), f"invalid type of targets: {type(targets)}"
+    for target in targets:
+        if xstring.endswith(target):
+            return True
+    return False
+
+
+def recursive_find_file(xdir, cur_depth=1, max_depth=1, suffixs=None):
+    assert isinstance(suffixs, (list, tuple)) and len(
+        suffixs
+    ), f"invalid suffixs of {suffixs}"
     xdirs = []
     for xfile in Path(xdir).glob("*"):
         if xfile.is_dir() and cur_depth < max_depth:
-            xdirs += find_yaml(xfile, cur_depth + 1, max_depth)
-        elif xfile.name.endswith(".yaml"):
+            xdirs += recursive_find_file(xfile, cur_depth + 1, max_depth, suffixs)
+        elif endswith(xfile.name, suffixs):
             xdirs.append(str(xfile))
     return xdirs
+
+
+def find_yaml(xstring):
+    return recursive_find_file(xstring, suffixs=(".yaml",))
+
+
+def find_yaml_bib(xstring):
+    return recursive_find_file(xstring, suffixs=(".yaml", ".bib"))
 
 
 setup(
@@ -64,7 +86,7 @@ setup(
     url="https://github.com/D-X-Y/Awesome-AutoDL",
     packages=packages,
     data_files=[
-        (f"{NAME}/raw_data", find_yaml(f"{NAME}/raw_data")),
+        (f"{NAME}/raw_data", find_yaml_bib(f"{NAME}/raw_data")),
         (f"{NAME}/raw_data/papers", find_yaml(f"{NAME}/raw_data/papers")),
     ],
     install_requires=REQUIRED,
