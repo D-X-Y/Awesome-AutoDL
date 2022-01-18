@@ -26,6 +26,7 @@ jobs:
 
       - name: Lint with Black
         run: |
+          python -m pip install --upgrade pip
           python -m pip install black
           python --version
           python -m black --version
@@ -35,7 +36,7 @@ jobs:
 
       - name: Install Awesome-AutoDL from source
         run: |
-          python setup.py install
+          python setup.py install --force
 
       - name: Run tests with pytest
         run: |

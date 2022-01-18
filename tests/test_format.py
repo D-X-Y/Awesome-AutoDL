@@ -4,7 +4,7 @@
 # pytest ./tests/test_format.py -s                  #
 #####################################################
 from awesome_autodl import autodl_topic2papers
-from awesome_autodl import AutoDLpaper
+from awesome_autodl.data_cls import AutoDLpaper
 
 
 class TestFormat:

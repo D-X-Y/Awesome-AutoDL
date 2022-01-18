@@ -8,8 +8,6 @@
 #####################################################################################
 from pathlib import Path
 from collections import OrderedDict
-from awesome_autodl.utils import load_yaml, dump_yaml
-from awesome_autodl.data_cls import AutoDLpaper
 
 
 def version():
@@ -54,6 +52,9 @@ def autodl_topic2path():
 
 
 def autodl_topic2papers():
+    from awesome_autodl.utils import load_yaml, dump_yaml
+    from awesome_autodl.data_cls import AutoDLpaper
+
     topic2path = autodl_topic2path()
     topic2papers = OrderedDict()
     for topic, xpath in topic2path.items():
