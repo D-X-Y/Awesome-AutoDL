@@ -1,35 +1,38 @@
-# Awesome AutoDL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<font size=6><center><big><b> Awesome AutoDL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) </b></big></center></font>
 
 A curated list of automated deep learning related resources. Inspired by [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision), [awesome-adversarial-machine-learning](https://github.com/yenchenlin/awesome-adversarial-machine-learning), [awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers), and [awesome-architecture-search](https://github.com/markdtw/awesome-architecture-search).
 
 Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pulls) or [open an issue](https://github.com/D-X-Y/Awesome-AutoDL/issues) to add papers.
 
-## Table of Contents
+---
+
+<font size=5><center><b> Table of Contents </b> </center></font>
 
 - [Awesome Blogs](#awesome-blogs)
-
 - [Awesome AutoDL Libraies](#awesome-autodl-libraies)
-
 - [Awesome Benchmarks](#awesome-benchmarks)
-
 - [Deep Learning-based NAS and HPO](#deep-learning-based-nas-and-hpo)
-  - [2020 Venues](#2020)
-  - [2019 Venues](#2019)
-  - [2018 Venues](#2018)
-  - [2017 Venues](#2017)
-  - [Previous Venues](#2012-2016)
+  - [2021 Venues](#2021-venues)
+  - [2020 Venues](#2020-venues)
+  - [2019 Venues](#2019-venues)
+  - [2018 Venues](#2018-venues)
+  - [2017 Venues](#2017-venues)
+  - [Previous Venues](#previous-venues)
   - [arXiv](#arxiv)
-
 - [Awesome Surveys](#awesome-surveys)
 
-## Awesome Blogs
+---
+
+# Awesome Blogs
+
 - [AutoML info](http://automl.chalearn.org/) and [AutoML Freiburg-Hannover](https://www.automl.org/)
 - [What’s the deal with Neural Architecture Search?](https://determined.ai/blog/neural-architecture-search/)
 - [Google Could AutoML](https://cloud.google.com/vision/automl/docs/beginners-guide) and [PocketFlow](https://pocketflow.github.io/)
 - [AutoML Challenge](http://automl.chalearn.org/) and [AutoDL Challenge](https://autodl.chalearn.org/)
 - [In Defense of Weight-sharing for Neural Architecture Search: an optimization perspective](https://determined.ai/blog/ws-optimization-for-nas/)
 
-## Awesome AutoDL Libraies
+# Awesome AutoDL Libraies
+
 - [PyGlove](https://proceedings.neurips.cc/paper/2020/file/012a91467f210472fab4e11359bbfef6-Paper.pdf)
 - [NASLib](https://github.com/automl/NASLib)
 - [Keras Tuner](https://keras-team.github.io/keras-tuner/)
@@ -41,7 +44,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 - [Determined](https://github.com/determined-ai/determined)
 - [TPOT](https://github.com/EpistasisLab/tpot)
 
-## Awesome Benchmarks
+# Awesome Benchmarks
 
 | Title | Venue | Code |
 |:--------|:--------:|:--------:|
@@ -53,38 +56,35 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [NAS-Bench-ASR: Reproducible Neural Architecture Search for Speech Recognition](https://openreview.net/forum?id=CU0APx9LMaL) | ICLR 2021 | - |
 | [HW-NAS-Bench: Hardware-Aware Neural Architecture Search Benchmark](https://openreview.net/pdf?id=_0kaDkv3dVf) | ICLR 2021 | [GitHub](https://github.com/RICE-EIC/HW-NAS-Bench) |
 | [NAS-Bench-NLP: Neural Architecture Search Benchmark for Natural Language Processing](https://arxiv.org/pdf/2006.07116.pdf) | arXiv 2020 | [GitHub](https://github.com/fmsnew/nas-bench-nlp-release) |
-| [NAS-Bench-x11 and the Power of Learning Curves](https://arxiv.org/pdf/2111.03602.pdf) | NeurIPS 2021 | - |
+| [NAS-Bench-x11 and the Power of Learning Curves](https://arxiv.org/pdf/2111.03602.pdf) | NeurIPS 2021 | [GitHub](https://github.com/automl/nas-bench-x11) |
 
-## Deep Learning-based NAS and HPO
+# Deep Learning-based NAS and HPO
 
 |      Type   |        G       |                  RL    |            EA           |        PD              |    Other   |
 |:------------|:--------------:|:----------------------:|:-----------------------:|:----------------------:|:----------:|
 | Explanation | gradient-based | reinforcement learning | evolutionary algorithm | performance prediction | other types |
 
-### 2021
-
+## 2021 Venues
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [CATE: Computation-aware Neural Architecture Encoding with Transformers](https://arxiv.org/pdf/2102.07108.pdf) | ICML | O |  |
+| [CATE: Computation-aware Neural Architecture Encoding with Transformers](https://arxiv.org/pdf/2102.07108.pdf) | ICML | O | [GitHub](https://github.com/MSU-MLSys-Lab/CATE) |
 | [Searching by Generating: Flexible and Efficient One-Shot NAS with Architecture Generator](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_Searching_by_Generating_Flexible_and_Efficient_One-Shot_NAS_With_Architecture_CVPR_2021_paper.pdf) | CVPR | G | [Github](https://github.com/eric8607242/SGNAS) |
 | [Zen-NAS: A Zero-Shot NAS for High-Performance Deep Image Recognition](https://arxiv.org/abs/2102.01063) | ICCV | EA | [Github](https://github.com/idstcv/ZenNAS) |
-| [AutoFormer: Searching Transformers for Visual Recognition](https://arxiv.org/pdf/2107.00651.pdf) |ICCV | EA | [GitHub](https://github.com/microsoft/AutoML) 
+| [AutoFormer: Searching Transformers for Visual Recognition](https://arxiv.org/pdf/2107.00651.pdf) |ICCV | EA | [GitHub](https://github.com/microsoft/AutoML)
 | [LightTrack: Finding Lightweight Neural Networks for Object Tracking via One-Shot Architecture Search](https://arxiv.org/abs/2104.14545) | CVPR | EA | [GitHub](https://github.com/researchmm/LightTrack) |
 | [One-Shot Neural Ensemble Architecture Search by Diversity-Guided Search Space Shrinking](https://arxiv.org/abs/2104.00597) | CVPR | EA | [GitHub](https://github.com/researchmm/NEAS) |
-| [DARTS-: Robustly Stepping out of Performance Collapse Without Indicators](https://openreview.net/pdf?id=KLH36ELmwIB) | ICLR | G |  |
-| [Zero-Cost Proxies for Lightweight NAS](https://openreview.net/pdf?id=0cmMMy8J5q) | ICLR | O |  |
+| [DARTS-: Robustly Stepping out of Performance Collapse Without Indicators](https://openreview.net/pdf?id=KLH36ELmwIB) | ICLR | G | [GitHub](https://github.com/Meituan-AutoML/DARTS-) |
+| [Zero-Cost Proxies for Lightweight NAS](https://openreview.net/pdf?id=0cmMMy8J5q) | ICLR | O | [GitHub](https://github.com/SamsungLabs/zero-cost-nas) |
 | [Neural Architecture Search on ImageNet in Four GPU Hours: A Theoretically Inspired Perspective](https://openreview.net/forum?id=Cnon5ezMHtu) | ICLR | - | [GitHub](https://github.com/VITA-Group/TENAS) |
 | [DrNAS: Dirichlet Neural Architecture Search](https://openreview.net/forum?id=9FWas6YbmB3) | ICLR | G | [GitHub](https://github.com/xiangning-chen/DrNAS) |
-| [Rethinking Architecture Selection in Differentiable NAS](https://openreview.net/forum?id=PKubaeJkw3) | ICLR | O |  |
-| [Evolving Reinforcement Learning Algorithms](https://openreview.net/forum?id=0XXpJ4OtjW) | ICLR | EA | |
+| [Rethinking Architecture Selection in Differentiable NAS](https://openreview.net/forum?id=PKubaeJkw3) | ICLR | O | [GitHub](https://github.com/ruocwang/darts-pt) |
+| [Evolving Reinforcement Learning Algorithms](https://openreview.net/forum?id=0XXpJ4OtjW) | ICLR | EA | [GitHub](https://github.com/jcoreyes/evolvingrl) |
 
-### 2020
-
+## 2020 Venues
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [Designing Network Design Spaces](https://arxiv.org/pdf/2003.13678.pdf) | CVPR | - | [GitHub](https://github.com/facebookresearch/pycls) |
 | [Cream of the Crop: Distilling Prioritized Paths For One-Shot Neural Architecture Search](https://papers.nips.cc/paper/2020/file/d072677d210ac4c03ba046120f0802ec-Paper.pdf) | NeurIPS | - | [GitHub](https://github.com/microsoft/Cream) |
 | [PyGlove: Symbolic Programming for Automated Machine Learning](https://proceedings.neurips.cc/paper/2020/file/012a91467f210472fab4e11359bbfef6-Paper.pdf) | NeurIPS | library | - |
 | [Does Unsupervised Architecture Representation Learning Help Neural Architecture Search](https://arxiv.org/abs/2006.06936) | NeurIPS | PD | [GitHub](https://github.com/MSU-MLSys-Lab/arch2vec) |
@@ -97,6 +97,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [Revisiting Parameter Sharing for Automatic Neural Channel Number Search](https://proceedings.neurips.cc/paper/2020/file/42cd63cb189c30ed03e42ce2c069566c-Paper.pdf) | NeurIPS | | |
 | [Learning Search Space Partition for Black-box Optimization using Monte Carlo Tree Search](https://arxiv.org/pdf/2007.00708.pdf) | NeurIPS | MCTS | [GitHub](https://github.com/facebookresearch/LaMCTS) |
 | [Neural Architecture Search using Deep Neural Networks and Monte Carlo Tree Search](https://arxiv.org/abs/1805.07440) | AAAI | MCTS | [GitHub](https://github.com/linnanwang/AlphaX-NASBench101) |
+| [Representation Sharing for Fast Object Detector Search and Beyond](https://arxiv.org/pdf/2007.12075v4.pdf) | ECCV | G | [GitHub](https://github.com/msight-tech/research-fad) |
 | [Are Labels Necessary for Neural Architecture Search?](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490766.pdf) | ECCV | G | - |
 | [Single Path One-Shot Neural Architecture Search with Uniform Sampling](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610528.pdf) | ECCV | EA | - |
 | [Neural Predictor for Neural Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123740647.pdf) | ECCV | O | - |
@@ -116,7 +117,9 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [NADS: Neural Architecture Distribution Search for Uncertainty Awareness](https://arxiv.org/pdf/2006.06646.pdf) | ICML | - | - |
 | [Generative Teaching Networks: Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data](https://arxiv.org/abs/1912.07768) | ICML | - | - |
 | Neural Architecture Search in a Proxy Validation Loss Landscape | ICML | - | - |
-| [UNAS: Differentiable Architecture Search Meets Reinforcement Learning](https://openaccess.thecvf.com/content_CVPR_2020/papers/Vahdat_UNAS_Differentiable_Architecture_Search_Meets_Reinforcement_Learning_CVPR_2020_paper.pdf) | CVPR | - | [GitHub](https://github.com/NVlabs/unas) |
+| [Hit-Detector: Hierarchical Trinity Architecture Search for Object Detection](https://arxiv.org/pdf/2003.11818v1.pdf) | CVPR | - | [GitHub](https://github.com/ggjy/HitDet.pytorch) |
+| [Designing Network Design Spaces](https://arxiv.org/pdf/2003.13678.pdf) | CVPR | - | [GitHub](https://github.com/facebookresearch/pycls) |
+| [UNAS: Differentiable Architecture Search Meets Reinforcement Learning](https://openaccess.thecvf.com/content_CVPR_2020/papers/Vahdat_UNAS_Differentiable_Architecture_Search_Meets_Reinforcement_Learning_CVPR_2020_paper.pdf) | CVPR | G/RL | [GitHub](https://github.com/NVlabs/unas) |
 | [MiLeNAS: Efficient Neural Architecture Search via Mixed-Level Reformulation](https://arxiv.org/pdf/2003.12238.pdf) | CVPR | G | [GitHub](https://github.com/chaoyanghe/MiLeNAS) |
 | [A Semi-Supervised Assessor of Neural Architectures](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tang_A_Semi-Supervised_Assessor_of_Neural_Architectures_CVPR_2020_paper.pdf) | CVPR | PD | - |
 | [Binarizing MobileNet via Evolution-based Searching](https://arxiv.org/abs/2005.06305) | CVPR | EA | - |
@@ -138,7 +141,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [Fast Neural Network Adaptation via Parameter Remapping and Architecture Search](https://openreview.net/forum?id=rklTmyBKPH) | ICLR | - | [GitHub](https://github.com/JaminFong/FNA) |
 | [Once for All: Train One Network and Specialize it for Efficient Deployment](https://openreview.net/forum?id=HylxE1HKwS) | ICLR | G | [GitHub](https://github.com/mit-han-lab/once-for-all) |
 | Efficient Transformer for Mobile Applications | ICLR | - | - |
-| PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search | ICLR | G | [GitHub](https://github.com/yuhuixu1993/PC-DARTS) |
+| [PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search](https://arxiv.org/pdf/1907.05737v4.pdf) | ICLR | G | [GitHub](https://github.com/yuhuixu1993/PC-DARTS) |
 | Adversarial AutoAugment | ICLR | - | - |
 | [NAS evaluation is frustratingly hard](https://arxiv.org/abs/1912.12522) | ICLR | - | [GitHub](https://github.com/antoyang/NAS-Benchmark) |
 | [FasterSeg: Searching for Faster Real-time Semantic Segmentation](https://openreview.net/pdf?id=BJgqQ6NYvB) | ICLR | G | [GitHub](https://github.com/TAMU-VITA/FasterSeg) |
@@ -147,7 +150,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | AssembleNet: Searching for Multi-Stream Neural Connectivity in Video Architectures | ICLR | EA | - |
 | How to Own the NAS in Your Spare Time | ICLR | - | - |
 
-### 2019
+## 2019 Venues
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
@@ -173,7 +176,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [Deep Active Learning with a NeuralArchitecture Search](https://arxiv.org/pdf/1811.07579.pdf) | NeurIPS | - | - |
 | DetNAS: Backbone Search for ObjectDetection | NeurIPS | - | - |
 | SpArSe: Sparse Architecture Search for CNNs on Resource-Constrained Microcontrollers | NeurIPS | - | - |
-| [Efficient Forward Architecture Search ](https://arxiv.org/abs/1905.13360) | NeurIPS | G | [Github](https://github.com/microsoft/petridishnn) |
+| [Efficient Forward Architecture Search](https://arxiv.org/abs/1905.13360) | NeurIPS | G | [Github](https://github.com/microsoft/petridishnn) |
 | Efficient Neural ArchitectureTransformation Search in Channel-Level for Object Detection | NeurIPS | G | - |
 | XNAS: Neural Architecture Search with Expert Advice | NeurIPS | G | - |
 | [DARTS: Differentiable Architecture Search](https://arxiv.org/abs/1806.09055) | ICLR | G | [github](https://github.com/quark0/darts) |
@@ -187,7 +190,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [ChamNet: Towards Efficient Network Design through Platform-Aware Model Adaptation](http://openaccess.thecvf.com/content_CVPR_2019/papers/Dai_ChamNet_Towards_Efficient_Network_Design_Through_Platform-Aware_Model_Adaptation_CVPR_2019_paper.pdf) | CVPR | - | - |
 | [Partial Order Pruning: for Best Speed/Accuracy Trade-off in Neural Architecture Search](https://arxiv.org/pdf/1903.03777.pdf) | CVPR | EA | [github](https://github.com/lixincn2015/Partial-Order-Pruning) |
 | [FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search](https://arxiv.org/abs/1812.03443) | CVPR | G | - |
-| [RENAS: Reinforced Evolutionary Neural Architecture Search	](https://arxiv.org/abs/1808.00193) | CVPR | G | - |
+| [RENAS: Reinforced Evolutionary Neural Architecture Search](https://arxiv.org/abs/1808.00193) | CVPR | G | - |
 | [Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation](https://arxiv.org/pdf/1901.02985.pdf) | CVPR |  G | [GitHub](https://github.com/tensorflow/models/tree/master/research/deeplab) |
 | [MnasNet: Platform-Aware Neural Architecture Search for Mobile](https://arxiv.org/abs/1807.11626) | CVPR | RL | [Github](https://github.com/AnjieZheng/MnasNet-PyTorch) |
 | [MFAS: Multimodal Fusion Architecture Search](https://arxiv.org/pdf/1903.06496.pdf) | CVPR | EA | - |
@@ -202,7 +205,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [NAS-Bench-101: Towards Reproducible Neural Architecture Search](https://arxiv.org/abs/1902.09635) | ICML | Other | [Github](https://github.com/google-research/nasbench) |
 | [On Network Design Spaces for Visual Recognition](https://arxiv.org/abs/1905.13214) | ICCV | G | [Github](https://github.com/facebookresearch/nds) |
 
-### 2018
+## 2018 Venues
+
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | Towards Automatically-Tuned Deep Neural Networks | BOOK | - | [GitHub](https://github.com/automl/Auto-PyTorch) |
@@ -223,9 +227,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [Differentiable Neural Network Architecture Search](https://openreview.net/pdf?id=BJ-MRKkwG) | ICLR-W | G | - |
 | [Accelerating Neural Architecture Search using Performance Prediction](https://arxiv.org/abs/1705.10823) | ICLR-W | PD | - |
 
+## 2017 Venues
 
-
-### 2017
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [Neural Architecture Search with Reinforcement Learning](https://arxiv.org/abs/1611.01578) | ICLR | RL | - |
@@ -236,15 +239,16 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [Hyperparameter Optimization: A Spectral Approach](https://arxiv.org/abs/1706.00764) | NeurIPS-W | Other | [github](https://github.com/callowbird/Harmonica) |
 | Learning to Compose Domain-Specific Transformations for Data Augmentation | NeurIPS | - | - |
 
-### 2012-2016
+## Previous Venues
+
+2012-2016
+
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [Speeding up Automatic Hyperparameter Optimization of Deep Neural Networksby Extrapolation of Learning Curves](http://ml.informatik.uni-freiburg.de/papers/15-IJCAI-Extrapolation_of_Learning_Curves.pdf) | IJCAI | PD | [github](https://github.com/automl/pylearningcurvepredictor) |
 
+## arXiv
 
-
-
-### arXiv
 |  Title  |   Date  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [AutoHAS: Differentiable Hyper-parameter and Architecture Search](https://arxiv.org/pdf/2006.03656.pdf) | 2020.06 | G | - |
@@ -254,8 +258,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [Training Frankenstein’s Creature to Stack: HyperTree Architecture Search](https://arxiv.org/pdf/1810.11714.pdf) | 2018.10 | G | - |
 | [Fast, Accurate and Lightweight Super-Resolution with Neural Architecture Search](https://arxiv.org/pdf/1901.07261.pdf) | 2019.01 | G | [github](https://github.com/falsr/FALSR) |
 
-
-## Awesome Surveys
+# Awesome Surveys
 
 |  Title  |   Venue  |   Year   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
@@ -267,4 +270,3 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [A Survey on Neural Architecture Search](https://arxiv.org/pdf/1905.01392.pdf) | arXiv | 2019 | - |
 | [A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions](https://arxiv.org/pdf/2006.02903.pdf) | ACM Computing Surveys | 2021 | - |
 | [On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice](https://arxiv.org/pdf/2007.15745.pdf) | Neurocomputing | 2020 |[github](https://github.com/LiYangHart/Hyperparameter-Optimization-of-Machine-Learning-Algorithms) |
-
