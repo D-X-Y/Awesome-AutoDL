@@ -117,7 +117,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [NADS: Neural Architecture Distribution Search for Uncertainty Awareness](https://arxiv.org/pdf/2006.06646.pdf) | ICML | - | - |
 | [Generative Teaching Networks: Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data](https://arxiv.org/abs/1912.07768) | ICML | - | - |
 | Neural Architecture Search in a Proxy Validation Loss Landscape | ICML | - | - |
-| [UNAS: Differentiable Architecture Search Meets Reinforcement Learning](https://openaccess.thecvf.com/content_CVPR_2020/papers/Vahdat_UNAS_Differentiable_Architecture_Search_Meets_Reinforcement_Learning_CVPR_2020_paper.pdf) | CVPR | - | [GitHub](https://github.com/NVlabs/unas) |
+| [UNAS: Differentiable Architecture Search Meets Reinforcement Learning](https://openaccess.thecvf.com/content_CVPR_2020/papers/Vahdat_UNAS_Differentiable_Architecture_Search_Meets_Reinforcement_Learning_CVPR_2020_paper.pdf) | CVPR | G/RL | [GitHub](https://github.com/NVlabs/unas) |
 | [MiLeNAS: Efficient Neural Architecture Search via Mixed-Level Reformulation](https://arxiv.org/pdf/2003.12238.pdf) | CVPR | G | [GitHub](https://github.com/chaoyanghe/MiLeNAS) |
 | [A Semi-Supervised Assessor of Neural Architectures](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tang_A_Semi-Supervised_Assessor_of_Neural_Architectures_CVPR_2020_paper.pdf) | CVPR | PD | - |
 | [Binarizing MobileNet via Evolution-based Searching](https://arxiv.org/abs/2005.06305) | CVPR | EA | - |
@@ -139,7 +139,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [Fast Neural Network Adaptation via Parameter Remapping and Architecture Search](https://openreview.net/forum?id=rklTmyBKPH) | ICLR | - | [GitHub](https://github.com/JaminFong/FNA) |
 | [Once for All: Train One Network and Specialize it for Efficient Deployment](https://openreview.net/forum?id=HylxE1HKwS) | ICLR | G | [GitHub](https://github.com/mit-han-lab/once-for-all) |
 | Efficient Transformer for Mobile Applications | ICLR | - | - |
-| PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search | ICLR | G | [GitHub](https://github.com/yuhuixu1993/PC-DARTS) |
+| [PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search](https://arxiv.org/pdf/1907.05737v4.pdf) | ICLR | G | [GitHub](https://github.com/yuhuixu1993/PC-DARTS) |
 | Adversarial AutoAugment | ICLR | - | - |
 | [NAS evaluation is frustratingly hard](https://arxiv.org/abs/1912.12522) | ICLR | - | [GitHub](https://github.com/antoyang/NAS-Benchmark) |
 | [FasterSeg: Searching for Faster Real-time Semantic Segmentation](https://openreview.net/pdf?id=BJgqQ6NYvB) | ICLR | G | [GitHub](https://github.com/TAMU-VITA/FasterSeg) |
