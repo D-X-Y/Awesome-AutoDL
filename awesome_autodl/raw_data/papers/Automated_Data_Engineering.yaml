@@ -1,1 +1,50 @@
-[]
+- title: "AutoAugment: Learning Augmentation Policies from Data"
+  venue: "cvpr"
+  venue_date: "2019.06"
+  online_date: "2018.05"
+  contacts: {"Ekin D. Cubuk": "cubuk@google.com", "Barret Zoph": "barretzoph@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "RandAugment: Practical Automated Data Augmentation with a Reduced Search Space"
+  venue: "nips"
+  venue_date: "2020.12"
+  online_date: "2019.09"
+  contacts: {"Ekin D. Cubuk": "cubuk@google.com", "Barret Zoph": "barretzoph@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Teacher Supervises Students How to Learn from Partially Labeled Images for Facial Landmark Detection"
+  venue: "iccv"
+  venue_date: "2019.10"
+  online_date: "2019.08"
+  contacts: {"Xuanyi Dong": "xuanyi.dxy@gmail.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Learning to teach"
+  venue: "iclr"
+  venue_date: "2018.04"
+  online_date: "2018.04"
+  contacts: {"Yang Fan": "fyabc@mail.ustc.edu.cn", "Fei Tian": "fetia@microsoft.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Automated data cleansing through meta-learning"
+  venue: "aaai"
+  venue_date: "2017.02"
+  online_date: "2017.02"
+  contacts: {"Ian Gemp": "imgemp@cs.umass.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:

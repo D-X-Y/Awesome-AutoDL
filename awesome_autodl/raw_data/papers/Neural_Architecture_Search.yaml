@@ -104,7 +104,7 @@
   online_date: "2018.12"
   contacts: {"Han Cai": "hancai@mit.edu", "Ligeng Zhu": "ligeng@mit.edu", "Song Han" : "chuangg@mit.edu"}
   search_space: "MBS"
-  search_strategy:
+  search_strategy: "differentiable, RL"
   candidate_evaluation: "weight sharing"
   discussed: true
   misc:
@@ -128,3 +128,163 @@
   candidate_evaluation:
   discussed: true
   misc:
+- title: "FBNetV3: Joint Architecture-Recipe Search using Predictor Pretraining"
+  venue: "cvpr"
+  venue_date: "2021.06"
+  online_date: "2020.06"
+  contacts: {"Xiaoliang Dai": "xiaoliangdai@fb.com", "Alvin Wan": "alvinwan@berkeley.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Bayesian Learning of Neural Network Architectures"
+  venue: "aistats"
+  venue_date: "2019.04"
+  online_date: "2019.01"
+  contacts: {"Justin Bayer": "bayerj@argmax.ai"}
+  search_space:
+  search_strategy: "BayesOpt"
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "More is Less: A More Complicated Network with Less Inference Complexity"
+  venue: "cvpr"
+  venue_date: "2017.07"
+  online_date: "2017.03"
+  contacts: {"Xuanyi Dong": "xuanyi.dxy@gmail.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "NATS-Bench: Benchmarking NAS Algorithms for Architecture Topology and Size"
+  venue: "IEEE_J_PAMI"
+  venue_date: "2021.01"
+  online_date: "2020.09"
+  contacts: {"Xuanyi Dong": "xuanyi.dxy@gmail.com", "Bogdan Gabrys": "Bogdan.Gabrys@uts.edu.au"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "AutoHAS: Efficient Hyperparameter and Architecture Search"
+  venue: "iclr_w"
+  venue_date: "2021.05"
+  online_date: "2020.06"
+  contacts: {"Xuanyi Dong": "xuanyi.dxy@gmail.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation: "weight sharing"
+  discussed: true
+  misc:
+- title: "Network Pruning via Transformable Architecture Search"
+  venue: "nips"
+  venue_date: "2019.12"
+  online_date: "2019.05"
+  contacts: {"Xuanyi Dong": "xuanyi.dxy@gmail.com"}
+  search_space: "size"
+  search_strategy: "differentiable"
+  candidate_evaluation: "weight sharing"
+  discussed: true
+  misc:
+- title: "One-Shot Neural Architecture Search via Self-Evaluated Template Network"
+  venue: "iccv"
+  venue_date: "2019.10"
+  online_date: "2019.10"
+  contacts: {"Xuanyi Dong": "xuanyi.dxy@gmail.com"}
+  search_space: "RNS"
+  search_strategy: "differentiable"
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Searching for A Robust Neural Architecture in Four GPU Hours"
+  venue: "cvpr"
+  venue_date: "2019.06"
+  online_date: "2019.06"
+  contacts: {"Xuanyi Dong": "xuanyi.dxy@gmail.com"}
+  search_space: "RNS"
+  search_strategy: "differentiable"
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "NAS-bench-201: Extending the scope of reproducible neural architecture search"
+  venue: "iclr"
+  venue_date: "2020.04"
+  online_date: "2020.01"
+  contacts: {"Xuanyi Dong": "xuanyi.dxy@gmail.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Neural architecture search: A survey"
+  venue: "jmlr"
+  venue_date: "2019.03"
+  online_date: "2018.08"
+  contacts: {"Thomas Elsken": "thomas.elsken@de.bosch.com", "Jan Hendrik Metzen": "janhendrik.metzen@de.bosch.com", "Frank Hutter": "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc: "This is a survey work"
+- title: "Densely Connected Search Space for More Flexible Neural Architecture Search"
+  venue: "cvpr"
+  venue_date: "2020.06"
+  online_date: "2019.06"
+  contacts: {"Jiemin Fang": "jaminfong@hust.edu.cn"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Spatially Adaptive Computation Time for Residual Networks"
+  venue: "cvpr"
+  venue_date: "2017.07"
+  online_date: "2016.12"
+  contacts: {"Michael Figurnov": "michael@figurnov.ru", "Maxwell D. Collins": "maxwellcollins@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+  venue: "iclr"
+  venue_date: "2019.05"
+  online_date: "2018.03"
+  contacts: {"Jonathan Frankle": "jfrankle@csail.mit.edu", "Michael Carbin": "mcarbin@csail.mit.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection"
+  venue: "cvpr"
+  venue_date: "2019.06"
+  online_date: "2019.04"
+  contacts: {"Golnaz Ghaisi": "golnazg@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Single Path One-Shot Neural Architecture Search with Uniform Sampling"
+  venue: "eccv"
+  venue_date: "2020.08"
+  online_date: "2019.04"
+  contacts: {"Zichao Guo": "guozichao@megvii.com", "Xiangyu Zhang": "zhangxiangyu@megvii.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Dynamic Neural Networks: A Survey"
+  venue: "arXiv"
+  venue_date: "2021.02"
+  online_date: "2021.02"
+  contacts: {"Yizeng Han": "hanyz18@mails.tsinghua.edu.cn"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc: "This is a survey work"

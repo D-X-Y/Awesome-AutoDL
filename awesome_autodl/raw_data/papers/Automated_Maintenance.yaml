@@ -18,3 +18,43 @@
   candidate_evaluation:
   discussed: true
   misc:
+- title: "Sequential Scenario-Specific Meta Learner for Online Recommendation"
+  venue: "sigkdd"
+  venue_date: "2019.08"
+  online_date: "2019.06"
+  contacts: {"Zhengxiao Du": "duzx16@mails.tsinghua.edu.cn", "Jie Tang": "duzx16@mails.tsinghua.edu.cn"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "RL2: Fast Reinforcement Learning via Slow Reinforcement Learning"
+  venue: "arXiv"
+  venue_date: "2016.11"
+  online_date: "2016.11"
+  contacts: {"Yan Duan": "rocky@covariant.ai"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "DACBench: A Benchmark Library for Dynamic Algorithm Configuration"
+  venue: "ijcai"
+  venue_date: "2021.08"
+  online_date: "2021.05"
+  contacts: {"Theresa Eimer": "eimer@tnt.uni-hannover.de", "Marius Lindauer": "lindauer@tnt.uni-hannover.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Building Upon Neural Models of How Brains Make Minds"
+  venue: "IEEE_TSMC"
+  venue_date: "2020.12"
+  online_date: "2020.12"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:

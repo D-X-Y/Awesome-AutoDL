@@ -108,3 +108,123 @@
   candidate_evaluation:
   discussed: true
   misc:
+- title: "FBNetV3: Joint Architecture-Recipe Search using Predictor Pretraining"
+  venue: "cvpr"
+  venue_date: "2021.06"
+  online_date: "2020.06"
+  contacts: {"Xiaoliang Dai": "xiaoliangdai@fb.com", "Alvin Wan": "alvinwan@berkeley.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Mixed-Variable Bayesian Optimization"
+  venue: "ijcai"
+  venue_date: "2020.01"
+  online_date: "2019.07"
+  contacts: {"Erik Daxberger": "ead54@cam.ac.uk", "Andreas Krause": "krausea@inf.ethz.ch"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Speeding up Automatic Hyperparameter Optimization of Deep Neural Networks by Extrapolation of Learning Curves"
+  venue: "ijcai"
+  venue_date: "2015.07"
+  online_date: "2015.07"
+  contacts: {"Tobias Domhan": "domhant@cs.uni-freiburg.de", "Frank Hutter": "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "AutoHAS: Efficient Hyperparameter and Architecture Search"
+  venue: "iclr_w"
+  venue_date: "2021.05"
+  online_date: "2020.06"
+  contacts: {"Xuanyi Dong": "xuanyi.dxy@gmail.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation: "weight sharing"
+  discussed: true
+  misc:
+- title: "Surrogate Benchmarks for Hyperparameter Optimization"
+  venue: "ecai_w"
+  venue_date: "2014.08"
+  online_date: "2014.08"
+  contacts: {"Katharina Eggensperger": "eggenspk@cs.uni-freiburg.de", "Frank Hutter": "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "HPOBench: A Collection of Reproducible Multi-Fidelity Benchmark Problems for HPO"
+  venue: "nips"
+  venue_date: "2021.12"
+  online_date: "2021.09"
+  contacts: {"Katharina Eggensperger": "eggenspk@cs.uni-freiburg.de", "Neeratyoy Mallik": "mallik@cs.uni-freiburg.de", "Frank Hutter": "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "AutoGluon-Tabular: Robust and Accurate AutoML for Structured Data"
+  venue: "icml_w"
+  venue_date: "2020.07"
+  online_date: "2020.03"
+  contacts: {"Nick Erickson": "neerick@amazon.com", "Jonas Mueller": "jonasmue@amazon.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "BOHB: Robust and Efficient Hyperparameter Optimization at Scale"
+  venue: "icml"
+  venue_date: "2018.07"
+  online_date: "2018.07"
+  contacts: {"Stefan Falkner": "sfalkner@informatik.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Hyperparameter optimization"
+  venue: "automated_machine_learning"
+  venue_date: "2019.12"
+  online_date: "2019.12"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc: "This is a survey chapter in the book, Automated Machine Learning."
+- title: "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks"
+  venue: "icml"
+  venue_date: "2017.08"
+  online_date: "2017.03"
+  contacts: {"Chelsea Finn": "cbfinn@eecs.berkeley.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Google Vizier: A Service for Black-Box Optimization"
+  venue: "sigkdd"
+  venue_date: "2017.08"
+  online_date: "2017.06"
+  contacts: {"Daniel Golovin": "dgg@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc: "This is a library/software paper."
+- title: "A Survey of Methods for Explaining Black Box Models"
+  venue: "acm_comp_sur"
+  venue_date: "2018.08"
+  online_date: "2018.02"
+  contacts: {"Riccardo Guidotti": "riccardo.guidotti@di.unipi.it"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:

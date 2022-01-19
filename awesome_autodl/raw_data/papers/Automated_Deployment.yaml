@@ -8,3 +8,13 @@
   candidate_evaluation:
   discussed: true
   misc:
+- title: "DANCE: Differentiable Accelerator/Network Co-Exploration"
+  venue: "dac"
+  venue_date: "2021.12"
+  online_date: "2020.09"
+  contacts: {"Kanghyun Choi": "kanghyun.choi@yonsei.ac.kr", "Jinho Lee": "leejinho@yonsei.ac.kr"}
+  search_space:
+  search_strategy: "differentiable"
+  candidate_evaluation:
+  discussed: true
+  misc:
