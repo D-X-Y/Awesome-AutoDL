@@ -85,7 +85,6 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [Designing Network Design Spaces](https://arxiv.org/pdf/2003.13678.pdf) | CVPR | - | [GitHub](https://github.com/facebookresearch/pycls) |
 | [Cream of the Crop: Distilling Prioritized Paths For One-Shot Neural Architecture Search](https://papers.nips.cc/paper/2020/file/d072677d210ac4c03ba046120f0802ec-Paper.pdf) | NeurIPS | - | [GitHub](https://github.com/microsoft/Cream) |
 | [PyGlove: Symbolic Programming for Automated Machine Learning](https://proceedings.neurips.cc/paper/2020/file/012a91467f210472fab4e11359bbfef6-Paper.pdf) | NeurIPS | library | - |
 | [Does Unsupervised Architecture Representation Learning Help Neural Architecture Search](https://arxiv.org/abs/2006.06936) | NeurIPS | PD | [GitHub](https://github.com/MSU-MLSys-Lab/arch2vec) |
@@ -98,6 +97,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [Revisiting Parameter Sharing for Automatic Neural Channel Number Search](https://proceedings.neurips.cc/paper/2020/file/42cd63cb189c30ed03e42ce2c069566c-Paper.pdf) | NeurIPS | | |
 | [Learning Search Space Partition for Black-box Optimization using Monte Carlo Tree Search](https://arxiv.org/pdf/2007.00708.pdf) | NeurIPS | MCTS | [GitHub](https://github.com/facebookresearch/LaMCTS) |
 | [Neural Architecture Search using Deep Neural Networks and Monte Carlo Tree Search](https://arxiv.org/abs/1805.07440) | AAAI | MCTS | [GitHub](https://github.com/linnanwang/AlphaX-NASBench101) |
+| [Representation Sharing for Fast Object Detector Search and Beyond](https://arxiv.org/pdf/2007.12075v4.pdf) | ECCV | G | [GitHub](https://github.com/msight-tech/research-fad) |
 | [Are Labels Necessary for Neural Architecture Search?](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490766.pdf) | ECCV | G | - |
 | [Single Path One-Shot Neural Architecture Search with Uniform Sampling](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610528.pdf) | ECCV | EA | - |
 | [Neural Predictor for Neural Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123740647.pdf) | ECCV | O | - |
@@ -117,6 +117,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [NADS: Neural Architecture Distribution Search for Uncertainty Awareness](https://arxiv.org/pdf/2006.06646.pdf) | ICML | - | - |
 | [Generative Teaching Networks: Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data](https://arxiv.org/abs/1912.07768) | ICML | - | - |
 | Neural Architecture Search in a Proxy Validation Loss Landscape | ICML | - | - |
+| [Hit-Detector: Hierarchical Trinity Architecture Search for Object Detection](https://arxiv.org/pdf/2003.11818v1.pdf) | CVPR | - | [GitHub](https://github.com/ggjy/HitDet.pytorch) |
+| [Designing Network Design Spaces](https://arxiv.org/pdf/2003.13678.pdf) | CVPR | - | [GitHub](https://github.com/facebookresearch/pycls) |
 | [UNAS: Differentiable Architecture Search Meets Reinforcement Learning](https://openaccess.thecvf.com/content_CVPR_2020/papers/Vahdat_UNAS_Differentiable_Architecture_Search_Meets_Reinforcement_Learning_CVPR_2020_paper.pdf) | CVPR | G/RL | [GitHub](https://github.com/NVlabs/unas) |
 | [MiLeNAS: Efficient Neural Architecture Search via Mixed-Level Reformulation](https://arxiv.org/pdf/2003.12238.pdf) | CVPR | G | [GitHub](https://github.com/chaoyanghe/MiLeNAS) |
 | [A Semi-Supervised Assessor of Neural Architectures](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tang_A_Semi-Supervised_Assessor_of_Neural_Architectures_CVPR_2020_paper.pdf) | CVPR | PD | - |
