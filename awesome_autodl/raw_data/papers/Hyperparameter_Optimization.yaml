@@ -228,3 +228,153 @@
   candidate_evaluation:
   discussed: true
   misc:
+- title: "Learning to Learn Using Gradient Descent"
+  venue: "icann"
+  venue_date: "2001.08"
+  online_date: "2001.08"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Evolved Policy Gradients"
+  venue: "nips"
+  venue_date: "2018.12"
+  online_date: "2018.02"
+  contacts: {"Rein Houthooft": "rein.houthooft@openai.com"}
+  search_space: "RL loss"
+  search_strategy: "evolution"
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Sequential model-based optimization for general algorithm configuration"
+  venue: "lion"
+  venue_date: "2011.01"
+  online_date: "2011.01"
+  contacts: {"Frank Hutter": "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "ParamILS: an automatic algorithm configuration framework"
+  venue: "JAIR"
+  venue_date: "2009.09"
+  online_date: "2009.09"
+  contacts: {"Frank Hutter": "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Population Based Training of Neural Networks"
+  venue: "arXiv"
+  venue_date: "2017.11"
+  online_date: "2017.11"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Non-stochastic Best Arm Identification and Hyperparameter Optimization"
+  venue: "aistats"
+  venue_date: "2016.05"
+  online_date: "2015.02"
+  contacts: {"Kevin Jamieson": "kjamieson@eecs.berkeley.edu", "Ameet Talwalkar": "ameet@cs.ucla.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Bayesian Optimization with Tree-structured Dependencies"
+  venue: "icml"
+  venue_date: "2017.08"
+  online_date: "2017.08"
+  contacts: {"Rodolphe Jenatton": "jenat-ton@amazon.de", "Matthias Seeger": "matthias@amazon.de"}
+  search_space:
+  search_strategy: "BayesOpt"
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Hyp-RL : Hyperparameter Optimization by Reinforcement Learning"
+  venue: "arXiv"
+  venue_date: "2019.06"
+  online_date: "2019.06"
+  contacts: {"Hadi S. Jomaa": "jomaah@ismll.uni-hildesheim.de", "Lars Schmidt-Thieme": "lars@ismll.uni-hildesheim.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Gaussian Process Bandit Optimisation with Multi-fidelity Evaluations"
+  venue: "nips"
+  venue_date: "2016.12"
+  online_date: "2016.12"
+  contacts: {"Kirthevasan Kandasamy": "kandasamy@cs.cmu.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "AutonoML: Towards an Integrated Framework for Autonomous Machine Learning"
+  venue: "arXiv"
+  venue_date: "2020.12"
+  online_date: "2020.12"
+  contacts: {"David Jacob Kedziora": "david.kedziora@uts.edu.au"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Design and regularization of neural networks: the optimal use of a validation set"
+  venue: "IEEE_NNSP"
+  venue_date: "1996.09"
+  online_date: "1996.09"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Adaptive Regularization in Neural Network Modeling"
+  venue: "NN_ToT"
+  venue_date: "2002.03"
+  online_date: "2002.03"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "A Generalized Framework for Population Based Training"
+  venue: "sigkdd"
+  venue_date: "2019.08"
+  online_date: "2019.02"
+  contacts: {"Ang Li": "anglili@google.com"}
+  search_space:
+  search_strategy: "PBT"
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Learning to Optimize"
+  venue: "iclr"
+  venue_date: "2017.04"
+  online_date: "2016.06"
+  contacts: {"Ke Li": "ke.li@eecs.berkeley.edu", "Jitendra Malik": "malik@eecs.berkeley.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization"
+  venue: "jmlr"
+  venue_date: "2018.04"
+  online_date: "2016.03"
+  contacts: {"Lisha Li": "lishal@cs.cmu.edu", "Ameet Talwalkar": "talwalkar@cmu.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:

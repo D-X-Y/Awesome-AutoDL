@@ -288,3 +288,83 @@
   candidate_evaluation:
   discussed: true
   misc: "This is a survey work"
+- title: "Macro Neural Architecture Search Revisited"
+  venue: "nips_w"
+  venue_date: "2018.12"
+  online_date: "2018.12"
+  contacts: {"Hanzhang Hu": "hanzhang@cs.cmu.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Auto-Keras: An Efficient Neural Architecture Search System"
+  venue: "sigkdd"
+  venue_date: "2019.08"
+  online_date: "2018.06"
+  contacts: {"Haifeng Jin": "jin@tamu.edu", "Qingquan Song": "song_3134@tamu.edu", "Xia Hu": "xiahu@tamu.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc: "This is a library/software paper."
+- title: "Neural Architecture Search with Bayesian Optimisation and Optimal Transport"
+  venue: "nips"
+  venue_date: "2018.12"
+  online_date: "2018.02"
+  contacts: {"Kirthevasan Kandasamy": "kandasamy@cs.cmu.edu", "Eric P Xing": "epxing@cs.cmu.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Tabular Benchmarks for Joint Architecture and Hyperparameter Optimization"
+  venue: "arXiv"
+  venue_date: "2019.05"
+  online_date: "2019.05"
+  contacts: {"Aaron Klein": "kleinaa@cs.uni-freiburg.de", "Frank Hutter": "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "HW-NAS-Bench: Hardware-Aware Neural Architecture Search Benchmark"
+  venue: "iclr"
+  venue_date: "2021.05"
+  online_date: "2021.03"
+  contacts: {"Chaojian Li": "cl114@rice.edu", "Yingyan Lin": "yingyan.lin@rice.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Random Search and Reproducibility for Neural Architecture Search"
+  venue: "uai"
+  venue_date: "2020.08"
+  online_date: "2019.02"
+  contacts: {"Liam Li": "me@liamcli.com", "Ameet Talwalkar", "talwalkar@cmu.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Best Practices for Scientific Research on Neural Architecture Search"
+  venue: "jmlr"
+  venue_date: "2020.11"
+  online_date: "2019.09"
+  contacts: {"Marius Lindauer": "lindauer@tnt.uni-hannover.de", "Frank Hutter", "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc: "This is a discussion paper."
+- title: "Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation"
+  venue: "cvpr"
+  venue_date: "2019.06"
+  online_date: "2019.01"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:

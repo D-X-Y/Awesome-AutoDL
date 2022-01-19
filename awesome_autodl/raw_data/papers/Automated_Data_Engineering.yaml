@@ -48,3 +48,33 @@
   candidate_evaluation:
   discussed: true
   misc:
+- title: "Learning Active Learning from Data"
+  venue: "nips"
+  venue_date: "2017.12"
+  online_date: "2017.03"
+  contacts: {"Ksenia Konyushkova": "ksenia.konyushkova@epfl.ch", "Pascal Fua": "pascal.fua@epfl.ch"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "DADA: Differentiable Automatic Data Augmentation"
+  venue: "eccv"
+  venue_date: "2020.08"
+  online_date: "2020.03"
+  contacts: {"Yongtao Wang": "wyt@pku.edu.cn"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Fast autoaugment"
+  venue: "nips"
+  venue_date: "2019.12"
+  online_date: "2019.05"
+  contacts: {"Sungbin Lim": "sungbin.lim@kakaobrain.com", "Ildoo Kim": "ildoo.kim@kakaobrain.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
