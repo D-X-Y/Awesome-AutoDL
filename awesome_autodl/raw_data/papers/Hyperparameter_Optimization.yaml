@@ -378,3 +378,53 @@
   candidate_evaluation:
   discussed: true
   misc:
+- title: "Optimizing Millions of Hyperparameters by Implicit Differentiation"
+  venue: "aistats"
+  venue_date: "2020.08"
+  online_date: "2019.11"
+  contacts: {"Jonathan Lorraine": "lorraine@cs.toronto.edu", "David Duvenaud": "duvenaud@cs.toronto.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "CMA-ES for Hyperparameter Optimization of Deep Neural Networks"
+  venue: "iclr_w"
+  venue_date: "2016.05"
+  online_date: "2016.04"
+  contacts: {"Ilya Loshchilov": "ilya@cs.uni-freiburg.de", "Frank Hutter": "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Scalable Gradient-Based Tuning of Continuous Regularization Hyperparameters"
+  venue: "icml"
+  venue_date: "2016.06"
+  online_date: "2015.11"
+  contacts: {"Jelena Luketina": "jelena.luketina@aalto.fi", "Tapani Raiko": "tapani.raiko@aalto.fi"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Self-Tuning Networks: Bilevel Optimization of Hyperparameters using Structured Best-Response Functions"
+  venue: "iclr"
+  venue_date: "2019.05"
+  online_date: "2019.03"
+  contacts: {"Matthew MacKay": "mmackay@cs.toronto.edu", "Paul Vicol": "pvicol@cs.toronto.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Gradient-based Hyperparameter Optimization through Reversible Learning"
+  venue: "icml"
+  venue_date: "2015.07"
+  online_date: "2015.02"
+  contacts: {"Dougal Maclaurin": "maclaurin@physics.harvard.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:

@@ -368,3 +368,43 @@
   candidate_evaluation:
   discussed: true
   misc:
+- title: "Progressive Neural Architecture Search"
+  venue: "eccv"
+  venue_date: "2018.09"
+  online_date: "2017.12"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Evolving Normalization-Activation Layers"
+  venue: "nips"
+  venue_date: "2020.12"
+  online_date: "2020.04"
+  contacts: {"Hanxiao Liu": "hanxiaol@google.com"}
+  search_space:
+  search_strategy: "evolution"
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "DARTS: Differentiable Architecture Search"
+  venue: "iclr"
+  venue_date: "2019.05"
+  online_date: "2018.06"
+  contacts: {"Hanxiao Liu": "hanxiaol@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Neural Architecture Optimization"
+  venue: "nips"
+  venue_date: "2018.12"
+  online_date: "2018.08"
+  contacts: {"Renqian Luo": "lrq@mail.ustc.edu.cn", "Fei Tian": "fetia@microsoft.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
