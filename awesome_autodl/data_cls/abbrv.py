@@ -15,9 +15,7 @@ class BibAbbreviations:
             lines = f.readlines()
         lines = [x.strip() for x in lines]
 
-        pattern = (
-            r'^@STRING\{([A-Z]|[a-z]|\s|_)*=(\s)*"([A-Z]|[a-z]|\s|\(|\)|\/|\,|\:|\-)*"\}$'
-        )
+        pattern = r'^@STRING\{([A-Z]|[a-z]|\s|_)*=(\s)*"([A-Z]|[a-z]|\s|\(|\)|\/|\,|\:|\-)*"\}$'
         self.prog = re.compile(pattern)
         self.abbrv2str = dict()
         for index, line in enumerate(lines):

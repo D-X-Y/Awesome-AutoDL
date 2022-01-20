@@ -428,3 +428,34 @@
   candidate_evaluation:
   discussed: true
   misc:
+- title: "Exploring Opportunistic Meta-knowledge to Reduce Search Spaces for Automated Machine Learning"
+  venue: "ijcnn"
+  venue_date: "2021.05"
+  online_date: "2021.07"
+  contacts: {"Tien-Dung Nguyen": "TienDung.Nguyen-2@student.uts.edu.au", "Bogdan Gabrys": "Bogdan.Gabrys@uts.edu.au"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "PABO: Pseudo Agent-Based Multi-Objective Bayesian Hyperparameter Optimization for Efficient Neural Accelerator Design"
+  venue: "iccad"
+  venue_date: "2019.11"
+  online_date: "2019.06"
+  contacts: {"Maryam Parsa": "mparsa@purdue.edu", "Kaushik Roy": "kaushik@purdue.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Hyperparameter optimization with approximate gradient"
+  venue: "icml"
+  venue_date: "2016.06"
+  online_date: "2016.02"
+  contacts: {"Fabian Pedregosa": "f@bianp.net"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/pdf/1602.02355.pdf", "code": "https://github.com/fabianp/hoag"}
+  misc:

@@ -18,12 +18,15 @@ class AutoDLpaper:
 
     required_fields = ("title", "venue", "venue_date", "online_date", "contacts")
 
-    # non-required fileds
+    # none-required fields
     search_space: Text = None
     search_strategy: Text = None
     candidate_evaluation: Text = None
 
     autodl_aspect_fields = ("search_space", "search_strategy", "candidate_evaluation")
+
+    # non-required fileds
+    links: Optional[Dict[Text, Text]] = None
 
     # misc
     discussed: bool = None
@@ -92,7 +95,7 @@ class AutoDLpaper:
         all_fields = (
             list(self.required_fields)
             + list(self.autodl_aspect_fields)
-            + ["discussed", "misc"]
+            + ["discussed", "misc", "links"]
         )
         for key in data.keys():
             if key not in all_fields:

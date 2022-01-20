@@ -408,3 +408,56 @@
   candidate_evaluation:
   discussed: true
   misc:
+- title: "Neural Architecture Search without Training"
+  venue: "icml"
+  venue_date: "2021.07"
+  online_date: "2020.06"
+  contacts: {"Joseph Mellor": "joe.mellor@ed.ac.uk"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "PyGlove: Symbolic Programming for Automated Machine Learning"
+  venue: "nips"
+  venue_date: "2020.12"
+  online_date: "2020.12"
+  contacts: {"Daiyi Peng": "daiyip@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc: "This is a library/software paper."
+- title: "Efficient Neural Architecture Search via Parameters Sharing"
+  venue: "icml"
+  venue_date: "2018.07"
+  online_date: "2018.02"
+  contacts: {"Hieu Pham": "hy-hieu@cmu.edu", "Melody Y. Guan": "mguan@stanford.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/pdf/1802.03268.pdf"}
+  misc:
+- title: "Designing Network Design Spaces"
+  venue: "cvpr"
+  venue_date: "2020.06"
+  online_date: "2020.03"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/pdf/2003.13678.pdf", "code": "https://github.com/facebookresearch/pycls"}
+  misc:
+- title: "Searching for Activation Functions"
+  venue: "arXiv"
+  venue_date: "2017.10"
+  online_date: "2017.10"
+  contacts: {"Prajit Ramachandran": "prajit@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/pdf/1710.05941.pdf"}
+  misc:

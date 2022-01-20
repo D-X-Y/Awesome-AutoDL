@@ -78,3 +78,13 @@
   candidate_evaluation:
   discussed: true
   misc:
+- title: "Automatically Learning Data Augmentation Policies for Dialogue Tasks"
+  venue: "emnlp"
+  venue_date: "2019.11"
+  online_date: "2019.09"
+  contacts: {"Tong Niu": "tongn@cs.unc.edu", "Mohit Bansal": "mbansal@cs.unc.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:

@@ -28,3 +28,64 @@
   candidate_evaluation:
   discussed: true
   misc:
+- title: "A Hierarchical Model for Device Placement"
+  venue: "iclr"
+  venue_date: "2018.04"
+  online_date: "2018.04"
+  contacts: {"Azalia Mirhoseini": "azalia@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Placeto: Learning Generalizable Device Placement Algorithms for Distributed Machine Learning"
+  venue: "nips"
+  venue_date: "2019.12"
+  online_date: "2019.06"
+  contacts: {"Ravichandra Addanki": "addanki@mit.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "A graph placement methodology for fast chip design"
+  venue: "nature"
+  venue_date: "2021.06"
+  online_date: "2021.06"
+  contacts: {"Azalia Mirhoseini": "azalia@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Device placement optimization with reinforcement learning"
+  venue: "icml"
+  venue_date: "2017.08"
+  online_date: "2017.06"
+  contacts: {"Azalia Mirhoseini": "azalia@google.com"}
+  search_space:
+  search_strategy: "RL"
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Practical Design Space Exploration"
+  venue: "mascots"
+  venue_date: "2019.10"
+  online_date: "2018.10"
+  contacts: {"Luigi Nardi": "lnardi@stanford.edu", "Kunle Olukotun": "kunle@stanford.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  misc:
+- title: "Optimus: an efficient dynamic resource scheduler for deep learning clusters"
+  venue: "eurosys"
+  venue_date: "2018.04"
+  online_date: "2018.04"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://dl.acm.org/doi/10.1145/3190508.3190517"}
+  misc:
