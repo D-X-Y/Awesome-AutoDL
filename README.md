@@ -81,6 +81,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [Rethinking Architecture Selection in Differentiable NAS](https://openreview.net/forum?id=PKubaeJkw3) | ICLR | O | [GitHub](https://github.com/ruocwang/darts-pt) |
 | [Evolving Reinforcement Learning Algorithms](https://openreview.net/forum?id=0XXpJ4OtjW) | ICLR | EA | [GitHub](https://github.com/jcoreyes/evolvingrl) |
 | [AutoHAS: Differentiable Hyper-parameter and Architecture Search](https://arxiv.org/pdf/2006.03656.pdf) | ICLR-W | G | - |
+| [FBNetV3: Joint Architecture-Recipe Search using Neural Acquisition Function](https://arxiv.org/abs/2006.02049) | CVPR | PD | [github](https://github.com/facebookresearch/mobile-vision/blob/main/mobile_cv/arch/fbnet_v2/fbnet_modeldef_cls_fbnetv3.py) |
 
 ## 2020 Venues
 
@@ -253,7 +254,6 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |  Title  |   Date  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [FBNetV3: Joint Architecture-Recipe Search using Neural Acquisition Function](https://arxiv.org/abs/2006.02049) | 2020.06 | PD | [github](https://github.com/facebookresearch/mobile-vision/blob/main/mobile_cv/arch/fbnet_v2/fbnet_modeldef_cls_fbnetv3.py) |
 | [NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search](https://arxiv.org/pdf/1810.03522.pdf) | 2018.10 | EA | - |
 | [Training Frankenstein’s Creature to Stack: HyperTree Architecture Search](https://arxiv.org/pdf/1810.11714.pdf) | 2018.10 | G | - |
 | [Population Based Training of Neural Networks](https://arxiv.org/abs/1711.09846) | 2017.11 | EA | [GitHub](https://github.com/MattKleinsmith/pbt) |
