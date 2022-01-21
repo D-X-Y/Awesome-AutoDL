@@ -47,9 +47,9 @@ class AutoDLpaper:
         self.venue = data["venue"]
         date_pattern = re.compile("^([0-9]){4}.([0-9]){2}$")
         if date_pattern.match(data["venue_date"]) is None:
-            raise ValueError(f"Invalid venue date ({data['venue_date']})")
+            raise ValueError(f"Invalid venue date ({data['venue_date']}) :: {data}")
         if date_pattern.match(data["online_date"]) is None:
-            raise ValueError(f"Invalid online date ({data['online_date']})")
+            raise ValueError(f"Invalid online date ({data['online_date']}) :: {data}")
         self.venue_date = data["venue_date"]
         self.online_date = data["online_date"]
 

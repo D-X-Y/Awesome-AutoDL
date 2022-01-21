@@ -167,6 +167,7 @@
   search_strategy:
   candidate_evaluation:
   discussed: true
+  links: {"paper": "https://arxiv.org/abs/2009.00437", "code": "https://github.com/D-X-Y/NATS-Bench"}
   misc:
 - title: "AutoHAS: Efficient Hyperparameter and Architecture Search"
   venue: "iclr_w"
@@ -177,6 +178,7 @@
   search_strategy:
   candidate_evaluation: "weight sharing"
   discussed: true
+  links: {"paper": "https://arxiv.org/pdf/2006.03656.pdf"}
   misc:
 - title: "Network Pruning via Transformable Architecture Search"
   venue: "nips"
@@ -187,6 +189,7 @@
   search_strategy: "differentiable"
   candidate_evaluation: "weight sharing"
   discussed: true
+  links: {"paper": "https://arxiv.org/abs/1905.09717", "code": "https://github.com/D-X-Y/AutoDL-Projects"}
   misc:
 - title: "One-Shot Neural Architecture Search via Self-Evaluated Template Network"
   venue: "iccv"
@@ -207,6 +210,7 @@
   search_strategy: "differentiable"
   candidate_evaluation:
   discussed: true
+  links: {"paper": "https://arxiv.org/abs/1910.04465", "code": "https://github.com/D-X-Y/AutoDL-Projects"}
   misc:
 - title: "NAS-bench-201: Extending the scope of reproducible neural architecture search"
   venue: "iclr"
@@ -217,6 +221,7 @@
   search_strategy:
   candidate_evaluation:
   discussed: true
+  links: {"paper": "https://arxiv.org/abs/2001.00326", "code": "https://github.com/D-X-Y/NAS-Bench-201"}
   misc:
 - title: "Neural architecture search: A survey"
   venue: "jmlr"
@@ -526,4 +531,70 @@
   candidate_evaluation:
   discussed: true
   links: {"paper": "https://arxiv.org/abs/1901.11117", "code": "https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/evolved_transformer.py"}
+  misc:
+- title: "MnasNet: Platform-aware neural architecture search for mobile"
+  venue: "cvpr"
+  venue_date: "2019.06"
+  online_date: "2018.07"
+  contacts: {"Mingxing Tan": "tanmingxing@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1807.11626", "code": "https://github.com/tensorflow/tpu/tree/master/models/official/mnasnet"}
+  misc:
+- title: "EfficientNetV2: Smaller models and faster training"
+  venue: "icml"
+  venue_date: "2021.07"
+  online_date: "2021.04"
+  contacts: {"Mingxing Tan": "tanmingxing@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2104.00298", "code": "https://github.com/google/automl/tree/master/efficientnetv2"}
+  misc:
+- title: "HAQ: Hardware-aware automated quantization with mixed precision"
+  venue: "cvpr"
+  venue_date: "2019.06"
+  online_date: "2018.11"
+  contacts: {"Kuan Wang": "kuanwang@mit.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1811.08886"}
+  misc:
+- title: "APQ: Joint Search for Network Architecture, Pruning and Quantization Policy"
+  venue: "cvpr"
+  venue_date: "2020.06"
+  online_date: "2020.06"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2006.08509", "code": "https://github.com/mit-han-lab/apq"}
+  misc:
+- title: "Neural Predictor for Neural Architecture Search"
+  venue: "cvpr"
+  venue_date: "2020.06"
+  online_date: "2019.12"
+  contacts: {"Wei Wen": "wei.wen@duke.edu", "Hanxiao Liu": "hanxiaol@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1912.00848"}
+  misc:
+- title: "BANANAS: Bayesian Optimization with Neural Architectures for Neural Architecture Search"
+  venue: "aaai"
+  venue_date: "2021.02"
+  online_date: "2019.10"
+  contacts: {"Colin White": "colin@abacus.ai"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1910.11858", "code": "https://github.com/naszilla/naszilla"}
   misc:

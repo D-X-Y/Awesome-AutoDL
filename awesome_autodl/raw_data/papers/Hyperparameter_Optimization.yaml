@@ -503,3 +503,58 @@
   discussed: true
   links: {"paper": "https://arxiv.org/abs/1206.2944"}
   misc:
+- title: "Adapting bias by gradient descent"
+  venue: "aaai"
+  venue_date: "1992.10"
+  online_date: "1992.10"
+  contacts: {"Richard S. Sutton": "sutton@gte.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://www.aaai.org/Papers/AAAI/1992/AAAI92-027.pdf"}
+  misc:
+- title: "Freeze-Thaw Bayesian Optimization"
+  venue: "arXiv"
+  venue_date: "2014.06"
+  online_date: "2014.06"
+  contacts: {}
+  search_space:
+  search_strategy: "BayesOpt"
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1406.3896"}
+  misc:
+- title: "Auto-WEKA: Combined Selection and Hyperparameter Optimization of Classification Algorithms"
+  venue: "sigkdd"
+  venue_date: "2013.08"
+  online_date: "2012.08"
+  contacts: {"Chris Thornton": "cwthornt@cs.ubc.ca"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1208.3719", "code": "http://www.cs.ubc.ca/labs/beta/Projects/autoweka"}
+  misc:
+- title: "FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions"
+  venue: "cvpr"
+  venue_date: "2020.06"
+  online_date: "2020.04"
+  contacts: {"Alvin Wan": "alvinwan@berkeley.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2004.05565", "code": "https://github.com/facebookresearch/mobile-vision"}
+  misc:
+- title: "Learning to reinforcement learn"
+  venue: "CogSci"
+  venue_date: "2017.07"
+  online_date: "2016.11"
+  contacts: {"JX Wang": "wangjane@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1611.05763"}
+  misc:
