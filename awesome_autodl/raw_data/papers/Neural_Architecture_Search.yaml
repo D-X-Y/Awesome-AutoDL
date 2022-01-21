@@ -32,7 +32,7 @@
   venue: "icann"
   venue_date: "2009.09"
   online_date: "2009.09"
-  contacts: {"Justin Bayer": "justin@idsia.ch", "Daan Wierstra": "daan@idsia.ch", "Julian Togelius": "julian@idsia.ch", "Jurgen Schmidhuber": "juergen@idsia.ch"}
+  contacts: {"Justin Bayer": "bayer.justin@googlemail.com", "Daan Wierstra": "daan@idsia.ch", "Julian Togelius": "julian@idsia.ch", "Jurgen Schmidhuber": "juergen@idsia.ch"}
   search_space:
   search_strategy: "evolution"
   candidate_evaluation:
@@ -142,7 +142,7 @@
   venue: "aistats"
   venue_date: "2019.04"
   online_date: "2019.01"
-  contacts: {"Justin Bayer": "bayerj@argmax.ai"}
+  contacts: {"Justin Bayer": "bayer.justin@googlemail.com"}
   search_space:
   search_strategy: "BayesOpt"
   candidate_evaluation:
@@ -347,7 +347,7 @@
   venue: "uai"
   venue_date: "2020.08"
   online_date: "2019.02"
-  contacts: {"Liam Li": "me@liamcli.com", "Ameet Talwalkar", "talwalkar@cmu.edu"}
+  contacts: {"Liam Li": "me@liamcli.com", "Ameet Talwalkar": "talwalkar@cmu.edu"}
   search_space:
   search_strategy:
   candidate_evaluation:
@@ -357,7 +357,7 @@
   venue: "jmlr"
   venue_date: "2020.11"
   online_date: "2019.09"
-  contacts: {"Marius Lindauer": "lindauer@tnt.uni-hannover.de", "Frank Hutter", "fh@cs.uni-freiburg.de"}
+  contacts: {"Marius Lindauer": "lindauer@tnt.uni-hannover.de", "Frank Hutter": "fh@cs.uni-freiburg.de"}
   search_space:
   search_strategy:
   candidate_evaluation:

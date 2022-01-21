@@ -52,7 +52,7 @@
   venue: "NeurCom"
   venue_date: "2000.08"
   online_date: "1999.09"
-  contacts: {"Yoshua Bengio": "bengioy@iro.umontreal.ca"}
+  contacts: {"Yoshua Bengio": "yoshua.bengio@umontreal.ca"}
   search_space:
   search_strategy: "differentiable"
   candidate_evaluation:
@@ -62,7 +62,7 @@
   venue: "nips"
   venue_date: "2011.12"
   online_date: "2011.12"
-  contacts: {"James Bergstra": "bergstra@rowland.harvard.edu", "Balazs Kegl": "balazs.kegl@gmail.com"}
+  contacts: {"James Bergstra": "james.bergstra@uwaterloo.ca", "Balazs Kegl": "balazs.kegl@gmail.com"}
   search_space:
   search_strategy:
   candidate_evaluation:
@@ -72,7 +72,7 @@
   venue: "jmlr"
   venue_date: "2012.02"
   online_date: "2012.02"
-  contacts: {"James Bergstra": "james.bergstra@umontreal.ca", "Yoshua Bengio": "yoshua.bengio@umontreal.ca"}
+  contacts: {"James Bergstra": "james.bergstra@uwaterloo.ca", "Yoshua Bengio": "yoshua.bengio@umontreal.ca"}
   search_space:
   search_strategy: "random"
   candidate_evaluation:
@@ -282,7 +282,7 @@
   venue: "aistats"
   venue_date: "2016.05"
   online_date: "2015.02"
-  contacts: {"Kevin Jamieson": "kjamieson@eecs.berkeley.edu", "Ameet Talwalkar": "ameet@cs.ucla.edu"}
+  contacts: {"Kevin Jamieson": "kjamieson@eecs.berkeley.edu", "Ameet Talwalkar": "talwalkar@cmu.edu"}
   search_space:
   search_strategy:
   candidate_evaluation:
@@ -432,7 +432,7 @@
   venue: "ijcnn"
   venue_date: "2021.05"
   online_date: "2021.07"
-  contacts: {"Tien-Dung Nguyen": "TienDung.Nguyen-2@student.uts.edu.au", "Bogdan Gabrys": "Bogdan.Gabrys@uts.edu.au"}
+  contacts: {"Tien-Dung Nguyen": "TienDung.Nguyen-2@student.uts.edu.au", "Bogdan Gabrys": "bogdan.gabrys@uts.edu.au"}
   search_space:
   search_strategy:
   candidate_evaluation:
