@@ -11,10 +11,10 @@ from collections import OrderedDict
 
 
 def version():
-    versions = ["0.0.1"]  # 2021.09.03
-    versions = ["0.0.2"]  # 2021.09.04
-    versions = ["0.0.3"]  # 2022.01.17
-    versions = ["0.1.0"]  # 2022.01.21
+    versions = ["v0.1"]  # 2021.09.03
+    versions = ["v0.2"]  # 2021.09.04
+    versions = ["v0.3"]  # 2022.01.17
+    versions = ["v1.0"]  # 2022.01.21
     return versions[-1]
 
 
