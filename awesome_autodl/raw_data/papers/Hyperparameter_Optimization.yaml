@@ -459,3 +459,47 @@
   discussed: true
   links: {"paper": "https://arxiv.org/pdf/1602.02355.pdf", "code": "https://github.com/fabianp/hoag"}
   misc:
+- title: "AutoML-Zero: Evolving Machine Learning Algorithms From Scratch"
+  venue: "icml"
+  venue_date: "2020.07"
+  online_date: "2020.03"
+  contacts: {"Esteban Real": "ereal@google.com"}
+  search_space:
+  search_strategy: "evolution"
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2003.03384"}
+  misc:
+- title: "Automatic Composition and Optimization of Multicomponent Predictive Systems With an Extended Auto-WEKA"
+  venue: "IEEE_J_TASE"
+  venue_date: "2018.11"
+  online_date: "2016.12"
+  contacts: {"Manuel Martin Salvador": "manuel@blinkeye.ai"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1612.08789"}
+  misc:
+- title: "Truncated Back-propagation for Bilevel Optimization"
+  venue: "aistats"
+  venue_date: "2019.04"
+  online_date: "2018.10"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1810.10667"}
+  misc:
+- title: "Practical Bayesian Optimization of Machine Learning Algorithms"
+  venue: "nips"
+  venue_date: "2012.12"
+  online_date: "2012.06"
+  contacts: {"Jasper Snoek": "jasper@cs.toronto.edu", "Ryan P. Adams": "rpa@seas.harvard.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1206.2944"}
+  misc:

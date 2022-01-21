@@ -88,3 +88,25 @@
   candidate_evaluation:
   discussed: true
   misc: "The AutoML@ICML 2018 website failed, thus the online date is used as the arxiv date."
+- title: "Progressive Neural Networks"
+  venue: "arXiv"
+  venue_date: "2016.06"
+  online_date: "2016.06"
+  contacts: {"Andrei A. Rusu": "andreirusu@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1606.04671"}
+  misc:
+- title: "Memory-based Parameter Adaptation"
+  venue: "iclr"
+  venue_date: "2018.05"
+  online_date: "2018.02"
+  contacts: {"Pablo Sprechmann": "psprechmann@google.com", "Siddhant M. Jayakumar": "sidmj@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1802.10542"}
+  misc:

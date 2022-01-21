@@ -461,3 +461,69 @@
   discussed: true
   links: {"paper": "https://arxiv.org/pdf/1710.05941.pdf"}
   misc:
+- title: "Regularized Evolution for Image Classifier Architecture Search"
+  venue: "aaai"
+  venue_date: "2019.01"
+  online_date: "2018.02"
+  contacts: {"Esteban Real": "ereal@google.com"}
+  search_space:
+  search_strategy: "evolution"
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1802.01548"}
+  misc:
+- title: "Large-Scale Evolution of Image Classifiers"
+  venue: "icml"
+  venue_date: "2017.08"
+  online_date: "2017.03"
+  contacts: {"Esteban Real": "ereal@google.com"}
+  search_space:
+  search_strategy: "evolution"
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1703.01041"}
+  misc:
+- title: "A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions"
+  venue: "acm_comp_sur"
+  venue_date: "2021.05"
+  online_date: "2020.06"
+  contacts: {"Pengzhen Ren": "pzhren@foxmail.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2006.02903"}
+  misc: "This is a survey work"
+- title: "Neural Architecture Generator Optimization"
+  venue: "nips"
+  venue_date: "2020.12"
+  online_date: "2020.04"
+  contacts: {"Binxin Ru": "robin@robots.ox.ac.uk"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2004.01395", "code": "https://github.com/rubinxin/vega_NAGO"}
+  misc:
+- title: "NAS-Bench-301 and the Case for Surrogate Benchmarks for Neural Architecture Search"
+  venue: "arXiv"
+  venue_date: "2020.08"
+  online_date: "2020.08"
+  contacts: {"Julien Siems": "siemsj@cs.uni-freiburg.de", "Lucas Zimmer": "zimmerl@cs.uni-freiburg.de", "Frank Hutter": "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2008.09777", "code": "https://github.com/automl/nasbench301"}
+  misc:
+- title: "The Evolved Transformer"
+  venue: "icml"
+  venue_date: "2019.06"
+  online_date: "2019.01"
+  contacts: {"David R. So": "davidso@google.com"}
+  search_space:
+  search_strategy: "evolution"
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1901.11117", "code": "https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/evolved_transformer.py"}
+  misc:

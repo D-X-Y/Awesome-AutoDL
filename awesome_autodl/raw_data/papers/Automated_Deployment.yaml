@@ -89,3 +89,25 @@
   discussed: true
   links: {"paper": "https://dl.acm.org/doi/10.1145/3190508.3190517"}
   misc:
+- title: "A case for efficient accelerator design space exploration via Bayesian optimization"
+  venue: "ISLPED"
+  venue_date: "2017.08"
+  online_date: "2017.08"
+  contacts: {}
+  search_space:
+  search_strategy: "BayesOpt"
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://ieeexplore.ieee.org/document/8009208"}
+  misc:
+- title: "Bayesian Optimization for Efficient Accelerator Synthesis"
+  venue: "TACO"
+  venue_date: "2020.12"
+  online_date: "2020.12"
+  contacts: {"Atefeh Mehrabi": "atefeh.mehrabi@duke.edu"}
+  search_space:
+  search_strategy: "BayesOpt"
+  candidate_evaluation:
+  discussed: false
+  links: {"paper": "https://dl.acm.org/doi/10.1145/3427377"}
+  misc:

@@ -15,5 +15,5 @@ class TestAbbrv:
         xfile = str(get_bib_abbrv_file())
         assert os.path.isfile(xfile)
         obj = BibAbbreviations(xfile)
-        assert len(obj) == 52
+        assert len(obj) == 55
         print(obj)

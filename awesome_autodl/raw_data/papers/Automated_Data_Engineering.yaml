@@ -88,3 +88,36 @@
   candidate_evaluation:
   discussed: true
   misc:
+- title: "Learning to Reweight Examples for Robust Deep Learning"
+  venue: "icml"
+  venue_date: "2018.07"
+  online_date: "2018.03"
+  contacts: {"Mengye Ren": "mren@cs.toronto.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1803.09050", "code": "https://github.com/uber-research/learning-to-reweight-examples"}
+  misc:
+- title: "Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting"
+  venue: "nips"
+  venue_date: "2019.12"
+  online_date: "2019.02"
+  contacts: {"Jun Shu": "xjtushujun@gmail.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1902.07379", "code": "https://github.com/xjtushujun/meta-weight-net"}
+  misc:
+- title: "Generative Teaching Networks: Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data"
+  venue: "icml"
+  venue_date: "2020.07"
+  online_date: "2019.12"
+  contacts: {"Felipe Petroski Such": "fe-lipe.such@gmail.com", "Jeff Clune": "jeffclune@openai.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1912.07768", "code": "https://github.com/uber-research/gtn"}
+  misc:
