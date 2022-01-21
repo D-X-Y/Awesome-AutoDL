@@ -18,7 +18,7 @@ def generate_email(author, counts):
         + "\n\n"
     )
     if counts >= 3:
-        message += f"In compiling this review, we have found {counts} and more of your works (referenced in the review) to be significant for informing some of the content, and we hope you find the paper of interest."
+        message += f"In compiling this review, we have found more than {counts} of your works (referenced in the review) to be significant for informing some of the content, and we hope you find the paper of interest."
     else:
         message += "In compiling this review, we have found your work (referenced in the review) to be significant for informing some of the content, and we hope you find the paper of interest."
     message += (

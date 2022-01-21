@@ -14,7 +14,8 @@ def version():
     versions = ["v0.1"]  # 2021.09.03
     versions = ["v0.2"]  # 2021.09.04
     versions = ["v0.3"]  # 2022.01.17
-    versions = ["v1.0"]  # 2022.01.21
+    versions = ["v1.0"]  # 2022.01.20
+    versions = ["v1.1"]  # 2022.01.21
     return versions[-1]
 
 
