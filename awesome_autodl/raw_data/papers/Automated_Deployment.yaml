@@ -111,3 +111,36 @@
   discussed: false
   links: {"paper": "https://dl.acm.org/doi/10.1145/3427377"}
   misc:
+- title: "Co-Exploration of Neural Architectures and Heterogeneous ASIC Accelerator Designs Targeting Multiple Tasks"
+  venue: "dac"
+  venue_date: "2020.07"
+  online_date: "2020.02"
+  contacts: {"Weiwen Jiang": "wjiang2@nd.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2002.04116"}
+  misc:
+- title: "A reinforcement learning approach to job-shop scheduling"
+  venue: "ijcai"
+  venue_date: "1995.08"
+  online_date: "1995.08"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://dl.acm.org/doi/10.5555/1643031.1643044"}
+  misc:
+- title: "Rethinking Co-design of Neural Architectures and Hardware Accelerators"
+  venue: "mlsys"
+  venue_date: "2022.08"
+  online_date: "2021.02"
+  contacts: {"Yanqi Zhou": "yanqiz@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2102.08619"}
+  misc:

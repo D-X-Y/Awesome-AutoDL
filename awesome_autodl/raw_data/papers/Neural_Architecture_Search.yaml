@@ -598,3 +598,256 @@
   discussed: true
   links: {"paper": "https://arxiv.org/abs/1910.11858", "code": "https://github.com/naszilla/naszilla"}
   misc:
+- title: "FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search"
+  venue: "cvpr"
+  venue_date: "2019.06"
+  online_date: "2018.12"
+  contacts: {"Bichen Wu": "wbc@fb.com"}
+  search_space:
+  search_strategy: "differentiable"
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1812.03443"}
+  misc:
+- title: "Mixed Precision Quantization of ConvNets via Differentiable Neural Architecture Search"
+  venue: "arXiv"
+  venue_date: "2018.12"
+  online_date: "2018.12"
+  contacts: {"Bichen Wu": "wbc@fb.com"}
+  search_space:
+  search_strategy: "differentiable"
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1812.00090"}
+  misc:
+- title: "Exploring Randomly Wired Neural Networks for Image Recognition"
+  venue: "iccv"
+  venue_date: "2019.10"
+  online_date: "2019.04"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1904.01569"}
+  misc:
+- title: "SNAS: Stochastic Neural Architecture Search"
+  venue: "iclr"
+  venue_date: "2019.05"
+  online_date: "2018.12"
+  contacts: {"Sirui Xie": "xiesirui@sensetime.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1812.09926", "code": "https://github.com/SNAS-Series/SNAS-Series"}
+  misc:
+- title: "Resource Constrained Neural Network Architecture Search: Will a Submodularity Assumption Help?"
+  venue: "iccv"
+  venue_date: "2019.10"
+  online_date: "2019.04"
+  contacts: {"Yunyang Xiong": "yxiong43@wisc.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1904.03786", "code": "https://github.com/yyxiongzju/RCNet"}
+  misc:
+- title: "PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search"
+  venue: "iclr"
+  venue_date: "2020.04"
+  online_date: "2019.07"
+  contacts: {"Yuhui Xu": "yuhuixu@sjtu.edu.cn"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1907.05737", "code": "https://github.com/yuhuixu1993/PC-DARTS"}
+  misc:
+- title: "NAS-Bench-x11 and the Power of Learning Curves"
+  venue: "nips"
+  venue_date: "2021.12"
+  online_date: "2021.11"
+  contacts: {"Shen Yan": "yanshen6@msu.edu", "Colin White": "colin@abacus.ai", "Frank Hutter": "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2111.03602", "code": "https://github.com/automl/nas-bench-x11"}
+  misc:
+- title: "Designing Energy-Efficient Convolutional Neural Networks using Energy-Aware Pruning"
+  venue: "cvpr"
+  venue_date: "2017.07"
+  online_date: "2016.11"
+  contacts: {"Tien-Ju Yang": "tjy@mit.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1611.05128", "code": "http://eyeriss.mit.edu/energy.html"}
+  misc:
+- title: "NetAdapt: Platform-Aware Neural Network Adaptation for Mobile Applications"
+  venue: "eccv"
+  venue_date: "2018.09"
+  online_date: "2018.04"
+  contacts: {"Tien-Ju Yang": "tjy@mit.edu"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1804.03230"}
+  misc:
+- title: "Searching for Low-Bit Weights in Quantized Neural Networks"
+  venue: "nips"
+  venue_date: "2020.12"
+  online_date: "2020.09"
+  contacts: {"Zhaohui Yang": "zhaohuiyang@pku.edu.cn"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2009.08695"}
+  misc:
+- title: "NAS-Bench-101: Towards Reproducible Neural Architecture Search"
+  venue: "icml"
+  venue_date: "2019.06"
+  online_date: "2019.02"
+  contacts: {"Chris Ying": "contact@chrisying.net", "Aaron Klein": "kleinaa@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1902.09635", "code": "https://github.com/google-research/nasbench"}
+  misc:
+- title: "BigNAS: Scaling Up Neural Architecture Search with Big Single-Stage Models"
+  venue: "eccv"
+  venue_date: "2020.08"
+  online_date: "2020.03"
+  contacts: {"Jiahui Yu": "jiahuiyu@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2003.11142"}
+  misc:
+- title: "Slimmable Neural Networks"
+  venue: "iclr"
+  venue_date: "2019.05"
+  online_date: "2018.12"
+  contacts: {"Jiahui Yu": "jiahuiyu@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1812.08928", "code": "https://github.com/JiahuiYu/slimmable_networks"}
+  misc:
+- title: "Evaluating the Search Phase of Neural Architecture Search"
+  venue: "iclr"
+  venue_date: "2020.04"
+  online_date: "2019.02"
+  contacts: {"Kaicheng Yu": "kaicheng.yu@epfl.ch", "Christian Sciuto": "christian.sciuto@daskell.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1902.08142", "code": "https://github.com/kcyu2014/eval-nas"}
+  misc:
+- title: "Neural Ensemble Search for Uncertainty Estimation and Dataset Shift"
+  venue: "icml_w"
+  venue_date: "2020.07"
+  online_date: "2020.06"
+  contacts: {"Sheheryar Zaidi": "szaidi@stats.ox.ac.uk", "Arber Zela": "zelaa@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2006.08573", "code": "https://github.com/automl/nes"}
+  misc:
+- title: "Understanding and Robustifying Differentiable Architecture Search"
+  venue: "iclr"
+  venue_date: "2020.04"
+  online_date: "2019.09"
+  contacts: {"Arber Zela": "zelaa@cs.uni-freiburg.de", "Frank Hutter": "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1909.09656", "code": "https://github.com/automl/RobustDARTS"}
+  misc:
+- title: "NAS-Bench-1Shot1: Benchmarking and Dissecting One-shot Neural Architecture Search"
+  venue: "iclr"
+  venue_date: "2020.04"
+  online_date: "2020.01"
+  contacts: {"Arber Zela": "zelaa@cs.uni-freiburg.de", "Julien Siems": "siemsj@cs.uni-freiburg.de", "Frank Hutter": "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2001.10422", "code": "https://github.com/automl/nasbench-1shot1"}
+  misc:
+- title: "Retiarii: a deep learning exploratory-training framework"
+  venue: "osdi"
+  venue_date: "2020.11"
+  online_date: "2020.11"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://www.usenix.org/conference/osdi20/presentation/zhang-quanlu", "code": "https://github.com/microsoft/nni/tree/retiarii_artifact"}
+  misc: "This is a library/software paper."
+- title: "Practical Block-wise Neural Network Architecture Generation"
+  venue: "cvpr"
+  venue_date: "2018.06"
+  online_date: "2017.08"
+  contacts: {"Zhao Zhong": "zhao.zhong@nlpr.ia.ac.cn"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1708.05552"}
+  misc:
+- title: "BayesNAS: A Bayesian Approach for Neural Architecture Search"
+  venue: "icml"
+  venue_date: "2019.05"
+  online_date: "2019.05"
+  contacts: {"Wei Pan": "wei.pan@tudelft.nl"}
+  search_space:
+  search_strategy: "BayesOpt"
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1905.04919"}
+  misc:
+- title: "Auto-PyTorch Tabular: Multi-Fidelity MetaLearning for Efficient and Robust AutoDL"
+  venue: "IEEE_J_PAMI"
+  venue_date: "2021.03"
+  online_date: "2020.06"
+  contacts: {"Lucas Zimmer": "zimmerl@cs.uni-freiburg.de", "Marius Lindauer": "lindauer@tnt.uni-hannover.de", "Frank Hutter": "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2006.13799", "code": "https://github.com/automl/Auto-PyTorch"}
+  misc: "This is a library/software paper."
+- title: "Neural Architecture Search with Reinforcement Learning"
+  venue: "iclr"
+  venue_date: "2017.04"
+  online_date: "2016.11"
+  contacts: {"Barret Zoph": "barretzoph@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1611.01578"}
+  misc:
+- title: "Learning Transferable Architectures for Scalable Image Recognition"
+  venue: "cvpr"
+  venue_date: "2018.06"
+  online_date: "2017.07"
+  contacts: {"Barret Zoph": "barretzoph@google.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1707.07012"}
+  misc:

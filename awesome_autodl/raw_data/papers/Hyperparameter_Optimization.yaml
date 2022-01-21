@@ -227,7 +227,7 @@
   search_strategy:
   candidate_evaluation:
   discussed: true
-  misc:
+  misc: "This is a survey work"
 - title: "Learning to Learn Using Gradient Descent"
   venue: "icann"
   venue_date: "2001.08"
@@ -557,4 +557,37 @@
   candidate_evaluation:
   discussed: true
   links: {"paper": "https://arxiv.org/abs/1611.05763"}
+  misc:
+- title: "On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice"
+  venue: "Neurocomputing"
+  venue_date: "2020.11"
+  online_date: "2020.07"
+  contacts: {"Li Yang": "lyang339@uwo.ca", "Abdallah Shami": "abdallah.shami@uwo.ca"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2007.15745", "code": "https://github.com/LiYangHart/Hyperparameter-Optimization-of-Machine-Learning-Algorithms"}
+  misc:
+- title: "Hyper-Parameter Optimization: A Review of Algorithms and Applications"
+  venue: "arXiv"
+  venue_date: "2020.03"
+  online_date: "2020.03"
+  contacts: {"Tong Yu": "yutong01@inspur.com", "Hong Zhu": "zhuhongbj@inspur.com"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2003.05689"}
+  misc: "This is a survey work"
+- title: "Towards Automated Deep Learning: Efficient Joint Neural Architecture and Hyperparameter Search"
+  venue: "icml_w"
+  venue_date: "2018.07"
+  online_date: "2018.07"
+  contacts: {"Arber Zela": "zelaa@cs.uni-freiburg.de", "Frank Hutter": "fh@cs.uni-freiburg.de"}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1807.06906", "code": "https://github.com/arberzela/EfficientNAS"}
   misc:

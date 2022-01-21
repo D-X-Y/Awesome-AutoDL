@@ -132,3 +132,25 @@
   discussed: true
   links: {"paper": "https://arxiv.org/abs/1607.00446"}
   misc:
+- title: "Meta-Gradient Reinforcement Learning with an Objective Discovered Online"
+  venue: "nips"
+  venue_date: "2020.12"
+  online_date: "2020.07"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2007.08433"}
+  misc:
+- title: "Meta-Gradient Reinforcement Learning"
+  venue: "nips"
+  venue_date: "2018.12"
+  online_date: "2018.05"
+  contacts: {}
+  search_space:
+  search_strategy:
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/1805.09801"}
+  misc:
