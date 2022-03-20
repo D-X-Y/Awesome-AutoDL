@@ -1,0 +1,45 @@
+#####################################################
+# Copyright (c) Xuanyi Dong [GitHub D-X-Y], 2022.03 #
+#####################################################
+
+email_old_to_new_202203 = {
+    "sutton@gte.com": None,
+    "ww129@win.duke.edu": None,
+    "rpa@seas.harvard.edu": "rpa@princeton.edu",
+    "martha@indiana.edu": "whitem@ualberta.ca",
+    "adamw@indiana.edu": "amw8@ualberta.ca",
+    "hvveeriah@umich.edu": "vveeriah@umich.edu",  # TODO: fix the raw file later
+    "duzx16@mails.tsinghua.edu.cn": "zx-du20@mails.tsinghua.edu.cn",
+    "cwthornt@cs.ubc.ca": None,
+    "maclaurin@physics.harvard.edu": "d.maclaurin@gmail.com",
+    "ilya@cs.uni-freiburg.de": "ilya.loshchilov@gmail.com",
+    "tapani.raiko@aalto.fi": None,
+    "jelena.luketina@aalto.fi": "jelena.luketina@cs.ox.ac.uk",
+    "anglili@google.com": "nju.angli@gmail.com",
+    "kjamieson@eecs.berkeley.edu": "jamieson@cs.washington.edu",
+    "rein.houthooft@openai.com": "rein.houthooft@gmail.com",
+    "domhant@cs.uni-freiburg.de": "domhant@amazon.com",
+    "krausea@inf.ethz.ch": "krausea@ethz.ch",
+    "akshayc@cmu.edu": "web@akshayc.com",
+    "james.bergstra@uwaterloo.ca": None,
+    "aali@bournemouth.ac.uk": "abbas.raza.ali@gmail.com",
+    "zhao.zhong@nlpr.ia.ac.cn": "zorro.zhongzhao@huawei.com",
+    "kuanwang@mit.edu": "kuanwang@gatech.edu",
+    "xiesirui@sensetime.com": "srxie@ucla.edu",
+    "siemsj@cs.uni-freiburg.de": "siems@ifi.uzh.ch",
+    "prajit@google.com": None,
+    "mguan@stanford.edu": None,
+    "hy-hieu@cmu.edu": "hyhieu@google.com",
+    "guozichao@megvii.com": None,
+    "ajb5@hw.ac.uk": "ajbrock@deepmind.com",
+    "julian@idsia.ch": "julian@togelius.com",
+    "izliobaite@bournemouth.ac.uk": "indre.zliobaite@gmail.com",
+    "daan@idsia.ch": "wierstra@google.com",
+    "otkrist@mit.edu": "otkrist.gupta@lendbuzz.com",
+    "mohamed1.a@samsung.com": "mohamed@cornell.edu",
+    "fe-lipe.such@gmail.com": "felipe.such@gmail.com",  # TODO: fix in the raw file later
+    "sungbin.lim@kakaobrain.com": "sungbin@unist.ac.kr",
+    "imgemp@cs.umass.edu": "imgemp@google.com",
+    "ksenia.konyushkova@epfl.ch": "kksenia@deepmind.com",
+    "fetia@microsoft.com": "feitia@fb.com",
+}

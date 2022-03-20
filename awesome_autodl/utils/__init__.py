@@ -6,3 +6,5 @@ from awesome_autodl.utils.yaml import dump_yaml
 from awesome_autodl.utils.check import check_paper_and_correct_format
 from awesome_autodl.utils.check import check_and_sort_by_date
 from awesome_autodl.utils.filter import filter_ele_w_value
+
+from awesome_autodl.utils.fix_invalid_email import email_old_to_new_202203
