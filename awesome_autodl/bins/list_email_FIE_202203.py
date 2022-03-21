@@ -43,7 +43,7 @@ if __name__ == "__main__":
             email in email_old_to_new_202203
             and email_old_to_new_202203[email] is not None
         ):
-            author2email[author] = email
+            author2email[author] = email_old_to_new_202203[email]
             author2counts[author] += 1
     print(
         f"During fixing the invalid email issue, there are {len(author2email)} unique authors."
