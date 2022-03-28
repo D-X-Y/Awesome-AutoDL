@@ -526,11 +526,33 @@
   venue_date: "2019.06"
   online_date: "2019.01"
   contacts: {"David R. So": "davidso@google.com"}
-  search_space:
+  search_space: "transformer"
   search_strategy: "evolution"
   candidate_evaluation:
   discussed: true
   links: {"paper": "https://arxiv.org/abs/1901.11117", "code": "https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/evolved_transformer.py"}
+  misc:
+- title: "Primer: Searching for efficient transformers for language modeling"
+  venue: "nips"
+  venue_date: "2021.12"
+  online_date: "2021.09"
+  contacts: {"David R. So": "davidso@google.com"}
+  search_space: "transformer"
+  search_strategy: "evolution"
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2109.08668", "code": "https://github.com/google-research/google-research/tree/master/primer"}
+  misc:
+- title: "Searching the Search Space of Vision Transformer"
+  venue: "nips"
+  venue_date: "2021.12"
+  online_date: "2021.11"
+  contacts: {}
+  search_space: "transformer"
+  search_strategy: "evolution"
+  candidate_evaluation:
+  discussed: true
+  links: {"paper": "https://arxiv.org/abs/2111.14725", "code": "https://github.com/microsoft/Cream"}
   misc:
 - title: "MnasNet: Platform-aware neural architecture search for mobile"
   venue: "cvpr"
