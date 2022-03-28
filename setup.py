@@ -15,7 +15,7 @@
 # https://pypi.org/project/awesome_autodl
 #
 #
-# or install from local: python setup.py install --force
+# or install from local: `pip install . --force`
 #
 import os
 import glob
@@ -84,11 +84,12 @@ setup(
     license="MIT Licence",
     keywords="NAS Dataset API DeepLearning",
     url="https://github.com/D-X-Y/Awesome-AutoDL",
+    include_package_data=True,
     packages=packages,
-    data_files=[
-        (f"{NAME}/raw_data", find_yaml_bib(f"{NAME}/raw_data")),
-        (f"{NAME}/raw_data/papers", find_yaml(f"{NAME}/raw_data/papers")),
-    ],
+    package_data={
+        f"{NAME}/raw_data": find_yaml_bib(f"{NAME}/raw_data"),
+        f"{NAME}/raw_data/papers": find_yaml(f"{NAME}/raw_data/papers"),
+    },
     install_requires=REQUIRED,
     python_requires=REQUIRES_PYTHON,
     long_description=read("README.md"),
