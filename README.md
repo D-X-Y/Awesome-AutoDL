@@ -12,6 +12,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 - [Awesome AutoDL Libraies](#awesome-autodl-libraies)
 - [Awesome Benchmarks](#awesome-benchmarks)
 - [Deep Learning-based NAS and HPO](#deep-learning-based-nas-and-hpo)
+  - [2022 Venues](#2022-venues)
   - [2021 Venues](#2021-venues)
   - [2020 Venues](#2020-venues)
   - [2019 Venues](#2019-venues)
@@ -63,6 +64,13 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 |      Type   |        G       |                  RL    |            EA           |        PD              |    Other   |
 |:------------|:--------------:|:----------------------:|:-----------------------:|:----------------------:|:----------:|
 | Explanation | gradient-based | reinforcement learning | evolutionary algorithm | performance prediction | other types |
+
+## 2022 Venues
+
+|  Title  |   Venue  |   Type   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| [EmotionNAS: Two-stream Architecture Search for Speech Emotion Recognition](https://arxiv.org/pdf/2203.13617v1.pdf) | arXiv 2022 | G | - |
+| [U-Boost NAS: Utilization-Boosted Differentiable Neural Architecture Search](https://arxiv.org/pdf/2203.12412) | arXiv 2022 | G | [Github](https://github.com/yuezuegu/UBoostNAS) |
 
 ## 2021 Venues
 
