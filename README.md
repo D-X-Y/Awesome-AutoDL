@@ -257,6 +257,8 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search](https://arxiv.org/pdf/1810.03522.pdf) | 2018.10 | EA | - |
 | [Training Frankenstein’s Creature to Stack: HyperTree Architecture Search](https://arxiv.org/pdf/1810.11714.pdf) | 2018.10 | G | - |
 | [Population Based Training of Neural Networks](https://arxiv.org/abs/1711.09846) | 2017.11 | EA | [GitHub](https://github.com/MattKleinsmith/pbt) |
+| [EmotionNAS: Two-stream Architecture Search for Speech Emotion Recognition](https://arxiv.org/pdf/2203.13617v1.pdf) | 2022.3 | G | - |
+| [U-Boost NAS: Utilization-Boosted Differentiable Neural Architecture Search](https://arxiv.org/pdf/2203.12412) | 2022.3 | G | [Github](https://github.com/yuezuegu/UBoostNAS) |
 
 # Awesome Surveys
 
