@@ -273,3 +273,4 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [AutoML: A Survey of the State-of-the-Art](https://arxiv.org/pdf/1908.00709.pdf) | arXiv | 2019 | [GitHub](https://github.com/marsggbo/automl_a_survey_of_state_of_the_art) |
 | [A Survey on Neural Architecture Search](https://arxiv.org/pdf/1905.01392.pdf) | arXiv | 2019 | - |
 | [Taking human out of learning applications: A survey on automated machine learning](https://arxiv.org/pdf/1810.13306.pdf) | arXiv | 2018 | - |
+| [IoT Data Analytics in Dynamic Environments: From An Automated Machine Learning Perspective](https://arxiv.org/pdf/2209.08018.pdf) | Engineering Applications of Artificial Intelligence | 2022 |[github](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics) |
